@@ -1,0 +1,27 @@
+2022-08-31 16:19:36:1936 [31merror[39m: [31mlistProject is not a function[39m
+2022-08-31 16:20:26:2026 [31merror[39m: [31mno existe la columna «id»[39m
+2022-08-31 16:21:12:2112 [31merror[39m: [31mno existe la columna «createdAt»[39m
+2022-08-31 16:23:53:2353 [31merror[39m: [31mno existe la columna «projectId»[39m
+2022-08-31 16:33:35:3335 [31merror[39m: [31mState is not defined[39m
+2022-08-31 16:37:48:3748 [31merror[39m: [31mno existe la columna state.project_project_id[39m
+2022-08-31 16:41:36:4136 [31merror[39m: [31mno existe la columna state.project_project_id[39m
+2022-08-31 16:45:10:4510 [31merror[39m: [31mno existe la columna projects.state_state_id[39m
+2022-08-31 16:58:05:585 [31merror[39m: [31mMaximum call stack size exceeded[39m
+2022-08-31 16:59:46:5946 [31merror[39m: [31mCannot read properties of undefined (reading 'findProjects')[39m
+2022-08-31 17:02:33:233 [31merror[39m: [31mMaximum call stack size exceeded[39m
+2022-08-31 17:03:41:341 [31merror[39m: [31mnotNull Violation: projects.projectId cannot be null,[39m
+[31mnotNull Violation: projects.created cannot be null[39m
+2022-08-31 17:04:43:443 [31merror[39m: [31mnotNull Violation: projects.created cannot be null[39m
+2022-08-31 17:05:07:57 [31merror[39m: [31mel valor null para la columna «project_id» viola la restricción not null[39m
+2022-08-31 17:12:46:1246 [31merror[39m: [31mproject must have a description[39m
+2022-08-31 17:14:29:1429 [31merror[39m: [31mMissing where attribute in the options parameter[39m
+2022-08-31 17:30:14:3014 [31merror[39m: [31mExpected plain object, array or sequelize method in the options.where parameter[39m
+2022-08-31 17:33:14:3314 [31merror[39m: [31mExpected plain object, array or sequelize method in the options.where parameter[39m
+2022-08-31 17:39:00:390 [31merror[39m: [31mproject id null[39m
+2022-08-31 17:47:19:4719 [31merror[39m: [31mproject id null[39m
+2022-08-31 17:49:46:4946 [31merror[39m: [31mCannot access 'project' before initialization[39m
+2022-08-31 17:50:15:5015 [31merror[39m: [31mproject must have a description[39m
+2022-08-31 17:50:27:5027 [31merror[39m: [31mproject must have an associated status id[39m
+2022-08-31 17:50:38:5038 [31merror[39m: [31mproject id null[39m
+2022-08-31 17:52:54:5254 [31merror[39m: [31mproject id null[39m
+2022-08-31 17:53:09:539 [31merror[39m: [31mproject id null[39m
