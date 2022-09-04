@@ -10,7 +10,24 @@ function getProjectRoutes() {
 
   router.get('/:projectId', makeCallback(projectController.getProject));
 
+  router.get(
+    '/review/:projectId',
+    makeCallback(projectController.getProjectReviewByProject)
+  );
+
+  router.get(
+    '/review/company/:companyId',
+    makeCallback(projectController.getProjectReviewByCompany)
+  );
+
+  router.get(
+    '/review/student/:studentId',
+    makeCallback(projectController.getProjectReviewByStudent)
+  );
+
   router.post('/', makeCallback(projectController.postProject));
+
+  router.post('/review/', makeCallback(projectController.postProjectReview));
 
   router.put('/', makeCallback(projectController.putProject));
 

@@ -25,3 +25,48 @@
 2022-08-31 17:50:38:5038 [31merror[39m: [31mproject id null[39m
 2022-08-31 17:52:54:5254 [31merror[39m: [31mproject id null[39m
 2022-08-31 17:53:09:539 [31merror[39m: [31mproject id null[39m
+2022-09-04 10:36:04:364 [31merror[39m: [31mcompany with id=1 does not exist[39m
+2022-09-04 10:41:50:4150 [31merror[39m: [31mnotNull Violation: company.password cannot be null[39m
+2022-09-04 10:44:28:4428 [31merror[39m: [31mcompany id null[39m
+2022-09-04 10:44:42:4442 [31merror[39m: [31mcompany must have a name[39m
+2022-09-04 11:11:29:1129 [31merror[39m: [31mno existe la columna «role_id»[39m
+2022-09-04 11:12:34:1234 [31merror[39m: [31mCannot access 'Student' before initialization[39m
+2022-09-04 11:13:52:1352 [31merror[39m: [31mstudent with id=1 does not exist[39m
+2022-09-04 11:15:42:1542 [31merror[39m: [31mla sintaxis de entrada no es válida para integer: «a138560b-85cc-4c6f-8838-3b96f13ae9e3»[39m
+2022-09-04 11:16:24:1624 [31merror[39m: [31mla sintaxis de entrada no es válida para integer: «7de99699-75d0-4d4b-aff2-6e55e618bf82»[39m
+2022-09-04 11:22:34:2234 [31merror[39m: [31mla sintaxis de entrada no es válida para tipo uuid: «1»[39m
+2022-09-04 11:46:50:4650 [31merror[39m: [31mUniversity with id=1 does not exist[39m
+2022-09-04 12:11:07:117 [31merror[39m: [31mrole with id=1 does not exist[39m
+2022-09-04 12:13:25:1325 [31merror[39m: [31mrole id null[39m
+2022-09-04 12:17:27:1727 [31merror[39m: [31mInclude unexpected. Element has to be either a Model, an Association or an object.[39m
+2022-09-04 12:18:30:1830 [31merror[39m: [31mInclude unexpected. Element has to be either a Model, an Association or an object.[39m
+2022-09-04 12:19:03:193 [31merror[39m: [31mInclude unexpected. Element has to be either a Model, an Association or an object.[39m
+2022-09-04 12:19:31:1931 [31merror[39m: [31mInclude unexpected. Element has to be either a Model, an Association or an object.[39m
+2022-09-04 12:20:04:204 [31merror[39m: [31minclude.model.getTableName is not a function[39m
+2022-09-04 12:20:39:2039 [31merror[39m: [31muniversityModel is not iterable[39m
+2022-09-04 12:21:06:216 [31merror[39m: [31minclude.model.getTableName is not a function[39m
+2022-09-04 12:21:23:2123 [31merror[39m: [31minclude.model.getTableName is not a function[39m
+2022-09-04 12:22:20:2220 [31merror[39m: [31mInclude unexpected. Element has to be either a Model, an Association or an object.[39m
+2022-09-04 12:27:36:2736 [31merror[39m: [31mno existe la columna projects.company_id[39m
+2022-09-04 12:29:10:2910 [31merror[39m: [31mproject with id=2 does not exist[39m
+2022-09-04 12:35:47:3547 [31merror[39m: [31mproject with id=2 does not exist[39m
+2022-09-04 12:38:03:383 [31merror[39m: [31mel operador no existe: integer = uuid[39m
+2022-09-04 12:38:25:3825 [31merror[39m: [31mel operador no existe: integer = uuid[39m
+2022-09-04 12:40:16:4016 [31merror[39m: [31mla sintaxis de entrada no es válida para tipo uuid: «1»[39m
+2022-09-04 14:32:50:3250 [31merror[39m: [31mClass constructor model cannot be invoked without 'new'[39m
+2022-09-04 14:37:37:3737 [31merror[39m: [31mNo Sequelize instance passed[39m
+2022-09-04 14:38:51:3851 [31merror[39m: [31muniversityModel.get is not a function[39m
+2022-09-04 14:41:55:4155 [31merror[39m: [31mCannot read properties of undefined (reading 'getTableName')[39m
+2022-09-04 14:42:15:4215 [31merror[39m: [31mCannot read properties of undefined (reading 'getTableName')[39m
+2022-09-04 14:42:36:4236 [31merror[39m: [31mCannot read properties of undefined (reading 'getTableName')[39m
+2022-09-04 15:08:43:843 [31merror[39m: [31mCannot destructure property 'companyModel' of 'undefined' as it is undefined.[39m
+2022-09-04 15:10:57:1057 [31merror[39m: [31mCannot destructure property 'companyModel' of 'undefined' as it is undefined.[39m
+2022-09-04 15:12:19:1219 [31merror[39m: [31mCannot destructure property 'companyModel' of 'undefined' as it is undefined.[39m
+2022-09-04 15:14:53:1453 [31merror[39m: [31mno existe la columna «rating» en la relación «project_reviews»[39m
+2022-09-04 15:19:19:1919 [31merror[39m: [31mCannot destructure property 'roleModel' of 'undefined' as it is undefined.[39m
+2022-09-04 15:25:33:2533 [31merror[39m: [31mValidation error: Validation isDate on timelineDate failed[39m
+2022-09-04 15:27:16:2716 [31merror[39m: [31mValidation error: Validation isDate on timelineDate failed[39m
+2022-09-04 15:31:50:3150 [31merror[39m: [31mcompany id null[39m
+2022-09-04 15:33:24:3324 [31merror[39m: [31mcompany is not associated to projectReview![39m
+2022-09-04 15:44:15:4415 [31merror[39m: [31mstudent id null[39m
+2022-09-04 15:49:32:4932 [31merror[39m: [31mla sintaxis de entrada no es válida para tipo uuid: «1»[39m
