@@ -1347,3 +1347,148 @@
 [35m[39m
 2022-09-04 15:54:21:5421 [35mhttp[39m: [35m::1 GET /api/v1/role/1 200 86 - 5.209 ms[39m
 [35m[39m
+2022-09-04 16:38:35:3835 [32minfo[39m: [32mRunning in: development[39m
+2022-09-04 16:38:35:3835 [32minfo[39m: [32mServer Time: Sun Sep 04 2022 16:38:35 GMT-0500 (Colombia Standard Time)[39m
+2022-09-04 16:38:35:3835 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-04 16:38:35:3835 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-04 16:39:09:399 [35mhttp[39m: [35m::1 GET /api/v1/project 200 45 - 176.427 ms[39m
+[35m[39m
+2022-09-04 16:39:35:3935 [31merror[39m: [31minsert or update on table "students" violates foreign key constraint "students_university_id_fkey"[39m
+2022-09-04 16:39:36:3936 [35mhttp[39m: [35m::1 POST /api/v1/student 400 114 - 311.374 ms[39m
+[35m[39m
+2022-09-04 16:41:13:4113 [35mhttp[39m: [35m::1 POST /api/v1/university 201 99 - 108.308 ms[39m
+[35m[39m
+2022-09-04 16:41:20:4120 [31merror[39m: [31minsert or update on table "students" violates foreign key constraint "students_role_id_fkey"[39m
+2022-09-04 16:41:20:4120 [35mhttp[39m: [35m::1 POST /api/v1/student 400 108 - 28.795 ms[39m
+[35m[39m
+2022-09-04 16:41:35:4135 [35mhttp[39m: [35m::1 POST /api/v1/role 201 91 - 114.354 ms[39m
+[35m[39m
+2022-09-04 16:41:44:4144 [35mhttp[39m: [35m::1 POST /api/v1/role 201 94 - 6.746 ms[39m
+[35m[39m
+2022-09-04 16:41:56:4156 [35mhttp[39m: [35m::1 POST /api/v1/student 201 487 - 120.262 ms[39m
+[35m[39m
+2022-09-04 16:42:13:4213 [35mhttp[39m: [35m::1 POST /api/v1/company 201 403 - 121.192 ms[39m
+[35m[39m
+2022-09-04 16:42:34:4234 [31merror[39m: [31minsert or update on table "projects" violates foreign key constraint "projects_company_id_fkey"[39m
+2022-09-04 16:42:34:4234 [35mhttp[39m: [35m::1 POST /api/v1/project 400 111 - 134.491 ms[39m
+[35m[39m
+2022-09-04 16:44:11:4411 [35mhttp[39m: [35m::1 POST /api/v1/project 201 256 - 146.482 ms[39m
+[35m[39m
+2022-09-04 16:44:32:4432 [35mhttp[39m: [35m::1 GET /api/v1/project 200 930 - 182.656 ms[39m
+[35m[39m
+2022-09-04 16:44:36:4436 [31merror[39m: [31mproject with id=1 does not exist[39m
+2022-09-04 16:44:36:4436 [35mhttp[39m: [35m::1 GET /api/v1/project/1 400 44 - 16.114 ms[39m
+[35m[39m
+2022-09-04 16:44:48:4448 [35mhttp[39m: [35m::1 GET /api/v1/project/2 200 988 - 129.079 ms[39m
+[35m[39m
+2022-09-04 16:45:03:453 [35mhttp[39m: [35m::1 GET /api/v1/project/review/2 200 59 - 112.456 ms[39m
+[35m[39m
+2022-09-04 16:45:15:4515 [35mhttp[39m: [35m::1 POST /api/v1/project/review 201 145 - 118.470 ms[39m
+[35m[39m
+2022-09-04 16:45:20:4520 [35mhttp[39m: [35m::1 GET /api/v1/project/review/2 200 354 - 10.064 ms[39m
+[35m[39m
+2022-09-04 16:45:27:4527 [35mhttp[39m: [35m::1 GET /api/v1/project/review/company/1 200 354 - 11.980 ms[39m
+[35m[39m
+2022-09-04 16:45:51:4551 [35mhttp[39m: [35m::1 GET /api/v1/project/review/student/1b7a5283-da71-4e9a-b955-ef6c5076082e 200 354 - 110.700 ms[39m
+[35m[39m
+2022-09-04 17:06:15:615 [32minfo[39m: [32mRunning in: development[39m
+2022-09-04 17:06:15:615 [32minfo[39m: [32mServer Time: Sun Sep 04 2022 17:06:15 GMT-0500 (Colombia Standard Time)[39m
+2022-09-04 17:06:15:615 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-04 17:06:15:615 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-04 17:07:16:716 [32minfo[39m: [32mRunning in: development[39m
+2022-09-04 17:07:16:716 [32minfo[39m: [32mServer Time: Sun Sep 04 2022 17:07:16 GMT-0500 (Colombia Standard Time)[39m
+2022-09-04 17:07:16:716 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-04 17:07:16:716 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-06 23:24:26:2426 [32minfo[39m: [32mRunning in: development[39m
+2022-09-06 23:24:26:2426 [32minfo[39m: [32mServer Time: Tue Sep 06 2022 23:24:26 GMT-0500 (Colombia Standard Time)[39m
+2022-09-06 23:24:26:2426 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-06 23:24:26:2426 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-06 23:44:12:4412 [32minfo[39m: [32mRunning in: development[39m
+2022-09-06 23:44:12:4412 [32minfo[39m: [32mServer Time: Tue Sep 06 2022 23:44:12 GMT-0500 (Colombia Standard Time)[39m
+2022-09-06 23:44:12:4412 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-06 23:44:12:4412 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-06 23:53:40:5340 [32minfo[39m: [32mRunning in: development[39m
+2022-09-06 23:53:40:5340 [32minfo[39m: [32mServer Time: Tue Sep 06 2022 23:53:40 GMT-0500 (Colombia Standard Time)[39m
+2022-09-06 23:53:40:5340 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-06 23:53:40:5340 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-06 23:56:23:5623 [32minfo[39m: [32mRunning in: development[39m
+2022-09-06 23:56:23:5623 [32minfo[39m: [32mServer Time: Tue Sep 06 2022 23:56:23 GMT-0500 (Colombia Standard Time)[39m
+2022-09-06 23:56:23:5623 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-06 23:56:23:5623 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:03:26:326 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:03:26:326 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:03:26 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:03:26:326 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:03:26:326 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:32:00:320 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:32:00:320 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:32:00 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:32:00:320 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:32:00:320 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:37:38:3738 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:37:38:3738 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:37:38 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:37:38:3738 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:37:38:3738 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:41:13:4113 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:41:13:4113 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:41:13 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:41:13:4113 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:41:13:4113 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:41:28:4128 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:41:28:4128 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:41:28 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:41:28:4128 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:41:28:4128 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:42:53:4253 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:42:53:4253 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:42:53 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:42:53:4253 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:42:53:4253 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:43:07:437 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:43:07:437 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:43:07 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:43:07:437 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:43:07:437 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:43:56:4356 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:43:56:4356 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:43:56 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:43:56:4356 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:43:56:4356 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:52:47:5247 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:52:47:5247 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:52:47 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:52:47:5247 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:52:47:5247 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:54:15:5415 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:54:15:5415 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:54:15 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:54:15:5415 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:54:15:5415 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:57:31:5731 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:57:31:5731 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:57:31 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:57:31:5731 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:57:31:5731 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 06:58:32:5832 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 06:58:32:5832 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 06:58:32 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 06:58:32:5832 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 06:58:32:5832 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 07:10:35:1035 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 07:10:35:1035 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 07:10:35 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 07:10:35:1035 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 07:10:35:1035 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-07 07:15:14:1514 [32minfo[39m: [32mRunning in: development[39m
+2022-09-07 07:15:14:1514 [32minfo[39m: [32mServer Time: Wed Sep 07 2022 07:15:14 GMT-0500 (Colombia Standard Time)[39m
+2022-09-07 07:15:14:1514 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-07 07:15:14:1514 [32minfo[39m: [32mServer running on http://localhost:3000[39m

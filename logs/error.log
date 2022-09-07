@@ -70,3 +70,7 @@
 2022-09-04 15:33:24:3324 [31merror[39m: [31mcompany is not associated to projectReview![39m
 2022-09-04 15:44:15:4415 [31merror[39m: [31mstudent id null[39m
 2022-09-04 15:49:32:4932 [31merror[39m: [31mla sintaxis de entrada no es válida para tipo uuid: «1»[39m
+2022-09-04 16:39:35:3935 [31merror[39m: [31minsert or update on table "students" violates foreign key constraint "students_university_id_fkey"[39m
+2022-09-04 16:41:20:4120 [31merror[39m: [31minsert or update on table "students" violates foreign key constraint "students_role_id_fkey"[39m
+2022-09-04 16:42:34:4234 [31merror[39m: [31minsert or update on table "projects" violates foreign key constraint "projects_company_id_fkey"[39m
+2022-09-04 16:44:36:4436 [31merror[39m: [31mproject with id=1 does not exist[39m

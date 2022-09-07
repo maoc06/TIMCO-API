@@ -4,6 +4,7 @@ import buildMakeProjectReview from './project-review';
 import buildMakeRole from './role';
 import buildMakeStudent from './student';
 import buildMakeUniversity from './university';
+import buildMakeSKill from './skill';
 
 const makeCompany = buildMakeCompany();
 const makeProject = buildMakeProject();
@@ -11,6 +12,7 @@ const makeProjectReview = buildMakeProjectReview();
 const makeRole = buildMakeRole();
 const makeStudent = buildMakeStudent();
 const makeUniversity = buildMakeUniversity();
+const makeSkill = buildMakeSKill();
 
 export {
   makeCompany,
@@ -19,4 +21,5 @@ export {
   makeRole,
   makeStudent,
   makeUniversity,
+  makeSkill,
 };

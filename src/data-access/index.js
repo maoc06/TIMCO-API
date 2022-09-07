@@ -9,6 +9,8 @@ import getRoleModel from './models/role';
 import getStateModel from './models/state';
 import getStudentModel from './models/student';
 import getUniversityModel from './models/university';
+import getSkillModel from './models/skill';
+import getServiceModel from './models/service';
 
 const client = new Sequelize(config.dbUri, {
   logging: false,
@@ -27,6 +29,8 @@ const models = {
   State: getStateModel(client, Sequelize),
   Student: getStudentModel(client, Sequelize),
   University: getUniversityModel(client, Sequelize),
+  Skill: getSkillModel(client, Sequelize),
+  Service: getServiceModel(client, Sequelize),
 };
 
 Object.keys(models).forEach((key) => {
