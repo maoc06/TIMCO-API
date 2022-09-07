@@ -1,19 +1,18 @@
 import logger from '../../utils/logger';
 
-export default function makePostRole({ addRole }) {
-  return async function postRole(httpRequest) {
+export default function makeGetAllAreas({ listAllAreas }) {
+  return async function getAllAreas(_) {
     const headers = {
       'Content-Type': 'application/json',
     };
     try {
-      const { ...roleInfo } = httpRequest.body;
-      const role = await addRole({ ...roleInfo });
+      const areas = await listAllAreas();
       return {
         headers,
-        statusCode: 201,
+        statusCode: 200,
         body: {
-          message: 'role successfully added',
-          data: role,
+          message: 'retrieve all areas',
+          data: areas,
         },
       };
     } catch (e) {

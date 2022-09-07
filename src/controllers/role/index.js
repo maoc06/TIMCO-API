@@ -1,20 +1,20 @@
-import { roleUseCases } from '../../use-cases';
+import { areaUseCases } from '../../use-cases';
 
-import makeGetAllRoles from './get-all-roles';
-import makeGetRole from './get-role';
-import makePostRole from './post-role';
-import makePutRole from './put-role';
+import makeGetAllAreas from './get-all-areas';
+import makeGetArea from './get-area';
+import makePostArea from './post-area';
+import makePutArea from './put-area';
 
-const { addRole, listAllRoles, listRole, updateRole } = roleUseCases;
+const { addArea, listAllAreas, listArea, updateArea } = areaUseCases;
 
-const getAllRoles = makeGetAllRoles({ listAllRoles });
-const getRole = makeGetRole({ listRole });
-const postRole = makePostRole({ addRole });
-const putRole = makePutRole({ updateRole });
+const getAllAreas = makeGetAllAreas({ listAllAreas });
+const getArea = makeGetArea({ listArea });
+const postArea = makePostArea({ addArea });
+const putArea = makePutArea({ updateArea });
 
 export default {
-  getAllRoles,
-  getRole,
-  postRole,
-  putRole,
+  getAllAreas,
+  getArea,
+  postArea,
+  putArea,
 };

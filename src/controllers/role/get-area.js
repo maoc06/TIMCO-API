@@ -1,19 +1,19 @@
 import logger from '../../utils/logger';
 
-export default function makeGetRole({ listRole }) {
-  return async function getRole(httpRequest) {
+export default function makeGetArea({ listArea }) {
+  return async function getArea(httpRequest) {
     const headers = {
       'Content-Type': 'application/json',
     };
-    const { roleId } = httpRequest.params;
+    const { areaId } = httpRequest.params;
     try {
-      const role = await listRole({ roleId });
+      const area = await listArea({ areaId });
       return {
         headers,
         statusCode: 200,
         body: {
           message: 'retrieve role',
-          data: role,
+          data: area,
         },
       };
     } catch (e) {

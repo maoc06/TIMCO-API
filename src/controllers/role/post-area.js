@@ -1,18 +1,19 @@
 import logger from '../../utils/logger';
 
-export default function makePutRole({ updateRole }) {
-  return async function putRole(httpRequest) {
+export default function makePostArea({ addArea }) {
+  return async function postArea(httpRequest) {
     const headers = {
       'Content-Type': 'application/json',
     };
-    const roleData = httpRequest.body;
     try {
-      const role = await updateRole({ roleData });
+      const { ...areaInfo } = httpRequest.body;
+      const area = await addArea({ ...areaInfo });
       return {
         headers,
-        statusCode: 200,
+        statusCode: 201,
         body: {
-          message: 'role successfully update',
+          message: 'area successfully added',
+          data: area,
         },
       };
     } catch (e) {
