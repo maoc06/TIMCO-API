@@ -5,7 +5,8 @@ import makeGetService from './get-service';
 import makePostService from './post-service';
 import makePutService from './put-service';
 
-const { addService, listAllServices, listService, updateService } = serviceUseCases;
+const { addService, listAllServices, listService, updateService } =
+  serviceUseCases;
 
 const getAllServices = makeGetAllServices({ listAllServices });
 const getService = makeGetService({ listService });

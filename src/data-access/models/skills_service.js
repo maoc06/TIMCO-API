@@ -1,20 +1,15 @@
-const getSkillService = (sequelize, {DataTypes})=> {
-    const SkillService =sequelize.define('skillServices',{
-        skillId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-          },
-          serviceId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-          },
-    });
+const getSkillService = (sequelize) => {
+  const SkillService = sequelize.define(
+    'skillServices',
+    {},
+    { timestamps: false }
+  );
 
-    SkillService.associate = (models) => {
-        SkillService.belongsTo(models.Service, { foreignKey: 'serviceId' });
-        SkillService.belongsTo(models.Skill, { foreignKey: 'skillId' });
-        
-      };
-    return SkillService;
-}
+  SkillService.add = async (skillServiceData) => {
+    let skillService = await SkillService.create(skillServiceData);
+    return skillService;
+  };
+
+  return SkillService;
+};
 export default getSkillService;

@@ -52,6 +52,10 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     Project.belongsTo(models.Company, { foreignKey: 'companyId' });
     Project.belongsTo(models.Student, { foreignKey: 'studentId' });
     Project.belongsTo(models.State, { foreignKey: 'stateId' });
+    Project.belongsToMany(models.Skill, {
+      through: models.SkillProject,
+      foreignKey: 'projectId',
+    });
   };
 
   Project.add = async (projectData) => {
@@ -59,7 +63,12 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     return project;
   };
 
-  Project.findProjects = async ({ companyModel, studentModel, stateModel }) => {
+  Project.findProjects = async ({
+    companyModel,
+    studentModel,
+    stateModel,
+    skillModel,
+  }) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId', 'studentId', 'companyId'] },
       include: [
@@ -75,6 +84,7 @@ const getProjectModel = (sequelize, { DataTypes }) => {
           model: stateModel,
           attributes: { exclude: ['created'] },
         },
+        { model: skillModel, attributes: ['name'] },
       ],
     });
     return projects;
@@ -90,7 +100,7 @@ const getProjectModel = (sequelize, { DataTypes }) => {
 
   Project.findByIdCompose = async (
     projectId,
-    { companyModel, studentModel, stateModel }
+    { companyModel, studentModel, stateModel, skillModel }
   ) => {
     let project = await Project.findOne({
       attributes: { exclude: ['stateId'] },
@@ -107,6 +117,10 @@ const getProjectModel = (sequelize, { DataTypes }) => {
         {
           model: stateModel,
           attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
         },
       ],
     });

@@ -17,6 +17,7 @@ export default function makePostStudent({ addStudent }) {
         },
       };
     } catch (e) {
+      console.log(e);
       logger.error(e.message);
       return {
         headers,

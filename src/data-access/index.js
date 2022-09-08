@@ -34,9 +34,9 @@ const models = {
   University: getUniversityModel(client, Sequelize),
   Skill: getSkillModel(client, Sequelize),
   Service: getServiceModel(client, Sequelize),
-  AreaService: getAreaService(client, Sequelize),
-  SkillService: getSkillService(client, Sequelize),
-  getSkillProject: getSkillProject(client,Sequelize),
+  AreaService: getAreaService(client),
+  SkillService: getSkillService(client),
+  SkillProject: getSkillProject(client),
 };
 
 Object.keys(models).forEach((key) => {

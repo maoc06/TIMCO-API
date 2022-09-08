@@ -1,23 +1,21 @@
 import logger from '../../utils/logger';
 
-export default function makePostService({ addService }) {
-  return async function postService(httpRequest) {
+export default function makeGetAllSkills({ listAllSkills }) {
+  return async function getAllSkills(_) {
     const headers = {
       'Content-Type': 'application/json',
     };
     try {
-      const { ...serviceInfo } = httpRequest.body;
-      const service = await addService({ ...serviceInfo });
+      const skills = await listAllSkills();
       return {
         headers,
-        statusCode: 201,
+        statusCode: 200,
         body: {
-          message: 'service successfully added',
-          data: service,
+          message: 'retrieve all skills',
+          data: skills,
         },
       };
     } catch (e) {
-      console.log(e);
       logger.error(e.message);
       return {
         headers,

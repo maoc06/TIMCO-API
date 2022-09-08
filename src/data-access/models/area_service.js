@@ -1,20 +1,14 @@
-const getAreaService = (sequelize, {DataTypes})=> {
-    const AreaService =sequelize.define('areaServices',{
-        areaId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-          },
-          serviceId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-          },
-    });
+const getAreaService = (sequelize) => {
+  const AreaService = sequelize.define(
+    'areaServices',
+    {},
+    { timestamps: false }
+  );
 
-    AreaService.associate = (models) => {
-        AreaService.belongsTo(models.Area, { foreignKey: 'areaId' });
-        AreaService.belongsTo(models.Service, { foreignKey: 'serviceId' });
-        
-      };
-    return AreaService;
-}
+  AreaService.add = async (areaServiceData) => {
+    let areaService = await AreaService.create(areaServiceData);
+    return areaService;
+  };
+  return AreaService;
+};
 export default getAreaService;

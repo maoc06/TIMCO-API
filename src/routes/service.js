@@ -3,12 +3,12 @@ import express from 'express';
 import makeCallback from '../express-callback';
 import { serviceController } from '../controllers';
 
-function getAreaRoutes() {
+function getServiceRoutes() {
   const router = express.Router();
 
   router.get('/', makeCallback(serviceController.getAllServices));
 
-  router.get('/:areaId', makeCallback(serviceController.getService));
+  router.get('/:serviceId', makeCallback(serviceController.getService));
 
   router.post('/', makeCallback(serviceController.postService));
 

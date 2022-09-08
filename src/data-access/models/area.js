@@ -20,19 +20,29 @@ const getAreaModel = (sequelize, { DataTypes }) => {
     },
   });
 
+  Area.associate = (models) => {
+    Area.belongsToMany(models.Service, {
+      through: models.AreaService,
+      foreignKey: 'areaId',
+    });
+  };
+
   Area.add = async (areaData) => {
     let area = await Area.create(areaData);
     return area;
   };
 
-  Area.findAreas = async () => {
-    let areas = await Area.findAll();
+  Area.findAreas = async ({ serviceModel }) => {
+    let areas = await Area.findAll({
+      include: [{ model: serviceModel, attributes: ['name', 'price'] }],
+    });
     return areas;
   };
 
-  Area.findById = async (areaId) => {
+  Area.findById = async (areaId, { serviceModel }) => {
     let area = await Area.findOne({
       where: { areaId },
+      include: [{ model: serviceModel, attributes: ['name', 'price'] }],
     });
     return area;
   };

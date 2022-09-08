@@ -74,3 +74,103 @@
 2022-09-04 16:41:20:4120 [31merror[39m: [31minsert or update on table "students" violates foreign key constraint "students_role_id_fkey"[39m
 2022-09-04 16:42:34:4234 [31merror[39m: [31minsert or update on table "projects" violates foreign key constraint "projects_company_id_fkey"[39m
 2022-09-04 16:44:36:4436 [31merror[39m: [31mproject with id=1 does not exist[39m
+2022-09-08 12:35:50:3550 [31merror[39m: [31marea with id=1 does not exist[39m
+2022-09-08 12:44:45:4445 [31merror[39m: [31mserviceDb.findServices is not a function[39m
+2022-09-08 12:56:19:5619 [31merror[39m: [31mserviceDb.findServices is not a function[39m
+2022-09-08 12:58:27:5827 [31merror[39m: [31mservice with id=1 does not exist[39m
+2022-09-08 12:59:24:5924 [31merror[39m: [31m(0 , _entities.makeService) is not a function[39m
+2022-09-08 12:59:54:5954 [31merror[39m: [31m(0 , _entities.makeService) is not a function[39m
+2022-09-08 13:17:53:1753 [31merror[39m: [31mskill with id=1 does not exist[39m
+2022-09-08 13:18:12:1812 [31merror[39m: [31mservice must have a price[39m
+2022-09-08 13:18:58:1858 [31merror[39m: [31mservice id null[39m
+2022-09-08 13:26:37:2637 [31merror[39m: [31mproject must have a set of skills[39m
+2022-09-08 13:26:49:2649 [31merror[39m: [31mproject must have a set of skills[39m
+2022-09-08 13:27:06:276 [31merror[39m: [31mThe skills associated with the project must be a set of kills IDs.[39m
+2022-09-08 13:27:35:2735 [31merror[39m: [31mThe skills associated with the project must be a list of kills IDs.[39m
+2022-09-08 13:28:15:2815 [31merror[39m: [31mnotNull Violation: skillProject.skillId cannot be null,[39m
+[31mnotNull Violation: skillProject.projectId cannot be null[39m
+2022-09-08 13:28:44:2844 [31merror[39m: [31minserción o actualización en la tabla «projects» viola la llave foránea «projects_student_id_fkey»[39m
+2022-09-08 13:29:11:2911 [31merror[39m: [31minserción o actualización en la tabla «projects» viola la llave foránea «projects_student_id_fkey»[39m
+2022-09-08 13:29:26:2926 [31merror[39m: [31mareaModel is not defined[39m
+2022-09-08 13:30:03:303 [31merror[39m: [31mareaModel is not defined[39m
+2022-09-08 13:32:06:326 [31merror[39m: [31mno existe la columna students.area_id[39m
+2022-09-08 13:57:58:5758 [31merror[39m: [31mthe skill must have an associated service[39m
+2022-09-08 13:58:20:5820 [31merror[39m: [31mserviceId is not defined[39m
+2022-09-08 13:59:01:591 [31merror[39m: [31mserviceId is not defined[39m
+2022-09-08 13:59:05:595 [31merror[39m: [31mserviceId is not defined[39m
+2022-09-08 13:59:35:5935 [31merror[39m: [31mserviceId is not defined[39m
+2022-09-08 14:00:16:016 [31merror[39m: [31mCannot read properties of undefined (reading 'add')[39m
+2022-09-08 14:01:07:17 [31merror[39m: [31mCannot read properties of undefined (reading 'add')[39m
+2022-09-08 14:06:38:638 [31merror[39m: [31maddServiceToArea.add is not a function[39m
+2022-09-08 14:07:49:749 [31merror[39m: [31maddServiceToArea.add is not a function[39m
+2022-09-08 14:19:13:1913 [31merror[39m: [31mCannot create property 'skills' on string '{[39m
+[31m  "projectId": 8,[39m
+[31m  "companyId": 1,[39m
+[31m  "serviceId": 1,[39m
+[31m  "studentId": "56484b13-f39a-42d8-baad-9d8485aaefc2",[39m
+[31m  "description": "magunum comapny photos",[39m
+[31m  "priceTotal": 985563,[39m
+[31m  "timelineDate": "2023-05-28T00:00:00.000Z",[39m
+[31m  "created": null,[39m
+[31m  "company": {[39m
+[31m    "companyId": 1,[39m
+[31m    "name": "MAJA S.A.",[39m
+[31m    "email": "maja@company.co",[39m
+[31m    "phone": "+573052921856",[39m
+[31m    "linkedinUrl": null,[39m
+[31m    "website": null,[39m
+[31m    "talentModality": true,[39m
+[31m    "aboutMe": "This is f*cking America",[39m
+[31m    "profileImage": "https://www.sopitas.com/wp-content/uploads/2018/05/this-is-america-cancion-1.jpg?w=1120",[39m
+[31m    "marketTime": null[39m
+[31m  },[39m
+[31m  "student": {[39m
+[31m    "studentId": "56484b13-f39a-42d8-baad-9d8485aaefc2",[39m
+[31m    "name": "Alejandro Valverde",[39m
+[31m    "email": "alejandro.valverde@correo.com",[39m
+[31m    "phone": "+573052921856",[39m
+[31m    "universityId": 1,[39m
+[31m    "career": "Desing",[39m
+[31m    "currentSemester": 1,[39m
+[31m    "linkedinUrl": null,[39m
+[31m    "portfolioUrl": null,[39m
+[31m    "jobModality": true,[39m
+[31m    "aboutMe": "This is America",[39m
+[31m    "profileImage": "https://www.sopitas.com/wp-content/uploads/2018/05/this-is-america-cancion-1.jpg?w=1120",[39m
+[31m    "areaId": 1[39m
+[31m  },[39m
+[31m  "state": {[39m
+[31m    "stateId": 2,[39m
+[31m    "name": "PENDING"[39m
+[31m  }[39m
+[31m}'[39m
+2022-09-08 14:33:26:3326 [31merror[39m: [31mCannot access 'Skill_Projects' before initialization[39m
+2022-09-08 14:33:54:3354 [31merror[39m: [31mel valor null para la columna «project_project_id» viola la restricción not null[39m
+2022-09-08 14:41:00:410 [31merror[39m: [31mskills is not associated to Skill_Projects![39m
+2022-09-08 14:43:05:435 [31merror[39m: [31mnotNull Violation: skills.name cannot be null[39m
+2022-09-08 14:43:38:4338 [31merror[39m: [31mnotNull Violation: skills.name cannot be null[39m
+2022-09-08 14:44:43:4443 [31merror[39m: [31mllave duplicada viola restricción de unicidad «skills_pkey»[39m
+2022-09-08 14:45:07:457 [31merror[39m: [31mskills is not associated to Skill_Projects![39m
+2022-09-08 14:45:11:4511 [31merror[39m: [31mskills is not associated to Skill_Projects![39m
+2022-09-08 14:45:16:4516 [31merror[39m: [31mskills is not associated to Skill_Projects![39m
+2022-09-08 14:48:38:4838 [31merror[39m: [31mCannot destructure property 'skillModel' of 'undefined' as it is undefined.[39m
+2022-09-08 14:49:23:4923 [31merror[39m: [31mel valor null para la columna «project_project_id» viola la restricción not null[39m
+2022-09-08 14:51:24:5124 [31merror[39m: [31mel valor null para la columna «project_project_id» viola la restricción not null[39m
+2022-09-08 14:53:32:5332 [31merror[39m: [31mel valor null para la columna «project_project_id» viola la restricción not null[39m
+2022-09-08 14:55:14:5514 [31merror[39m: [31mno existe la columna «skilld_id»[39m
+2022-09-08 14:58:09:589 [31merror[39m: [31mel valor null para la columna «project_project_id» viola la restricción not null[39m
+2022-09-08 15:03:02:32 [31merror[39m: [31mel valor null para la columna «project_project_id» viola la restricción not null[39m
+2022-09-08 15:04:42:442 [31merror[39m: [31mno existe la columna «project_project_id» en la relación «skill_projects»[39m
+2022-09-08 15:05:54:554 [31merror[39m: [31mno existe la columna «project_project_id» en la relación «skill_projects»[39m
+2022-09-08 15:06:34:634 [31merror[39m: [31mno existe la columna skills->skillProjects.skill_skill_id[39m
+2022-09-08 15:08:08:88 [31merror[39m: [31mno existe la columna skills->skillProjects.skill_skill_id[39m
+2022-09-08 15:08:14:814 [31merror[39m: [31mno existe la columna skills->skillProjects.skill_skill_id[39m
+2022-09-08 15:14:38:1438 [31merror[39m: [31mno existe la columna skills->skillProject.skill_skill_id[39m
+2022-09-08 15:23:03:233 [31merror[39m: [31mSkillProjects is not defined[39m
+2022-09-08 15:27:35:2735 [31merror[39m: [31mproject must have a set of skills[39m
+2022-09-08 15:56:11:5611 [31merror[39m: [31mpassword is not defined[39m
+2022-09-08 15:56:41:5641 [31merror[39m: [31mCannot assign to read only property 'password' of object '#<Object>'[39m
+2022-09-08 15:57:33:5733 [31merror[39m: [31mCannot assign to read only property 'password' of object '#<Object>'[39m
+2022-09-08 15:59:29:5929 [31merror[39m: [31mCannot assign to read only property 'password' of object '#<Object>'[39m
+2022-09-08 16:02:27:227 [31merror[39m: [31mnotNull Violation: students.areaId cannot be null[39m
+2022-09-08 16:09:29:929 [31merror[39m: [31mbcrypt is not defined[39m

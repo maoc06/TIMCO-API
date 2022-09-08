@@ -105,7 +105,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     return student;
   };
 
-  Student.findStudents = async ({ roleModel, universityModel }) => {
+  Student.findStudents = async ({ areaModel, universityModel }) => {
     let students = await Student.findAll({
       attributes: { exclude: ['password', 'areaId', 'universityId'] },
       include: [

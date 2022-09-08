@@ -1,5 +1,5 @@
 import models from '../../data-access';
-const { Student, University, Role } = models;
+const { Student, University, Area } = models;
 
 import makeListAllStudents from './list-all-students';
 import makeListStudent from './list-student';
@@ -8,12 +8,12 @@ import makeUpdateStudent from './update-student';
 
 const listAllStudents = makeListAllStudents({
   studentDb: Student,
-  roleModel: Role,
+  areaModel: Area,
   universityModel: University,
 });
 const listStudent = makeListStudent({
   studentDb: Student,
-  roleModel: Role,
+  areaModel: Area,
   universityModel: University,
 });
 const addStudent = makeAddStudent({ studentDb: Student });
