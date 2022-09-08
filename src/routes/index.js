@@ -2,7 +2,7 @@ import express from 'express';
 
 import getCompanyRoutes from './company';
 import getProjectRoutes from './project';
-import getRoleRoutes from './role';
+import getAreaRoutes from './area';
 import getStudentRoutes from './student';
 import getUniversityRoutes from './university';
 
@@ -11,7 +11,7 @@ function getRoutes() {
 
   router.use('/company', getCompanyRoutes());
   router.use('/project', getProjectRoutes());
-  router.use('/role', getRoleRoutes());
+  router.use('/area', getAreaRoutes());
   router.use('/student', getStudentRoutes());
   router.use('/university', getUniversityRoutes());
 

@@ -1,13 +1,13 @@
 import companyController from './company';
 import projectController from './project';
-import roleController from './role';
+import areaController from './area';
 import studentController from './student';
 import universityController from './university';
 
 export {
   companyController,
   projectController,
-  roleController,
+  areaController,
   studentController,
   universityController,
 };
