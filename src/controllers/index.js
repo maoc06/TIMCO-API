@@ -1,3 +1,4 @@
+import authController from './auth';
 import companyController from './company';
 import projectController from './project';
 import areaController from './area';
@@ -7,6 +8,7 @@ import skillController from './skill';
 import universityController from './university';
 
 export {
+  authController,
   companyController,
   projectController,
   areaController,

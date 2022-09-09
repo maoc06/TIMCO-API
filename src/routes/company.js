@@ -3,7 +3,7 @@ import express from 'express';
 import makeCallback from '../express-callback';
 import { companyController } from '../controllers';
 
-function getCompanyRoutes() {
+function getCompanyRoutes({ verifyToken }) {
   const router = express.Router();
 
   router.get('/', makeCallback(companyController.getAllCompanies));
@@ -12,7 +12,7 @@ function getCompanyRoutes() {
 
   router.post('/', makeCallback(companyController.postCompany));
 
-  router.put('/', makeCallback(companyController.putCompany));
+  router.put('/', verifyToken, makeCallback(companyController.putCompany));
 
   return router;
 }

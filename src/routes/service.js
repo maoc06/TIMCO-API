@@ -3,16 +3,16 @@ import express from 'express';
 import makeCallback from '../express-callback';
 import { serviceController } from '../controllers';
 
-function getServiceRoutes() {
+function getServiceRoutes({ verifyToken }) {
   const router = express.Router();
 
   router.get('/', makeCallback(serviceController.getAllServices));
 
   router.get('/:serviceId', makeCallback(serviceController.getService));
 
-  router.post('/', makeCallback(serviceController.postService));
+  router.post('/', verifyToken, makeCallback(serviceController.postService));
 
-  router.put('/', makeCallback(serviceController.putService));
+  router.put('/', verifyToken, makeCallback(serviceController.putService));
 
   return router;
 }

@@ -1,4 +1,6 @@
 import Sequelize from 'sequelize';
+import { initializeApp } from 'firebase/app';
+import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 
 import { config } from '../../config';
 // MODELS
@@ -24,6 +26,10 @@ const client = new Sequelize(config.dbUri, {
   },
 });
 
+// CONFIG FIREBASE CLIENT
+const firebase = initializeApp(config.firebaseConfig);
+const storageClient = getStorage(firebase);
+
 const models = {
   Company: getCompanyModel(client, Sequelize),
   Project: getProjectModel(client, Sequelize),
@@ -45,5 +51,5 @@ Object.keys(models).forEach((key) => {
   }
 });
 
-export { client };
+export { client, storageClient };
 export default models;

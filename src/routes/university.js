@@ -3,7 +3,7 @@ import express from 'express';
 import makeCallback from '../express-callback';
 import { universityController } from '../controllers';
 
-function getUniversityRoutes() {
+function getUniversityRoutes({ verifyToken }) {
   const router = express.Router();
 
   router.get('/', makeCallback(universityController.getAllUniversities));
@@ -13,9 +13,17 @@ function getUniversityRoutes() {
     makeCallback(universityController.getUniversity)
   );
 
-  router.post('/', makeCallback(universityController.postUniversity));
+  router.post(
+    '/',
+    verifyToken,
+    makeCallback(universityController.postUniversity)
+  );
 
-  router.put('/', makeCallback(universityController.putUniversity));
+  router.put(
+    '/',
+    verifyToken,
+    makeCallback(universityController.putUniversity)
+  );
 
   return router;
 }

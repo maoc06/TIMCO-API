@@ -13,6 +13,7 @@ const app = express();
 // middlewares
 app.use(morgan);
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // routes
 app.use(`/api/v${config.apiVersion}`, getRoutes());

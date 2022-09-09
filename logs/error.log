@@ -174,3 +174,34 @@
 2022-09-08 15:59:29:5929 [31merror[39m: [31mCannot assign to read only property 'password' of object '#<Object>'[39m
 2022-09-08 16:02:27:227 [31merror[39m: [31mnotNull Violation: students.areaId cannot be null[39m
 2022-09-08 16:09:29:929 [31merror[39m: [31mbcrypt is not defined[39m
+2022-09-08 17:47:58:4758 [31merror[39m: [31mstudent must have a profile image[39m
+2022-09-08 17:50:05:505 [31merror[39m: [31mstudent must have a profile image[39m
+2022-09-08 18:17:19:1719 [31merror[39m: [31mENOENT: no such file or directory, open 'C:\Users\Usuario\Documents\timco-restapi\20081242_1662679039646.jpg'[39m
+2022-09-08 18:18:02:182 [31merror[39m: [31mENOENT: no such file or directory, open 'C:\Users\Usuario\Documents\timco-restapi\20081242_1662679082904.jpg'[39m
+2022-09-08 18:20:54:2054 [31merror[39m: [31m(0 , _uuidv.default) is not a function[39m
+2022-09-08 18:21:21:2121 [31merror[39m: [31mENOENT: no such file or directory, open 'C:\Users\Usuario\Documents\timco-restapi\20081242_1662679281424.jpg'[39m
+2022-09-08 18:37:44:3744 [31merror[39m: [31mCannot read properties of undefined (reading 'path')[39m
+2022-09-08 18:48:11:4811 [31merror[39m: [31mFirebase Storage: Object '20081242_1662680890680.jpg' does not exist. (storage/object-not-found)[39m
+2022-09-08 18:55:34:5534 [31merror[39m: [31mCannot read properties of undefined (reading 'path')[39m
+2022-09-08 18:56:50:5650 [31merror[39m: [31mCannot read properties of undefined (reading 'path')[39m
+2022-09-08 18:57:48:5748 [31merror[39m: [31mstorage is not a function[39m
+2022-09-08 19:01:40:140 [31merror[39m: [31mCannot read properties of undefined (reading 'originalname')[39m
+2022-09-08 19:02:04:24 [31merror[39m: [31mCannot read properties of undefined (reading 'originalname')[39m
+2022-09-08 19:29:02:292 [31merror[39m: [31mhandleToken is not a function[39m
+2022-09-08 20:05:49:549 [31merror[39m: [31minserción o actualización en la tabla «students» viola la llave foránea «students_university_id_fkey»[39m
+2022-09-08 20:06:46:646 [31merror[39m: [31minserción o actualización en la tabla «students» viola la llave foránea «students_area_id_fkey»[39m
+2022-09-08 20:07:59:759 [31merror[39m: [31mauthStudentDb.getBasicStudent is not a function[39m
+2022-09-08 20:09:39:939 [31merror[39m: [31mIllegal arguments: string, undefined[39m
+2022-09-08 20:10:06:106 [31merror[39m: [31mIllegal arguments: string, undefined[39m
+2022-09-08 20:11:52:1152 [31merror[39m: [31mhandleToken is not a function[39m
+2022-09-08 20:15:01:151 [31merror[39m: [31mCannot read properties of null (reading 'email')[39m
+2022-09-08 20:15:31:1531 [31merror[39m: [31mCannot read properties of null (reading 'email')[39m
+2022-09-08 20:16:15:1615 [31merror[39m: [31mCannot read properties of null (reading 'email')[39m
+2022-09-08 20:16:37:1637 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-09-08 20:17:10:1710 [31merror[39m: [31m[object Object][39m
+2022-09-08 20:17:31:1731 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-09-08 20:18:37:1837 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-09-08 20:18:40:1840 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-09-08 20:19:34:1934 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-09-08 20:19:43:1943 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-09-08 20:19:50:1950 [31merror[39m: [31mauthentication process requires a username/email[39m

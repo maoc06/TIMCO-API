@@ -20,6 +20,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     email: {
       type: DataTypes.STRING,
       allowNull: false,
+      unique: true,
       validate: {
         isEmail: true,
       },
@@ -34,6 +35,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     phone: {
       type: DataTypes.STRING,
       allowNull: false,
+      unique: true,
       validate: {
         notEmpty: true,
       },
@@ -57,6 +59,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     linkedinUrl: {
       type: DataTypes.STRING,
       allowNull: true,
+      unique: true,
       field: 'linkedin',
       validate: {
         isUrl: true,
@@ -65,6 +68,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     portfolioUrl: {
       type: DataTypes.STRING,
       allowNull: true,
+      unique: true,
       field: 'portfolio',
       validate: {
         isUrl: true,
@@ -126,6 +130,14 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     let student = await Student.findOne({
       attributes: { exclude: ['password'] },
       where: { studentId },
+    });
+    return student;
+  };
+
+  Student.findByEmail = async (email) => {
+    let student = await Student.findOne({
+      // attributes: { exclude: ['password'] },
+      where: { email },
     });
     return student;
   };

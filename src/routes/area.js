@@ -3,16 +3,16 @@ import express from 'express';
 import makeCallback from '../express-callback';
 import { areaController } from '../controllers';
 
-function getAreaRoutes() {
+function getAreaRoutes({ verifyToken }) {
   const router = express.Router();
 
   router.get('/', makeCallback(areaController.getAllAreas));
 
   router.get('/:areaId', makeCallback(areaController.getArea));
 
-  router.post('/', makeCallback(areaController.postArea));
+  router.post('/', verifyToken, makeCallback(areaController.postArea));
 
-  router.put('/', makeCallback(areaController.putArea));
+  router.put('/', verifyToken, makeCallback(areaController.putArea));
 
   return router;
 }
