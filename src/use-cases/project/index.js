@@ -1,5 +1,6 @@
 import models from '../../data-access';
-const { Project, ProjectReview, Company, Student, State } = models;
+const { Project, ProjectReview, Company, Student, State, Skill, SkillProject } =
+  models;
 
 import makeListAllProjects from './list-all-projects';
 import makeListProject from './list-project';
@@ -15,6 +16,7 @@ const listAllProjects = makeListAllProjects({
   studentModel: Student,
   companyModel: Company,
   stateModel: State,
+  skillModel: Skill,
 });
 
 const listProject = makeListProject({
@@ -22,6 +24,8 @@ const listProject = makeListProject({
   studentModel: Student,
   companyModel: Company,
   stateModel: State,
+  skillModel: Skill,
+  skillProjectDb: SkillProject,
 });
 
 const listProjectReviewByProject = makeListProjectReviewByProject({
@@ -41,7 +45,10 @@ const listProjectReviewByStudent = makeListProjectReviewByStudent({
   projectModel: Project,
 });
 
-const addProject = makeAddProject({ projectDb: Project });
+const addProject = makeAddProject({
+  projectDb: Project,
+  skillProjectDb: SkillProject,
+});
 
 const addProjectReview = makeAddProjectReview({
   projectDb: Project,

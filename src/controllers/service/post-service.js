@@ -1,22 +1,23 @@
 import logger from '../../utils/logger';
 
-export default function makePostRole({ addRole }) {
-  return async function postRole(httpRequest) {
+export default function makePostService({ addService }) {
+  return async function postService(httpRequest) {
     const headers = {
       'Content-Type': 'application/json',
     };
     try {
-      const { ...roleInfo } = httpRequest.body;
-      const role = await addRole({ ...roleInfo });
+      const { ...serviceInfo } = httpRequest.body;
+      const service = await addService({ ...serviceInfo });
       return {
         headers,
         statusCode: 201,
         body: {
-          message: 'role successfully added',
-          data: role,
+          message: 'service successfully added',
+          data: service,
         },
       };
     } catch (e) {
+      console.log(e);
       logger.error(e.message);
       return {
         headers,

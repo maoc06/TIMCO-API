@@ -3,7 +3,7 @@ import express from 'express';
 import makeCallback from '../express-callback';
 import { projectController } from '../controllers';
 
-function getProjectRoutes() {
+function getProjectRoutes({ verifyToken }) {
   const router = express.Router();
 
   router.get('/', makeCallback(projectController.getAllProjects));
@@ -25,11 +25,15 @@ function getProjectRoutes() {
     makeCallback(projectController.getProjectReviewByStudent)
   );
 
-  router.post('/', makeCallback(projectController.postProject));
+  router.post('/', verifyToken, makeCallback(projectController.postProject));
 
-  router.post('/review/', makeCallback(projectController.postProjectReview));
+  router.post(
+    '/review/',
+    verifyToken,
+    makeCallback(projectController.postProjectReview)
+  );
 
-  router.put('/', makeCallback(projectController.putProject));
+  router.put('/', verifyToken, makeCallback(projectController.putProject));
 
   return router;
 }

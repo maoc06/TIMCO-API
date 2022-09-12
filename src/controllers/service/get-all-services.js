@@ -1,18 +1,18 @@
 import logger from '../../utils/logger';
 
-export default function makePutRole({ updateRole }) {
-  return async function putRole(httpRequest) {
+export default function makeGetAllServices({ listAllServices }) {
+  return async function getAllServices(_) {
     const headers = {
       'Content-Type': 'application/json',
     };
-    const roleData = httpRequest.body;
     try {
-      const role = await updateRole({ roleData });
+      const services = await listAllServices();
       return {
         headers,
         statusCode: 200,
         body: {
-          message: 'role successfully update',
+          message: 'retrieve all services',
+          data: services,
         },
       };
     } catch (e) {

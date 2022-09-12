@@ -1,19 +1,18 @@
 import logger from '../../utils/logger';
 
-export default function makeGetRole({ listRole }) {
-  return async function getRole(httpRequest) {
+export default function makePostAuthStudent({ authStudent }) {
+  return async function postAuthStudent(httpRequest) {
     const headers = {
       'Content-Type': 'application/json',
     };
-    const { roleId } = httpRequest.params;
     try {
-      const role = await listRole({ roleId });
+      const credentials = httpRequest.body;
+      let access = await authStudent(credentials);
       return {
         headers,
-        statusCode: 200,
+        statusCode: 201,
         body: {
-          message: 'retrieve role',
-          data: role,
+          access,
         },
       };
     } catch (e) {
@@ -22,7 +21,7 @@ export default function makeGetRole({ listRole }) {
         headers,
         statusCode: 400,
         body: {
-          error: e.message,
+          error: JSON.parse(e.message),
         },
       };
     }

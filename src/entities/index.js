@@ -1,22 +1,31 @@
 import buildMakeCompany from './company';
+import buildMakeCredentials from './credentials';
 import buildMakeProject from './project';
 import buildMakeProjectReview from './project-review';
-import buildMakeRole from './role';
+import buildMakeArea from './area';
 import buildMakeStudent from './student';
+import buildMakeService from './service';
 import buildMakeUniversity from './university';
+import buildMakeSKill from './skill';
 
 const makeCompany = buildMakeCompany();
+const makeCredentials = buildMakeCredentials();
 const makeProject = buildMakeProject();
 const makeProjectReview = buildMakeProjectReview();
-const makeRole = buildMakeRole();
+const makeArea = buildMakeArea();
 const makeStudent = buildMakeStudent();
+const makeService = buildMakeService();
 const makeUniversity = buildMakeUniversity();
+const makeSkill = buildMakeSKill();
 
 export {
   makeCompany,
+  makeCredentials,
   makeProject,
   makeProjectReview,
-  makeRole,
+  makeArea,
   makeStudent,
+  makeService,
   makeUniversity,
+  makeSkill,
 };
