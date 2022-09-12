@@ -3704,3 +3704,125 @@
 [35m[39m
 2022-09-08 20:20:53:2053 [35mhttp[39m: [35m::1 POST /api/v1/university 201 103 - 110.126 ms[39m
 [35m[39m
+2022-09-09 09:49:42:4942 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 09:49:42:4942 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 09:49:42 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 09:49:42:4942 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 09:49:42:4942 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 11:11:46:1146 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 11:11:46:1146 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 11:11:46 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 11:11:46:1146 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 11:11:46:1146 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 11:15:11:1511 [35mhttp[39m: [35m::1 POST /api/v1/area 401 12 - 283.188 ms[39m
+[35m[39m
+2022-09-09 11:16:12:1612 [31merror[39m: [31mcolumn students.area_id does not exist[39m
+2022-09-09 11:16:12:1612 [35mhttp[39m: [35m::1 GET /api/v1/student 400 50 - 707.366 ms[39m
+[35m[39m
+2022-09-09 11:35:21:3521 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 11:35:21:3521 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 11:35:21 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 11:35:21:3521 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 11:35:21:3521 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 11:37:22:3722 [35mhttp[39m: [35m::1 POST /api/v1/university 403 9 - 109.652 ms[39m
+[35m[39m
+2022-09-09 11:38:35:3835 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 11:38:35:3835 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 11:38:35 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 11:38:35:3835 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 11:38:35:3835 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 11:38:36:3836 [35mhttp[39m: [35m::1 POST /api/v1/university 201 103 - 781.096 ms[39m
+[35m[39m
+2022-09-09 11:39:11:3911 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 11:39:11:3911 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 11:39:11 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 11:39:11:3911 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 11:39:11:3911 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 11:39:16:3916 [35mhttp[39m: [35m::1 POST /api/v1/area 201 94 - 147.169 ms[39m
+[35m[39m
+2022-09-09 11:39:41:3941 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 11:39:41:3941 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 11:39:41 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 11:39:41:3941 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 11:39:41:3941 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 11:46:48:4648 [31merror[39m: [31mnotNull Violation: students.profileImage cannot be null[39m
+2022-09-09 11:46:48:4648 [35mhttp[39m: [35m::1 POST /api/v1/student 400 67 - 893.915 ms[39m
+[35m[39m
+2022-09-09 11:47:08:478 [31merror[39m: [31mFirebase Storage: No default bucket found. Did you set the 'storageBucket' property when initializing the app? (storage/no-default-bucket)[39m
+2022-09-09 11:47:08:478 [35mhttp[39m: [35m::1 POST /api/v1/student 400 150 - 42.219 ms[39m
+[35m[39m
+2022-09-09 11:51:08:518 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 11:51:08:518 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 11:51:08 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 11:51:08:518 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 11:51:08:518 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 11:51:26:5126 [35mhttp[39m: [35m::1 POST /api/v1/student - - - - ms[39m
+[35m[39m
+2022-09-09 11:51:34:5134 [35mhttp[39m: [35m::1 POST /api/v1/student 201 653 - 932.197 ms[39m
+[35m[39m
+2022-09-09 11:54:01:541 [35mhttp[39m: [35m::1 POST /api/v1/project 401 12 - 108.478 ms[39m
+[35m[39m
+2022-09-09 11:54:16:5416 [31merror[39m: [31minsert or update on table "projects" violates foreign key constraint "projects_company_id_fkey"[39m
+2022-09-09 11:54:16:5416 [35mhttp[39m: [35m::1 POST /api/v1/project 400 111 - 701.797 ms[39m
+[35m[39m
+2022-09-09 11:57:44:5744 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 201 766 - 745.686 ms[39m
+[35m[39m
+2022-09-09 11:58:31:5831 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 201 766 - 656.990 ms[39m
+[35m[39m
+2022-09-09 12:01:18:118 [31merror[39m: [31mFirebase Storage: Max retry time for operation exceeded, please try again. (storage/retry-limit-exceeded)[39m
+2022-09-09 12:05:44:544 [35mhttp[39m: [35m::1 POST /api/v1/student - - - - ms[39m
+[35m[39m
+2022-09-09 12:06:20:620 [35mhttp[39m: [35m::1 POST /api/v1/student - - - - ms[39m
+[35m[39m
+2022-09-09 12:06:25:625 [31merror[39m: [31mValidation error[39m
+2022-09-09 12:06:25:625 [35mhttp[39m: [35m::1 POST /api/v1/student 400 28 - 875.849 ms[39m
+[35m[39m
+2022-09-09 12:10:16:1016 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 12:10:16:1016 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 12:10:16 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 12:10:16:1016 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 12:10:16:1016 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 12:15:37:1537 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 12:15:37:1537 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 12:15:37 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 12:15:37:1537 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 12:15:37:1537 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 12:16:30:1630 [35mhttp[39m: [35m::1 POST /api/v1/student 201 649 - 1006.988 ms[39m
+[35m[39m
+2022-09-09 12:20:05:205 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 12:20:05:205 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 12:20:05 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 12:20:05:205 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 12:20:05:205 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 12:22:43:2243 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 12:22:43:2243 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 12:22:43 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 12:22:43:2243 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 12:22:43:2243 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 12:23:56:2356 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 12:23:56:2356 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 12:23:56 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 12:23:56:2356 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 12:23:56:2356 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-09 12:24:56:2456 [35mhttp[39m: [35m::1 POST /api/v1/student - - - - ms[39m
+[35m[39m
+2022-09-09 12:26:03:263 [32minfo[39m: [32mRunning in: development[39m
+2022-09-09 12:26:03:263 [32minfo[39m: [32mServer Time: Fri Sep 09 2022 12:26:03 GMT-0500 (Colombia Standard Time)[39m
+2022-09-09 12:26:03:263 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-09 12:26:03:263 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-12 16:23:24:2324 [32minfo[39m: [32mRunning in: development[39m
+2022-09-12 16:23:24:2324 [32minfo[39m: [32mServer Time: Mon Sep 12 2022 16:23:24 GMT-0500 (Colombia Standard Time)[39m
+2022-09-12 16:23:24:2324 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-12 16:23:24:2324 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-12 16:24:14:2414 [32minfo[39m: [32mRunning in: development[39m
+2022-09-12 16:24:14:2414 [32minfo[39m: [32mServer Time: Mon Sep 12 2022 16:24:14 GMT-0500 (Colombia Standard Time)[39m
+2022-09-12 16:24:14:2414 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-12 16:24:14:2414 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-09-12 16:27:43:2743 [32minfo[39m: [32mRunning in: development[39m
+2022-09-12 16:27:43:2743 [32minfo[39m: [32mServer Time: Mon Sep 12 2022 16:27:43 GMT-0500 (Colombia Standard Time)[39m
+2022-09-12 16:27:43:2743 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-09-12 16:27:43:2743 [32minfo[39m: [32mServer running on http://localhost:3000[39m

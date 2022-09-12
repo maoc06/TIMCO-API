@@ -205,3 +205,9 @@
 2022-09-08 20:19:34:1934 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
 2022-09-08 20:19:43:1943 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
 2022-09-08 20:19:50:1950 [31merror[39m: [31mauthentication process requires a username/email[39m
+2022-09-09 11:16:12:1612 [31merror[39m: [31mcolumn students.area_id does not exist[39m
+2022-09-09 11:46:48:4648 [31merror[39m: [31mnotNull Violation: students.profileImage cannot be null[39m
+2022-09-09 11:47:08:478 [31merror[39m: [31mFirebase Storage: No default bucket found. Did you set the 'storageBucket' property when initializing the app? (storage/no-default-bucket)[39m
+2022-09-09 11:54:16:5416 [31merror[39m: [31minsert or update on table "projects" violates foreign key constraint "projects_company_id_fkey"[39m
+2022-09-09 12:01:18:118 [31merror[39m: [31mFirebase Storage: Max retry time for operation exceeded, please try again. (storage/retry-limit-exceeded)[39m
+2022-09-09 12:06:25:625 [31merror[39m: [31mValidation error[39m
