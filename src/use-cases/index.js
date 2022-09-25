@@ -1,4 +1,5 @@
 import authUseCases from './auth';
+import candidatesUseCases from './candidates';
 import companyUseCases from './company';
 import projectUseCases from './project';
 import areaUseCases from './area';
@@ -9,6 +10,7 @@ import universityUseCase from './university';
 
 export {
   authUseCases,
+  candidatesUseCases,
   companyUseCases,
   projectUseCases,
   areaUseCases,

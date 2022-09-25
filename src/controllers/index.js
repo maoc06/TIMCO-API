@@ -1,4 +1,5 @@
 import authController from './auth';
+import candidateController from './candidate';
 import companyController from './company';
 import projectController from './project';
 import areaController from './area';
@@ -9,6 +10,7 @@ import universityController from './university';
 
 export {
   authController,
+  candidateController,
   companyController,
   projectController,
   areaController,

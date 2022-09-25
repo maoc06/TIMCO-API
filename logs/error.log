@@ -211,3 +211,28 @@
 2022-09-09 11:54:16:5416 [31merror[39m: [31minsert or update on table "projects" violates foreign key constraint "projects_company_id_fkey"[39m
 2022-09-09 12:01:18:118 [31merror[39m: [31mFirebase Storage: Max retry time for operation exceeded, please try again. (storage/retry-limit-exceeded)[39m
 2022-09-09 12:06:25:625 [31merror[39m: [31mValidation error[39m
+2022-09-24 12:01:24:124 [31merror[39m: [31mauthCompany is not a function[39m
+2022-09-24 12:03:19:319 [31merror[39m: [31mauthCompany is not a function[39m
+2022-09-24 12:09:07:97 [31merror[39m: [31mauthCompanyDb.findByEmail is not a function[39m
+2022-09-24 12:09:27:927 [31merror[39m: [31mauthCompanyDb.findByEmail is not a function[39m
+2022-09-24 12:12:15:1215 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-09-24 12:13:33:1333 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-09-24 12:21:35:2135 [31merror[39m: [31mCannot add property isCompany, object is not extensible[39m
+2022-09-24 12:22:11:2211 [31merror[39m: [31mCannot add property isCompany, object is not extensible[39m
+2022-09-24 12:22:52:2252 [31merror[39m: [31mCannot add property isCompany, object is not extensible[39m
+2022-09-24 12:22:58:2258 [31merror[39m: [31mCannot add property isCompany, object is not extensible[39m
+2022-09-24 12:43:51:4351 [31merror[39m: [31mcompany is not defined[39m
+2022-09-24 12:50:13:5013 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-09-24 12:50:45:5045 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-09-24 13:40:28:4028 [31merror[39m: [31mstudent id null[39m
+2022-09-24 13:44:34:4434 [31merror[39m: [31mhttpRequest is not defined[39m
+2022-09-24 13:45:39:4539 [31merror[39m: [31mhttpRequest is not defined[39m
+2022-09-24 13:45:40:4540 [31merror[39m: [31mhttpRequest is not defined[39m
+2022-09-24 13:45:42:4542 [31merror[39m: [31mhttpRequest is not defined[39m
+2022-09-24 15:37:53:3753 [31merror[39m: [31mhttpRequest is not defined[39m
+2022-09-24 15:38:14:3814 [31merror[39m: [31mhttpRequest is not defined[39m
+2022-09-24 15:40:27:4027 [31merror[39m: [31minsert or update on table "projects" violates foreign key constraint "projects_state_id_fkey"[39m
+2022-09-24 16:41:43:4143 [31merror[39m: [31mlistProjectsByStudent is not a function[39m
+2022-09-24 16:42:18:4218 [31merror[39m: [31mproject with id=1 does not exist.[39m
+2022-09-24 16:42:36:4236 [31merror[39m: [31minvalid input syntax for type uuid: "3"[39m
+2022-09-24 16:48:18:4818 [31merror[39m: [31mstudentDb.findByPhone is not a function[39m

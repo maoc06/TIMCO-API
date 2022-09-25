@@ -134,6 +134,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     return student;
   };
 
+
   Student.findByEmail = async (email) => {
     let student = await Student.findOne({
       // attributes: { exclude: ['password'] },

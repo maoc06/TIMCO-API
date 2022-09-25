@@ -1,3 +1,5 @@
+import CONSTANTS from "../../utils/constants";
+
 const getProjectModel = (sequelize, { DataTypes }) => {
   const Project = sequelize.define('projects', {
     projectId: {
@@ -96,6 +98,41 @@ const getProjectModel = (sequelize, { DataTypes }) => {
       where: { projectId },
     });
     return project;
+  };
+
+  Project.findByStudent = async (studentId, { skillModel }) => {
+    let projects = await Project.findAll({
+      // attributes: { exclude: ['stateId'] },
+      where: { studentId },
+      include: [{model: skillModel}]
+    });
+    return projects;
+  };
+
+  Project.findActiveByStudent = async (studentId, { companyModel, studentModel, stateModel, skillModel }) => {
+    let projects = await Project.findAll({
+      attributes: { exclude: ['stateId'] },
+      where: { stateId: CONSTANTS.ACTIVE_PROJECT_ID, studentId },
+      include: [
+        {
+          model: companyModel,
+          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+        },
+        {
+          model: studentModel,
+          attributes: { exclude: ['created', 'password'] },
+        },
+        {
+          model: stateModel,
+          attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
+        },
+      ],
+    });
+    return projects;
   };
 
   Project.findByIdCompose = async (

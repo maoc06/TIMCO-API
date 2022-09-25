@@ -7,6 +7,8 @@ function getAuthRoutes() {
   const router = express.Router();
 
   router.post('/student', makeCallback(authController.postAuthStudent));
+  router.post('/company', makeCallback(authController.postAuthCompany))
+  router.post('/', makeCallback(authController.postAuthGeneral))
 
   return router;
 }

@@ -2,7 +2,7 @@ import express from 'express';
 import multer from 'multer';
 
 import makeCallback from '../express-callback';
-import { studentController } from '../controllers';
+import { studentController, projectController } from '../controllers';
 
 function getStudentRoutes({ verifyToken }) {
   const router = express.Router();
@@ -12,6 +12,8 @@ function getStudentRoutes({ verifyToken }) {
   const uploadPhoto = multer({ storage }).single('profileImage');
 
   router.get('/', makeCallback(studentController.getAllStudents));
+  router.get('/projects/:studentId', makeCallback(projectController.getAllProjectsByStudent));
+  router.get('/projects/active/:studentId', makeCallback(projectController.getActiveProjectsByStudent));
 
   router.get('/:studentId', makeCallback(studentController.getStudent));
 
