@@ -28,6 +28,14 @@ export default function makeAddStudent({ studentDb, filesDb, handleToken }) {
 
     student.profileImage = photoUrl;
 
+    let isPhoneExist = await studentDb.findByPhone(student.phone)
+      if (!isPhoneExist){
+        throw new Error(
+          JSON.stringify({ status: 'error', message: 'create/phone-student-exists' })
+        );
+      
+
+    }
     return student;
   }
 

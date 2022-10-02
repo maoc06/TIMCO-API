@@ -16,6 +16,7 @@ import getServiceModel from './models/service';
 import getAreaService from './models/area_service';
 import getSkillService from './models/skills_service';
 import getSkillProject from './models/skills_project';
+import getCandidatesModel from './models/candidates';
 
 const client = new Sequelize(config.dbUri, {
   logging: false,
@@ -42,6 +43,7 @@ const models = {
   Service: getServiceModel(client, Sequelize),
   AreaService: getAreaService(client),
   SkillService: getSkillService(client),
+  Candidate: getCandidatesModel(client, Sequelize),
   SkillProject: getSkillProject(client),
 };
 
