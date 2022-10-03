@@ -8,7 +8,6 @@ export default function makePostStudent({ addStudent }) {
     try {
       const photo = httpRequest.file;
       const { ...studentInfo } = httpRequest.body;
-      console.log('Trying add student....');
       const accessToken = await addStudent({ ...studentInfo, photo });
       return {
         headers,

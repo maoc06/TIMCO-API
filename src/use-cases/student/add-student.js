@@ -28,6 +28,16 @@ export default function makeAddStudent({ studentDb, filesDb, handleToken }) {
 
     student.profileImage = photoUrl;
 
+    let isEmailExist = await studentDb.findByEmail(student.email);
+    if (isEmailExist) {
+      throw new Error(
+        JSON.stringify({
+          status: 'error',
+          message: 'create/email-student-exists',
+        })
+      );
+    }
+
     let isPhoneExist = await studentDb.findByPhone(student.phone);
     if (isPhoneExist) {
       throw new Error(
