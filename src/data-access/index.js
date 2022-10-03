@@ -17,6 +17,13 @@ const client = new Sequelize(config.dbUri, {
     underscored: true,
     underscoredAll: true,
   },
+  // solo para ambiente de produccion
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
+  },
 });
 
 const models = {
