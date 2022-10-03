@@ -48,11 +48,7 @@ export default function makeAuthGeneral({
 
   async function validateCompany({ email, password }) {
     let company = await authCompanyDb.findByEmail(email);
-    if (!company) {
-      throw new Error(
-        JSON.stringify({ status: 'error', message: 'auth/invalid-password' })
-      );
-    }
+    if (!company) return false;
 
     const validPassword = await bcrypt.compare(password, company.password);
     if (!validPassword) {
