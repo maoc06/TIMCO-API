@@ -134,11 +134,18 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     return student;
   };
 
-
   Student.findByEmail = async (email) => {
     let student = await Student.findOne({
-      // attributes: { exclude: ['password'] },
+      attributes: { exclude: ['password'] },
       where: { email },
+    });
+    return student;
+  };
+
+  Student.findByPhone = async (phone) => {
+    let student = await Student.findOne({
+      attributes: { exclude: ['password'] },
+      where: { phone },
     });
     return student;
   };
