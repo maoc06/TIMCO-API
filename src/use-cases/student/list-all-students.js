@@ -1,11 +1,11 @@
 export default function makeListAllStudents({
   studentDb,
-  roleModel,
+  areaModel,
   universityModel,
 }) {
   return async function listAllStudents() {
     const students = await studentDb.findStudents({
-      roleModel,
+      areaModel,
       universityModel,
     });
     return students;

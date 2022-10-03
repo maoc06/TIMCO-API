@@ -1,13 +1,14 @@
 export default function makeListStudent({
   studentDb,
-  roleModel,
+  areaModel,
   universityModel,
 }) {
   return async function listStudent({ studentId } = {}) {
     if (!studentId) throw new Error('student id null');
+    
 
     const existing = await studentDb.findByIdCompose(studentId, {
-      roleModel,
+      areaModel,
       universityModel,
     });
     if (!existing) {

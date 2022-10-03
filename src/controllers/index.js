@@ -1,13 +1,21 @@
+import authController from './auth';
+import candidateController from './candidate';
 import companyController from './company';
 import projectController from './project';
-import roleController from './role';
+import areaController from './area';
 import studentController from './student';
+import serviceController from './service';
+import skillController from './skill';
 import universityController from './university';
 
 export {
+  authController,
+  candidateController,
   companyController,
   projectController,
-  roleController,
+  areaController,
   studentController,
+  serviceController,
+  skillController,
   universityController,
 };

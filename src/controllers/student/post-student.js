@@ -6,17 +6,20 @@ export default function makePostStudent({ addStudent }) {
       'Content-Type': 'application/json',
     };
     try {
+      const photo = httpRequest.file;
       const { ...studentInfo } = httpRequest.body;
-      const student = await addStudent({ ...studentInfo });
+      console.log('Trying add student....')
+      const accessToken = await addStudent({ ...studentInfo, photo });
       return {
         headers,
         statusCode: 201,
         body: {
           message: 'student successfully added',
-          data: student,
+          accessToken: accessToken,
         },
       };
     } catch (e) {
+      console.log(e);
       logger.error(e.message);
       return {
         headers,

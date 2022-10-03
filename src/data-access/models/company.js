@@ -98,6 +98,14 @@ const getCompanyModel = (sequelize, { DataTypes }) => {
     return company;
   };
 
+ Company.findByEmail = async (email) => {
+    let company = await Company.findOne({
+      // attributes: { exclude: ['password'] },
+      where: { email },
+    });
+    return company;
+  };
+
   Company.updateById = async (companyData) => {
     const { companyId } = companyData;
     await Company.update({ ...companyData }, { where: { companyId } });

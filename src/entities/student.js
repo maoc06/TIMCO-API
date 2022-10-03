@@ -9,7 +9,7 @@ export default function buildMakeStudent() {
       currentSemester,
       aboutMe,
       profileImage,
-      roleId,
+      areaId,
     } = {
       ...entity,
     };
@@ -23,8 +23,7 @@ export default function buildMakeStudent() {
     if (!currentSemester)
       throw new Error('student must have a current semester assigned');
     if (!aboutMe) throw new Error('student must have a about me');
-    if (!profileImage) throw new Error('student must have a profile image');
-    if (!roleId) throw new Error('student must have an associated role id');
+    if (!areaId) throw new Error('student must have an associated role id');
 
     const student = Object.freeze({ ...entity });
     return student;

@@ -8,6 +8,7 @@ export default function buildMakeProject() {
       stateId,
       priceTotal,
       timelineDate,
+      skills,
     } = {
       ...entity,
     };
@@ -22,6 +23,11 @@ export default function buildMakeProject() {
     if (!description) throw new Error('project must have a description');
     if (!priceTotal) throw new Error('project must have a total price');
     if (!timelineDate) throw new Error('project must have a timeline date');
+    if (!skills) throw new Error('project must have a set of skills');
+    if (!Array.isArray(skills))
+      throw new Error(
+        'The skills associated with the project must be a list of kills IDs.'
+      );
 
     const project = Object.freeze({ ...entity });
     return project;

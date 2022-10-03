@@ -1,3 +1,5 @@
+import CONSTANTS from "../../utils/constants";
+
 const getProjectModel = (sequelize, { DataTypes }) => {
   const Project = sequelize.define('projects', {
     projectId: {
@@ -52,6 +54,10 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     Project.belongsTo(models.Company, { foreignKey: 'companyId' });
     Project.belongsTo(models.Student, { foreignKey: 'studentId' });
     Project.belongsTo(models.State, { foreignKey: 'stateId' });
+    Project.belongsToMany(models.Skill, {
+      through: models.SkillProject,
+      foreignKey: 'projectId',
+    });
   };
 
   Project.add = async (projectData) => {
@@ -59,7 +65,12 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     return project;
   };
 
-  Project.findProjects = async ({ companyModel, studentModel, stateModel }) => {
+  Project.findProjects = async ({
+    companyModel,
+    studentModel,
+    stateModel,
+    skillModel,
+  }) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId', 'studentId', 'companyId'] },
       include: [
@@ -75,6 +86,7 @@ const getProjectModel = (sequelize, { DataTypes }) => {
           model: stateModel,
           attributes: { exclude: ['created'] },
         },
+        { model: skillModel, attributes: ['name'] },
       ],
     });
     return projects;
@@ -88,9 +100,44 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     return project;
   };
 
+  Project.findByStudent = async (studentId, { skillModel }) => {
+    let projects = await Project.findAll({
+      // attributes: { exclude: ['stateId'] },
+      where: { studentId },
+      include: [{model: skillModel}]
+    });
+    return projects;
+  };
+
+  Project.findActiveByStudent = async (studentId, { companyModel, studentModel, stateModel, skillModel }) => {
+    let projects = await Project.findAll({
+      attributes: { exclude: ['stateId'] },
+      where: { stateId: CONSTANTS.ACTIVE_PROJECT_ID, studentId },
+      include: [
+        {
+          model: companyModel,
+          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+        },
+        {
+          model: studentModel,
+          attributes: { exclude: ['created', 'password'] },
+        },
+        {
+          model: stateModel,
+          attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
+        },
+      ],
+    });
+    return projects;
+  };
+
   Project.findByIdCompose = async (
     projectId,
-    { companyModel, studentModel, stateModel }
+    { companyModel, studentModel, stateModel, skillModel }
   ) => {
     let project = await Project.findOne({
       attributes: { exclude: ['stateId'] },
@@ -107,6 +154,10 @@ const getProjectModel = (sequelize, { DataTypes }) => {
         {
           model: stateModel,
           attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
         },
       ],
     });

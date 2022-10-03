@@ -20,6 +20,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     email: {
       type: DataTypes.STRING,
       allowNull: false,
+      unique: true,
       validate: {
         isEmail: true,
       },
@@ -34,6 +35,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     phone: {
       type: DataTypes.STRING,
       allowNull: false,
+      unique: true,
       validate: {
         notEmpty: true,
       },
@@ -57,6 +59,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     linkedinUrl: {
       type: DataTypes.STRING,
       allowNull: true,
+      unique: true,
       field: 'linkedin',
       validate: {
         isUrl: true,
@@ -65,6 +68,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     portfolioUrl: {
       type: DataTypes.STRING,
       allowNull: true,
+      unique: true,
       field: 'portfolio',
       validate: {
         isUrl: true,
@@ -85,7 +89,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
         isUrl: true,
       },
     },
-    roleId: {
+    areaId: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
@@ -97,7 +101,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
 
   Student.associate = (models) => {
     Student.belongsTo(models.University, { foreignKey: 'universityId' });
-    Student.belongsTo(models.Role, { foreignKey: 'roleId' });
+    Student.belongsTo(models.Area, { foreignKey: 'areaId' });
   };
 
   Student.add = async (studentData) => {
@@ -105,16 +109,16 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     return student;
   };
 
-  Student.findStudents = async ({ roleModel, universityModel }) => {
+  Student.findStudents = async ({ areaModel, universityModel }) => {
     let students = await Student.findAll({
-      attributes: { exclude: ['password', 'roleId', 'universityId'] },
+      attributes: { exclude: ['password', 'areaId', 'universityId'] },
       include: [
         {
           model: universityModel,
           attributes: { exclude: ['created'] },
         },
         {
-          model: roleModel,
+          model: areaModel,
           attributes: { exclude: ['created'] },
         },
       ],
@@ -130,12 +134,21 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     return student;
   };
 
+
+  Student.findByEmail = async (email) => {
+    let student = await Student.findOne({
+      // attributes: { exclude: ['password'] },
+      where: { email },
+    });
+    return student;
+  };
+
   Student.findByIdCompose = async (
     studentId,
-    { roleModel, universityModel }
+    { areaModel, universityModel }
   ) => {
     let student = await Student.findOne({
-      attributes: { exclude: ['password', 'roleId', 'universityId'] },
+      attributes: { exclude: ['password', 'areaId', 'universityId'] },
       where: { studentId },
       include: [
         {
@@ -143,7 +156,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
           attributes: { exclude: ['created'] },
         },
         {
-          model: roleModel,
+          model: areaModel,
           attributes: { exclude: ['created'] },
         },
       ],
