@@ -29,7 +29,7 @@ export default function makeAddStudent({ studentDb, filesDb, handleToken }) {
     student.profileImage = photoUrl;
 
     let isPhoneExist = await studentDb.findByPhone(student.phone);
-    if (!isPhoneExist) {
+    if (isPhoneExist) {
       throw new Error(
         JSON.stringify({
           status: 'error',

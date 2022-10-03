@@ -8,7 +8,7 @@ export default function makePostStudent({ addStudent }) {
     try {
       const photo = httpRequest.file;
       const { ...studentInfo } = httpRequest.body;
-      console.log('Trying add student....')
+      console.log('Trying add student....');
       const accessToken = await addStudent({ ...studentInfo, photo });
       return {
         headers,
@@ -19,13 +19,12 @@ export default function makePostStudent({ addStudent }) {
         },
       };
     } catch (e) {
-      console.log(e);
       logger.error(e.message);
       return {
         headers,
         statusCode: 400,
         body: {
-          error: e.message,
+          error: JSON.parse(e.message),
         },
       };
     }
