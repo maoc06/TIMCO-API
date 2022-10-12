@@ -134,6 +134,148 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     });
     return projects;
   };
+  
+  //Metodo encontrar projectos en progreso por estudiante
+
+  Project.findInProgressByStudent = async (studentId, { companyModel, studentModel, stateModel, skillModel }) => {
+    let projects = await Project.findAll({
+      attributes: { exclude: ['stateId'] },
+      where: { stateId: CONSTANTS.INPROGRESS_PROJECT_ID, studentId },
+      include: [
+        {
+          model: companyModel,
+          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+        },
+        {
+          model: studentModel,
+          attributes: { exclude: ['created', 'password'] },
+        },
+        {
+          model: stateModel,
+          attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
+        },
+      ],
+    });
+    return projects;
+  };
+
+
+  //Metodo encontrar projectos finalizados por estudiante
+
+  Project.findFinishedByStudent = async (studentId, { companyModel, studentModel, stateModel, skillModel }) => {
+    let projects = await Project.findAll({
+      attributes: { exclude: ['stateId'] },
+      where: { stateId: CONSTANTS.FINISHED_PROJECT_ID, studentId },
+      include: [
+        {
+          model: companyModel,
+          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+        },
+        {
+          model: studentModel,
+          attributes: { exclude: ['created', 'password'] },
+        },
+        {
+          model: stateModel,
+          attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
+        },
+      ],
+    });
+    return projects;
+  };
+  
+//Metodo encontrar projectos activos por compañia
+
+  Project.findActiveByCompany = async (companyId, { companyModel, studentModel, stateModel, skillModel }) => {
+    let projects = await Project.findAll({
+      attributes: { exclude: ['stateId'] },
+      where: { stateId: CONSTANTS.ACTIVE_PROJECT_ID, companyId },
+      include: [
+        {
+          model: companyModel,
+          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+        },
+        {
+          model: studentModel,
+          attributes: { exclude: ['created', 'password'] },
+        },
+        {
+          model: stateModel,
+          attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
+        },
+      ],
+    });
+    return projects;
+  };
+
+  //Metodo encontrar projectos en progreso por compañia
+
+  Project.findInProgressByCompany = async (companyId, { companyModel, studentModel, stateModel, skillModel }) => {
+    let projects = await Project.findAll({
+      attributes: { exclude: ['stateId'] },
+      where: { stateId: CONSTANTS.INPROGRESS_PROJECT_ID, companyId },
+      include: [
+        {
+          model: companyModel,
+          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+        },
+        {
+          model: studentModel,
+          attributes: { exclude: ['created', 'password'] },
+        },
+        {
+          model: stateModel,
+          attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
+        },
+      ],
+    });
+    return projects;
+  };
+
+  //Metodo encontrar projectos finalizados por compañia
+
+  Project.findFinishedByCompany = async (companyId, { companyModel, studentModel, stateModel, skillModel }) => {
+    let projects = await Project.findAll({
+      attributes: { exclude: ['stateId'] },
+      where: { stateId: CONSTANTS.FINISHED_PROJECT_ID, companyId },
+      include: [
+        {
+          model: companyModel,
+          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+        },
+        {
+          model: studentModel,
+          attributes: { exclude: ['created', 'password'] },
+        },
+        {
+          model: stateModel,
+          attributes: { exclude: ['created'] },
+        },
+        {
+          model: skillModel,
+          attributes: ['name'],
+        },
+      ],
+    });
+    return projects;
+  };
+
 
   Project.findByIdCompose = async (
     projectId,

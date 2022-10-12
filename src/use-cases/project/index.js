@@ -12,6 +12,8 @@ import makeAddProjectReview from './add-project-review';
 import makeUpdateProject from './update-project';
 import makeListProjectsByStudent from './list-student-projects';
 import makeListActiveProjectsByStudent from './list-active-projects-by-student';
+import makeListInProgressProjectsByStudent from './list-inProgress-projects-by-student';
+import makeListFinishedProjectsByStudent from './list-finished-projects-by-student';
 
 const listAllProjects = makeListAllProjects({
   projectDb: Project,
@@ -44,6 +46,13 @@ const listProjectReviewByProject = makeListProjectReviewByProject({
 const listActiveProjectsByStudent = makeListActiveProjectsByStudent({
   projectModel: Project, companyModel: Company, skillModel: Skill, stateModel: State, studentModel: Student
 });
+const listInProgressProjectsByStudent = makeListInProgressProjectsByStudent({
+  projectModel: Project, companyModel: Company, skillModel: Skill, stateModel: State, studentModel: Student
+});
+
+const listFinishedProjectsByStudent = makeListFinishedProjectsByStudent({
+  projectModel: Project, companyModel: Company, skillModel: Skill, stateModel: State, studentModel: Student
+});
 
 const listProjectReviewByCompany = makeListProjectReviewByCompany({
   projectReviewDb: ProjectReview,
@@ -71,6 +80,8 @@ const updateProject = makeUpdateProject({ projectDb: Project });
 
 export default {
   listActiveProjectsByStudent,
+  listInProgressProjectsByStudent,
+  listFinishedProjectsByStudent,
   listAllProjects,
   listProject,
   listProjectsByStudent,
