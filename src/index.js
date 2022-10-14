@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 
 var pkg = require('../package.json');
 import { config } from '../config/index';
@@ -7,6 +8,7 @@ import morgan from './utils/middlewares/morgan.middleware';
 import logger from './utils/logger';
 import getRoutes from './routes';
 
+
 // initialization
 const app = express();
 
@@ -14,6 +16,7 @@ const app = express();
 app.use(morgan);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 // routes
 app.use(`/api/v${config.apiVersion}`, getRoutes());
