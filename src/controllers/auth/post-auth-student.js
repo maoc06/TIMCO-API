@@ -10,12 +10,13 @@ export default function makePostAuthStudent({ authStudent }) {
       let access = await authStudent(credentials);
       return {
         headers,
-        statusCode: 201,
+        statusCode: 200,
         body: {
           access,
         },
       };
     } catch (e) {
+      console.log(e)
       logger.error(e.message);
       return {
         headers,

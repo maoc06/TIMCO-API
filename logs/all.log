@@ -4628,3 +4628,103 @@
 2022-09-24 16:49:51:4951 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
 [32m[39m
 2022-09-24 16:49:51:4951 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 17:03:41:341 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 17:03:41:341 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 17:03:41 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 17:03:41:341 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 17:03:41:341 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 17:04:26:426 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 17:04:26:426 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 17:04:26 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 17:04:26:426 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 17:04:26:426 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 17:04:45:445 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 201 756 - 229.578 ms[39m
+[35m[39m
+2022-10-14 17:05:07:57 [31merror[39m: [31mauthentication process requires a username/email[39m
+2022-10-14 17:05:07:57 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 500 37 - 23.701 ms[39m
+[35m[39m
+2022-10-14 17:05:50:550 [31merror[39m: [31mauthentication process requires a username/email[39m
+2022-10-14 17:05:50:550 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 500 37 - 7.547 ms[39m
+[35m[39m
+2022-10-14 17:07:20:720 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 17:07:20:720 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 17:07:20 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 17:07:20:720 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 17:07:20:720 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 17:07:31:731 [31merror[39m: [31mauthentication process requires a username/email[39m
+2022-10-14 17:07:31:731 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 500 37 - 31.464 ms[39m
+[35m[39m
+2022-10-14 17:08:18:818 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 17:08:19:819 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 17:08:19 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 17:08:19:819 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 17:08:19:819 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 17:08:20:820 [31merror[39m: [31mauthentication process requires a username/email[39m
+2022-10-14 17:08:21:821 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 500 37 - 35.634 ms[39m
+[35m[39m
+2022-10-14 17:08:42:842 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 201 756 - 224.269 ms[39m
+[35m[39m
+2022-10-14 17:09:25:925 [31merror[39m: [31mauthentication process requires a username/email[39m
+2022-10-14 17:09:25:925 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 500 37 - 8.760 ms[39m
+[35m[39m
+2022-10-14 17:09:54:954 [31merror[39m: [31mauthentication process requires a username/email[39m
+2022-10-14 17:09:54:954 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 500 37 - 8.251 ms[39m
+[35m[39m
+2022-10-14 17:10:42:1042 [31merror[39m: [31mauthentication process requires a username/email[39m
+2022-10-14 17:10:42:1042 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 500 37 - 7.750 ms[39m
+[35m[39m
+2022-10-14 17:14:53:1453 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 1.173 ms[39m
+[35m[39m
+2022-10-14 17:14:53:1453 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-14 17:14:53:1453 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 400 62 - 210.355 ms[39m
+[35m[39m
+2022-10-14 17:15:32:1532 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.520 ms[39m
+[35m[39m
+2022-10-14 17:15:32:1532 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-14 17:15:32:1532 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 400 60 - 77.047 ms[39m
+[35m[39m
+2022-10-14 17:16:24:1624 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.332 ms[39m
+[35m[39m
+2022-10-14 17:16:24:1624 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 201 756 - 284.071 ms[39m
+[35m[39m
+2022-10-14 17:16:46:1646 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.258 ms[39m
+[35m[39m
+2022-10-14 17:16:46:1646 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-14 17:16:46:1646 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 400 62 - 174.184 ms[39m
+[35m[39m
+2022-10-14 17:17:05:175 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.380 ms[39m
+[35m[39m
+2022-10-14 17:17:05:175 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-14 17:17:05:175 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 400 60 - 120.852 ms[39m
+[35m[39m
+2022-10-14 17:17:10:1710 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.209 ms[39m
+[35m[39m
+2022-10-14 17:17:10:1710 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 201 756 - 113.402 ms[39m
+[35m[39m
+2022-10-14 17:17:19:1719 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 17:17:19:1719 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 17:17:19 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 17:17:19:1719 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 17:17:19:1719 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 17:17:24:1724 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 17:17:24:1724 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 17:17:24 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 17:17:24:1724 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 17:17:24:1724 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 17:20:54:2054 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 2.957 ms[39m
+[35m[39m
+2022-10-14 17:20:54:2054 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 201 756 - 245.498 ms[39m
+[35m[39m
+2022-10-14 17:21:54:2154 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.511 ms[39m
+[35m[39m
+2022-10-14 17:21:55:2155 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 201 756 - 205.164 ms[39m
+[35m[39m
+2022-10-14 17:23:02:232 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 17:23:02:232 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 17:23:02 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 17:23:02:232 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 17:23:02:232 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 17:23:07:237 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 3.839 ms[39m
+[35m[39m
+2022-10-14 17:23:07:237 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 200 756 - 195.558 ms[39m
+[35m[39m
