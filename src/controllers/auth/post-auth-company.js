@@ -10,7 +10,7 @@ export default function makePostAuthCompany({ authCompany }) {
       let access = await authCompany(credentials);
       return {
         headers,
-        statusCode: 201,
+        statusCode: 200,
         body: {
           access,
         },
