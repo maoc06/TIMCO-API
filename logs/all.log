@@ -5411,3 +5411,66 @@
 2022-10-14 20:12:21:1221 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
 2022-10-14 20:12:21:1221 [35mhttp[39m: [35m::1 POST /api/v1/company 400 68 - 72.224 ms[39m
 [35m[39m
+2022-10-14 20:15:10:1510 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 20:15:10:1510 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 20:15:10 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 20:15:10:1510 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 20:15:10:1510 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-10-14 20:15:14:1514 [35mhttp[39m: [35m::1 GET /api/v1/skill 200 177 - 17.878 ms[39m
+[35m[39m
+2022-10-14 20:15:24:1524 [35mhttp[39m: [35m::1 GET /api/v1/service 200 45 - 28.429 ms[39m
+[35m[39m
+2022-10-14 20:15:33:1533 [35mhttp[39m: [35m::1 GET /api/v1/area 200 105 - 13.563 ms[39m
+[35m[39m
+2022-10-14 20:16:15:1615 [31merror[39m: [31mservice with id=1 does not exist[39m
+2022-10-14 20:16:15:1615 [35mhttp[39m: [35m::1 GET /api/v1/service/1 400 44 - 68.654 ms[39m
+[35m[39m
+2022-10-14 20:16:19:1619 [35mhttp[39m: [35m::1 GET /api/v1/service 200 45 - 3.256 ms[39m
+[35m[39m
+2022-10-14 20:16:24:1624 [35mhttp[39m: [35m::1 POST /api/v1/service 401 12 - 33.581 ms[39m
+[35m[39m
+2022-10-14 20:16:41:1641 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 200 756 - 207.127 ms[39m
+[35m[39m
+2022-10-14 20:16:51:1651 [35mhttp[39m: [35m::1 POST /api/v1/service 201 112 - 30.555 ms[39m
+[35m[39m
+2022-10-14 20:16:55:1655 [35mhttp[39m: [35m::1 GET /api/v1/service 200 121 - 8.574 ms[39m
+[35m[39m
+2022-10-14 20:17:09:179 [35mhttp[39m: [35m::1 GET /api/v1/service/1 200 114 - 63.467 ms[39m
+[35m[39m
+2022-10-14 20:17:29:1729 [35mhttp[39m: [35m::1 POST /api/v1/skill 401 12 - 1.276 ms[39m
+[35m[39m
+2022-10-14 20:18:22:1822 [35mhttp[39m: [35m::1 POST /api/v1/skill 201 93 - 71.224 ms[39m
+[35m[39m
+2022-10-14 20:18:36:1836 [35mhttp[39m: [35m::1 GET /api/v1/service 200 185 - 67.149 ms[39m
+[35m[39m
+2022-10-14 20:18:50:1850 [35mhttp[39m: [35m::1 POST /api/v1/skill 201 94 - 75.519 ms[39m
+[35m[39m
+2022-10-14 20:18:55:1855 [35mhttp[39m: [35m::1 GET /api/v1/service 200 251 - 8.184 ms[39m
+[35m[39m
+2022-10-14 20:19:36:1936 [31merror[39m: [31mstudent with uuid=1b7a5283-da71-4e9a-b955-ef6c5076082e does not exist.[39m
+2022-10-14 20:19:36:1936 [35mhttp[39m: [35m::1 GET /api/v1/project/review/student/1b7a5283-da71-4e9a-b955-ef6c5076082e 400 82 - 165.998 ms[39m
+[35m[39m
+2022-10-14 20:19:43:1943 [35mhttp[39m: [35m::1 GET /api/v1/student 200 563 - 11.073 ms[39m
+[35m[39m
+2022-10-14 20:19:54:1954 [35mhttp[39m: [35m::1 GET /api/v1/project/review/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 59 - 174.971 ms[39m
+[35m[39m
+2022-10-14 20:20:09:209 [35mhttp[39m: [35m::1 GET /api/v1/project 200 895 - 141.263 ms[39m
+[35m[39m
+2022-10-14 20:20:26:2026 [35mhttp[39m: [35m::1 GET /api/v1/project/review/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 59 - 75.427 ms[39m
+[35m[39m
+2022-10-14 20:20:47:2047 [35mhttp[39m: [35m::1 GET /api/v1/student/projects/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 63 - 69.775 ms[39m
+[35m[39m
+2022-10-14 20:22:10:2210 [31merror[39m: [31mstudent with uuid=bf9ad24f-5c03-47d9-9f4e-ac6512c3500c does not exist.[39m
+2022-10-14 20:22:10:2210 [35mhttp[39m: [35m::1 GET /api/v1/student/projects/bf9ad24f-5c03-47d9-9f4e-ac6512c3500c 400 82 - 72.451 ms[39m
+[35m[39m
+2022-10-14 20:22:25:2225 [35mhttp[39m: [35m::1 GET /api/v1/student/projects/60e32c54-3771-4189-936b-c92f28be2ebe 200 289 - 70.376 ms[39m
+[35m[39m
+2022-10-14 20:23:13:2313 [35mhttp[39m: [35m::1 GET /api/v1/student/projects/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 63 - 71.082 ms[39m
+[35m[39m
+2022-10-14 20:23:26:2326 [35mhttp[39m: [35m::1 GET /api/v1/student/projects/60e32c54-3771-4189-936b-c92f28be2ebe 200 289 - 64.160 ms[39m
+[35m[39m
+2022-10-14 20:29:23:2923 [32minfo[39m: [32mRunning in: development[39m
+2022-10-14 20:29:23:2923 [32minfo[39m: [32mServer Time: Fri Oct 14 2022 20:29:23 GMT-0500 (Colombia Standard Time)[39m
+2022-10-14 20:29:23:2923 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-10-14 20:29:23:2923 [32minfo[39m: [32mServer running on http://localhost:3000[39m
