@@ -22,7 +22,7 @@ export default function makePostCompany({ addCompany }) {
         headers,
         statusCode: 400,
         body: {
-          error: e.message,
+          error: JSON.parse(e.message)
         },
       };
     }

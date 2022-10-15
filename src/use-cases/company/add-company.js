@@ -16,6 +16,16 @@ export default function makeAddCompany({ companyDb }) {
 
   async function validate(companyData) {
     const company = makeCompany(companyData);
+    let isEmailExist = await companyDb.findByEmail(company.email);
+    if (isEmailExist) {
+      throw new Error(
+        JSON.stringify({
+          status: 'error',
+          message: 'create/email-company-exists',
+        })
+      );
+    }
+
     return company;
   }
 

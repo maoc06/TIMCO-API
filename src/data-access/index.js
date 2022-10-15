@@ -26,12 +26,12 @@ const client = new Sequelize(config.dbUri, {
     underscoredAll: true,
   },
   // solo para ambiente de produccion
-  dialectOptions: {
-    ssl: {
-      require: true,
-      rejectUnauthorized: false,
-    },
-  },
+  // dialectOptions: {
+  //   ssl: {
+  //     require: true,
+  //     rejectUnauthorized: false,
+  //   },
+  // },
 });
 
 // CONFIG FIREBASE CLIENT

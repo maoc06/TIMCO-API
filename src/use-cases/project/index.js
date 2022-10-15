@@ -11,6 +11,7 @@ import makeAddProject from './add-project';
 import makeAddProjectReview from './add-project-review';
 import makeUpdateProject from './update-project';
 import makeListProjectsByStudent from './list-student-projects';
+import makeListActiveProjectsByCompany from './list-active-projects-by-company';
 import makeListActiveProjectsByStudent from './list-active-projects-by-student';
 import makeListInProgressProjectsByStudent from './list-inProgress-projects-by-student';
 import makeListFinishedProjectsByStudent from './list-finished-projects-by-student';
@@ -26,7 +27,7 @@ const listAllProjects = makeListAllProjects({
 const listProjectsByStudent = makeListProjectsByStudent({
   projectModel: Project,
   skillModel: Skill,
-  studentDb: Student
+  studentDb: Student,
 });
 
 const listProject = makeListProject({
@@ -44,14 +45,26 @@ const listProjectReviewByProject = makeListProjectReviewByProject({
 });
 
 const listActiveProjectsByStudent = makeListActiveProjectsByStudent({
-  projectModel: Project, companyModel: Company, skillModel: Skill, stateModel: State, studentModel: Student
+  projectModel: Project,
+  companyModel: Company,
+  skillModel: Skill,
+  stateModel: State,
+  studentModel: Student,
 });
 const listInProgressProjectsByStudent = makeListInProgressProjectsByStudent({
-  projectModel: Project, companyModel: Company, skillModel: Skill, stateModel: State, studentModel: Student
+  projectModel: Project,
+  companyModel: Company,
+  skillModel: Skill,
+  stateModel: State,
+  studentModel: Student,
 });
 
 const listFinishedProjectsByStudent = makeListFinishedProjectsByStudent({
-  projectModel: Project, companyModel: Company, skillModel: Skill, stateModel: State, studentModel: Student
+  projectModel: Project,
+  companyModel: Company,
+  skillModel: Skill,
+  stateModel: State,
+  studentModel: Student,
 });
 
 const listProjectReviewByCompany = makeListProjectReviewByCompany({
@@ -78,6 +91,14 @@ const addProjectReview = makeAddProjectReview({
 
 const updateProject = makeUpdateProject({ projectDb: Project });
 
+const listActiveProjectsByCompany = makeListActiveProjectsByCompany({
+  companyModel: Company,
+  projectModel: Project,
+  skillModel: Skill,
+  stateModel: State,
+  studentModel: Student,
+});
+
 export default {
   listActiveProjectsByStudent,
   listInProgressProjectsByStudent,
@@ -91,4 +112,5 @@ export default {
   addProject,
   addProjectReview,
   updateProject,
+  listActiveProjectsByCompany,
 };

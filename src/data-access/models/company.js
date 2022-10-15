@@ -30,10 +30,10 @@ const getCompanyModel = (sequelize, { DataTypes }) => {
     },
     phone: {
       type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        notEmpty: true,
-      },
+      // allowNull: true,
+      // validate: {
+      //   notEmpty: true,
+      // },
     },
     employeeNumber: {
       type: DataTypes.INTEGER,
@@ -41,22 +41,22 @@ const getCompanyModel = (sequelize, { DataTypes }) => {
     },
     linkedinUrl: {
       type: DataTypes.STRING,
-      allowNull: true,
+      // allowNull: true,
       field: 'linkedin',
-      validate: {
-        isUrl: true,
-      },
+      // validate: {
+      //   isUrl: true,
+      // },
     },
     website: {
       type: DataTypes.STRING,
-      allowNull: true,
-      validate: {
-        isUrl: true,
-      },
+      // allowNull: true,
+      // validate: {
+      //   isUrl: true,
+      // },
     },
     talentModality: {
       type: DataTypes.BOOLEAN,
-      allowNull: false,
+      allowNull: true,
       defaultValue: true,
     },
     aboutMe: {
@@ -64,17 +64,17 @@ const getCompanyModel = (sequelize, { DataTypes }) => {
     },
     profileImage: {
       type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        isUrl: true,
-      },
+      // allowNull: true,
+      // validate: {
+      //   isUrl: true,
+      // },
     },
     marketTime: {
       type: DataTypes.INTEGER,
     },
     created: {
       type: DataTypes.DATE,
-      allowNull: true,
+      // allowNull: true,
     },
   });
 

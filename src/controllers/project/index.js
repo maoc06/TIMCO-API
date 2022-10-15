@@ -7,6 +7,7 @@ import makeGetProjectReviewByStudent from './get-project-review-by-student';
 import makeGetProjectReviewByProject from './get-project-review-by-project';
 import makeGetAllProjectsByStudent from './get-all-projetc-by-student';
 import makeGetActiveProjectsByStudent from './get-active-projetcs-by-student';
+import makeGetActiveProjectsByCompany from './get-active-projetcs-by-company';
 import makePostProject from './post-project';
 import makePostProjectReview from './post-project-review';
 import makePutProject from './put-project';
@@ -21,7 +22,8 @@ const {
   listProjectReviewByProject,
   listProjectsByStudent,
   updateProject,
-  listActiveProjectsByStudent
+  listActiveProjectsByStudent,
+  listActiveProjectsByCompany
 } = projectUseCases;
 
 const getAllProjects = makeGetAllProjects({ listAllProjects });
@@ -30,6 +32,7 @@ const getProject = makeGetProject({ listProject });
 
 const getAllProjectsByStudent = makeGetAllProjectsByStudent({ listProjectsByStudent });
 const getActiveProjectsByStudent = makeGetActiveProjectsByStudent({ listActiveProjectsByStudent });
+const getActiveProjectsByCompany = makeGetActiveProjectsByCompany({ listActiveProjectsByCompany });
 
 const getProjectReviewByCompany = makeGetProjectReviewByCompany({
   listProjectReviewByCompany,
@@ -60,4 +63,5 @@ export default {
   postProject,
   postProjectReview,
   putProject,
+  getActiveProjectsByCompany
 };

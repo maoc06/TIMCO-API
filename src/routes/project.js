@@ -35,6 +35,10 @@ function getProjectRoutes({ verifyToken }) {
 
   router.put('/', verifyToken, makeCallback(projectController.putProject));
 
+
+  router.get('/company/active/:companyId', makeCallback(projectController.getActiveProjectsByCompany));
+
+
   return router;
 }
 

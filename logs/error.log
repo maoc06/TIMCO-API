@@ -247,3 +247,79 @@
 2022-10-14 17:15:32:1532 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
 2022-10-14 17:16:46:1646 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
 2022-10-14 17:17:05:175 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-14 17:49:36:4936 [31merror[39m: [31mcompany must have a phone[39m
+2022-10-14 17:56:43:5643 [31merror[39m: [31mcompany must have a phone[39m
+2022-10-14 17:57:13:5713 [31merror[39m: [31mnotNull Violation: company.phone cannot be null,[39m
+[31mnotNull Violation: company.profileImage cannot be null[39m
+2022-10-14 18:02:38:238 [31merror[39m: [31mnull value in column "phone" violates not-null constraint[39m
+2022-10-14 18:13:04:134 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:16:10:1610 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:19:11:1911 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:19:13:1913 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:20:26:2026 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:20:40:2040 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:21:38:2138 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:22:08:228 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:22:11:2211 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:22:12:2212 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:22:13:2213 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:22:14:2214 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:22:15:2215 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:22:40:2240 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:23:11:2311 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:24:14:2414 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:25:24:2524 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:26:51:2651 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:26:51:2651 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:37:37:3737 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:40:38:4038 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:41:55:4155 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:43:29:4329 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:45:43:4543 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:45:43:4543 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:46:36:4636 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:46:36:4636 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:47:08:478 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:51:18:5118 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:51:44:5144 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:53:15:5315 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:54:36:5436 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 18:54:48:5448 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:03:20:320 [31merror[39m: [31mstudentDb is not defined[39m
+2022-10-14 19:03:46:346 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:04:09:49 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:05:29:529 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:05:29:529 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:05:49:549 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:07:35:735 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:07:35:735 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:08:10:810 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:08:10:810 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:09:02:92 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:10:49:1049 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:11:55:1155 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:13:20:1320 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:15:30:1530 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:17:02:172 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:18:59:1859 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:20:19:2019 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:22:46:2246 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:24:36:2436 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:24:40:2440 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:26:14:2614 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:26:37:2637 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:26:49:2649 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:28:09:289 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:31:35:3135 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:32:29:3229 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:32:49:3249 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:33:05:335 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:35:28:3528 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:36:26:3626 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:39:33:3933 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:39:57:3957 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:40:44:4044 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:41:32:4132 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-14 19:54:14:5414 [31merror[39m: [31mstudent with uuid=bf9ad24f-5c03-47d9-9f4e-ac6512c3500c does not exist.[39m
+2022-10-14 20:05:10:510 [31merror[39m: [31mproject must have a set of skills[39m
+2022-10-14 20:12:21:1221 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
