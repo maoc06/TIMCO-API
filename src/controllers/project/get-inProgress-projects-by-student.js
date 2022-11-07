@@ -1,20 +1,20 @@
 import logger from '../../utils/logger';
 
-export default function makeGetAllCandidatesByProject({ listCandidatesByProject }) {
-  return async function getAllCandidatesByProjects(httpRequest) {
+export default function makeGetInProgressProjectsByStudent({ listInProgressProjectsByStudent }) {
+  return async function getInProgressProjectsByStudent(httpRequest) {
     const headers = {
       'Content-Type': 'application/json',
     };
     try {
-      const { projectId } = httpRequest.params;
+      const { studentId } = httpRequest.params;
 
-      const candidates = await listCandidatesByProject({projectId});
+      const projects = await listInProgressProjectsByStudent({studentId});
       return {
         headers,
         statusCode: 200,
         body: {
-          message: 'retrieve all candidates by project',
-          data: candidates,
+          message: 'retrieve all In progress projects by student',
+          data: projects,
         },
       };
     } catch (e) {

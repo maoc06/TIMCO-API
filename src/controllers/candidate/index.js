@@ -1,13 +1,24 @@
 import { candidatesUseCases } from '../../use-cases';
 
 import makeGetCandidateByProject from './get-candidates-by-project';
+import makeGetAllCandidateByStudent from './get-candidates-by-student';
+import makePutCandidate from './put-candidate';
+import makePostCandidate from './post-candidate';
 
-const {listCandidatesByProject
-} = candidatesUseCases;
+const { listCandidatesByProject, listCandidatesByStudent, updateCandidate, addCandidate } = candidatesUseCases;
 
-const getCandidateByProject = makeGetCandidateByProject({ listCandidatesByProject });
-
+const getAllCandidatesByStudent = makeGetAllCandidateByStudent({
+  listCandidatesByStudent,
+})
+const getCandidateByProject = makeGetCandidateByProject({
+  listCandidatesByProject,
+});
+const putCandidate = makePutCandidate({ updateCandidate });
+const postCandidate = makePostCandidate({addCandidate });
 
 export default {
-  getCandidateByProject
+  putCandidate,
+  getCandidateByProject,
+  getAllCandidatesByStudent,
+  postCandidate,
 };

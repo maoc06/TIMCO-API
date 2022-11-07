@@ -6,9 +6,9 @@ import makeAuthCompany from './auth-company';
 import makeAuthGeneral from './auth-general';
 
 const handleToken = makeHandleToken();
-const { Company, Student } = models;
+const { Area, Company, Student, University } = models;
 
-const authStudent = makeAuthStudent({ authStudentDb: Student, handleToken });
+const authStudent = makeAuthStudent({ authStudentDb: Student, areaModel: Area, universityModel: University, handleToken });
 const authCompany = makeAuthCompany({ authCompanyDb: Company, handleToken });
 const authGeneral = makeAuthGeneral({ authCompanyDb: Company, authStudentDb: Student, handleToken });
 

@@ -3,8 +3,8 @@ export default function makeListProject({
   companyModel,
   studentModel,
   stateModel,
-  skillModel,
-  skillProjectDb,
+  skillInServiceModel,
+  serviceModel,
 }) {
   return async function listProject({ projectId } = {}) {
     if (!projectId) throw new Error('project id null');
@@ -13,7 +13,8 @@ export default function makeListProject({
       companyModel,
       studentModel,
       stateModel,
-      skillModel,
+      serviceSkillModel: skillInServiceModel,
+      serviceModel
     });
     if (!existing) {
       throw new Error(`project with id=${projectId} does not exist`);
@@ -28,6 +29,8 @@ export default function makeListProject({
 
     // skills = JSON.stringify(skills, null, 2);
     // createdProject.skills = JSON.parse(skills);
+
+    
 
     return existing;
   };

@@ -1,4 +1,4 @@
-import CONSTANTS from "../../utils/constants";
+import CONSTANTS from '../../utils/constants';
 
 const getProjectModel = (sequelize, { DataTypes }) => {
   const Project = sequelize.define('projects', {
@@ -17,13 +17,31 @@ const getProjectModel = (sequelize, { DataTypes }) => {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
+    areaId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
     studentId: {
       type: DataTypes.UUID,
+      allowNull: true,
+    },
+    name: {
+      type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        notEmpty: true,
+      },
     },
     description: {
       type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        notEmpty: true,
+      },
+    },
+    deliverables: {
+      type: DataTypes.STRING,
+      allowNull: true,
       validate: {
         notEmpty: true,
       },
@@ -54,6 +72,8 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     Project.belongsTo(models.Company, { foreignKey: 'companyId' });
     Project.belongsTo(models.Student, { foreignKey: 'studentId' });
     Project.belongsTo(models.State, { foreignKey: 'stateId' });
+    Project.belongsTo(models.Area,{foreignKey: 'areaId'})
+    Project.belongsTo(models.Service, { foreignKey: 'serviceId' });
     Project.belongsToMany(models.Skill, {
       through: models.SkillProject,
       foreignKey: 'projectId',
@@ -104,15 +124,19 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     let projects = await Project.findAll({
       // attributes: { exclude: ['stateId'] },
       where: { studentId },
-      include: [{model: skillModel}]
+      include: [{ model: skillModel }],
     });
     return projects;
   };
-
-  Project.findActiveByStudent = async (studentId, { companyModel, studentModel, stateModel, skillModel }) => {
+  /// Lista todos los proyectos de un student
+  Project.findActiveByStudent = async (
+    studentId,
+    { companyModel, studentModel, stateModel, skillModel }
+  ) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId'] },
-      where: { stateId: CONSTANTS.ACTIVE_PROJECT_ID, studentId },
+      where: { studentId },
+      // where: { stateId: CONSTANTS.ACTIVE_PROJECT_ID, studentId },
       include: [
         {
           model: companyModel,
@@ -134,10 +158,13 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     });
     return projects;
   };
-  
+
   //Metodo encontrar projectos en progreso por estudiante
 
-  Project.findInProgressByStudent = async (studentId, { companyModel, studentModel, stateModel, skillModel }) => {
+  Project.findInProgressByStudent = async (
+    studentId,
+    { companyModel, studentModel, stateModel, skillModel }
+  ) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId'] },
       where: { stateId: CONSTANTS.INPROGRESS_PROJECT_ID, studentId },
@@ -163,10 +190,12 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     return projects;
   };
 
-
   //Metodo encontrar projectos finalizados por estudiante
 
-  Project.findFinishedByStudent = async (studentId, { companyModel, studentModel, stateModel, skillModel }) => {
+  Project.findFinishedByStudent = async (
+    studentId,
+    { companyModel, studentModel, stateModel, skillModel }
+  ) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId'] },
       where: { stateId: CONSTANTS.FINISHED_PROJECT_ID, studentId },
@@ -191,13 +220,16 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     });
     return projects;
   };
-  
-//Metodo encontrar projectos activos por compañia
 
-  Project.findActiveByCompany = async (companyId, { companyModel, studentModel, stateModel, skillModel }) => {
+  //Metodo encontrar projectos activos por compañia
+
+  Project.findActiveByCompany = async (
+    companyId,
+    { companyModel, studentModel, stateModel, skillModel }
+  ) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId'] },
-      where: { stateId: CONSTANTS.ACTIVE_PROJECT_ID, companyId },
+      where: {companyId },
       include: [
         {
           model: companyModel,
@@ -222,7 +254,10 @@ const getProjectModel = (sequelize, { DataTypes }) => {
 
   //Metodo encontrar projectos en progreso por compañia
 
-  Project.findInProgressByCompany = async (companyId, { companyModel, studentModel, stateModel, skillModel }) => {
+  Project.findInProgressByCompany = async (
+    companyId,
+    { companyModel, studentModel, stateModel, skillModel }
+  ) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId'] },
       where: { stateId: CONSTANTS.INPROGRESS_PROJECT_ID, companyId },
@@ -250,7 +285,10 @@ const getProjectModel = (sequelize, { DataTypes }) => {
 
   //Metodo encontrar projectos finalizados por compañia
 
-  Project.findFinishedByCompany = async (companyId, { companyModel, studentModel, stateModel, skillModel }) => {
+  Project.findFinishedByCompany = async (
+    companyId,
+    { companyModel, studentModel, stateModel, skillModel }
+  ) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId'] },
       where: { stateId: CONSTANTS.FINISHED_PROJECT_ID, companyId },
@@ -276,37 +314,55 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     return projects;
   };
 
-
   Project.findByIdCompose = async (
     projectId,
-    { companyModel, studentModel, stateModel, skillModel }
+    {
+      companyModel,
+      studentModel,
+      stateModel,
+      serviceSkillModel,
+      skillInServiceModel,
+      serviceModel,
+    }
   ) => {
     let project = await Project.findOne({
       attributes: { exclude: ['stateId'] },
       where: { projectId },
-      include: [
-        {
-          model: companyModel,
-          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
-        },
-        {
-          model: studentModel,
-          attributes: { exclude: ['created', 'password'] },
-        },
-        {
-          model: stateModel,
-          attributes: { exclude: ['created'] },
-        },
-        {
-          model: skillModel,
-          attributes: ['name'],
-        },
-      ],
+      include: { all: true, nested: true }
+      // include: [
+      //   {
+      //     model: companyModel,
+      //     attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+      //   },
+      //   {
+      //     model: studentModel,
+      //     attributes: { exclude: ['created', 'password'] },
+      //   },
+      //   {
+      //     model: stateModel,
+      //     attributes: { exclude: ['created'] },
+      //   },
+      //   // {
+      //   //   model: serviceSkillModel,
+      //   //   // attributes: ['name'],
+      //   // },
+      //   {
+      //     model: serviceModel,
+      //     // attributes: ['name'],
+      //   },
+      // ],
     });
+
+    // const serviceId = project.service.serviceId;
+    // console.log('serviceId', serviceId);
+    // const skills = await skillInServiceModel.findAll({where: serviceId});
+    // console.log('skills:', skills);
+
     return project;
   };
 
   Project.updateById = async (projectData) => {
+    console.log('MODEL DATA', projectData)
     const { projectId } = projectData;
     await Project.update({ ...projectData }, { where: { projectId } });
   };

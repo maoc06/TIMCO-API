@@ -18,6 +18,7 @@ export default function makePostProject({ addProject }) {
       };
     } catch (e) {
       logger.error(e.message);
+      console.log(e);
       return {
         headers,
         statusCode: 400,

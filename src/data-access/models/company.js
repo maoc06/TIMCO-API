@@ -14,6 +14,13 @@ const getCompanyModel = (sequelize, { DataTypes }) => {
         notEmpty: true,
       },
     },
+    companyName: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      validate: {
+        notEmpty: true,
+      },
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,

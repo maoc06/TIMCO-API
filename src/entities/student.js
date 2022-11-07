@@ -16,7 +16,7 @@ export default function buildMakeStudent() {
 
     if (!name) throw new Error('student must have a name');
     if (!email) throw new Error('student must have a email');
-    if (!phone) throw new Error('student must have a phone');
+    //if (!phone) throw new Error('student must have a phone');
     if (!universityId)
       throw new Error('student must have an associated university id');
     if (!career) throw new Error('student must have a career');

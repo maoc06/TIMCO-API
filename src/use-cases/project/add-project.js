@@ -5,7 +5,6 @@ export default function makeAddProject({ projectDb, skillProjectDb }) {
     const project = await validate(projectData);
 
     const newProject = await projectDb.add(project);
-    await addSkillsToProject(projectData, newProject);
 
     return newProject;
   };
@@ -13,16 +12,5 @@ export default function makeAddProject({ projectDb, skillProjectDb }) {
   async function validate(projectData) {
     const project = makeProject(projectData);
     return project;
-  }
-
-  async function addSkillsToProject(projectData, { projectId }) {
-    let skillsProject = [];
-    let { skills } = projectData;
-
-    skills.forEach((skill) => {
-      skillsProject.push({ skillId: skill, projectId });
-    });
-
-    return await skillProjectDb.add(skillsProject);
   }
 }

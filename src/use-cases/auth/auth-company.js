@@ -11,14 +11,16 @@ export default function makeAuthCompany({ authCompanyDb, handleToken }) {
   };
 
   async function validate({ email, password }) {
+  
     let company = await authCompanyDb.findByEmail(email);
     if (! company) {
       throw new Error(
         JSON.stringify({ status: 'error', message: 'auth/company-not-found' })
       );
     }
-
+   
     const validPassword = await bcrypt.compare(password,  company.password);
+    console.log(validPassword);
     if (!validPassword) {
       throw new Error(
         JSON.stringify({ status: 'error', message: 'auth/invalid-password' })

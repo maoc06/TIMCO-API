@@ -1,6 +1,6 @@
 import Sequelize from 'sequelize';
 import { initializeApp } from 'firebase/app';
-import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
+import { getStorage } from 'firebase/storage';
 
 import { config } from '../../config';
 // MODELS
@@ -26,12 +26,12 @@ const client = new Sequelize(config.dbUri, {
     underscoredAll: true,
   },
   // solo para ambiente de produccion
-  dialectOptions: {
-    ssl: {
-      require: true,
-      rejectUnauthorized: false,
-    },
-  },
+  // dialectOptions: {
+  //   ssl: {
+  //     require: true,
+  //     rejectUnauthorized: false,
+  //   },
+  // },
 });
 
 // CONFIG FIREBASE CLIENT
@@ -49,7 +49,7 @@ const models = {
   Skill: getSkillModel(client, Sequelize),
   Service: getServiceModel(client, Sequelize),
   AreaService: getAreaService(client),
-  SkillService: getSkillService(client),
+  SkillService: getSkillService(client, Sequelize),
   Candidate: getCandidatesModel(client, Sequelize),
   SkillProject: getSkillProject(client),
 };

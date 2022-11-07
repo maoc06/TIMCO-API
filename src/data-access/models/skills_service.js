@@ -1,7 +1,12 @@
-const getSkillService = (sequelize) => {
+const getSkillService = (sequelize, { DataTypes }) => {
   const SkillService = sequelize.define(
     'skillServices',
-    {},
+    {
+      skillId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+    },
     { timestamps: false }
   );
 

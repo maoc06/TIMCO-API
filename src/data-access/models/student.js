@@ -34,7 +34,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     },
     phone: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
       unique: true,
       validate: {
         notEmpty: true,
@@ -134,10 +134,20 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     return student;
   };
 
-  Student.findByEmail = async (email) => {
+  Student.findByEmail = async (email, {areaModel, universityModel}) => {
     let student = await Student.findOne({
       where: { email },
+      include: [
+        {
+          model: universityModel,
+          attributes: { exclude: ['created'] },
+        },
+        {
+          model: areaModel,
+          attributes: { exclude: ['created'] },
+        },]
     });
+    console.log(student);
     return student;
   };
 

@@ -1,6 +1,15 @@
 import models from '../../data-access';
-const { Project, ProjectReview, Company, Student, State, Skill, SkillProject } =
-  models;
+const {
+  Project,
+  ProjectReview,
+  Company,
+  Student,
+  State,
+  Skill,
+  SkillProject,
+  Service,
+  SkillService
+} = models;
 
 import makeListAllProjects from './list-all-projects';
 import makeListProject from './list-project';
@@ -12,6 +21,8 @@ import makeAddProjectReview from './add-project-review';
 import makeUpdateProject from './update-project';
 import makeListProjectsByStudent from './list-student-projects';
 import makeListActiveProjectsByCompany from './list-active-projects-by-company';
+import makeListInProgressProjectsByCompany from './list-inProgress-projects-by-company';
+import makeListFinishedProjectsByCompany from './list-finished-projects-by-company';
 import makeListActiveProjectsByStudent from './list-active-projects-by-student';
 import makeListInProgressProjectsByStudent from './list-inProgress-projects-by-student';
 import makeListFinishedProjectsByStudent from './list-finished-projects-by-student';
@@ -24,24 +35,37 @@ const listAllProjects = makeListAllProjects({
   skillModel: Skill,
 });
 
-const listProjectsByStudent = makeListProjectsByStudent({
-  projectModel: Project,
-  skillModel: Skill,
-  studentDb: Student,
-});
-
 const listProject = makeListProject({
   projectDb: Project,
   studentModel: Student,
   companyModel: Company,
   stateModel: State,
-  skillModel: Skill,
+  skillInServiceModel: SkillService,
   skillProjectDb: SkillProject,
+  serviceModel: Service,
 });
 
 const listProjectReviewByProject = makeListProjectReviewByProject({
   projectDb: Project,
   projectReviewDb: ProjectReview,
+});
+const addProject = makeAddProject({
+  projectDb: Project,
+  skillProjectDb: SkillProject,
+});
+
+const addProjectReview = makeAddProjectReview({
+  projectDb: Project,
+  projectReviewDb: ProjectReview,
+});
+
+const updateProject = makeUpdateProject({ projectDb: Project });
+
+//By Student
+const listProjectsByStudent = makeListProjectsByStudent({
+  projectModel: Project,
+  skillModel: Skill,
+  studentDb: Student,
 });
 
 const listActiveProjectsByStudent = makeListActiveProjectsByStudent({
@@ -67,29 +91,18 @@ const listFinishedProjectsByStudent = makeListFinishedProjectsByStudent({
   studentModel: Student,
 });
 
-const listProjectReviewByCompany = makeListProjectReviewByCompany({
-  projectReviewDb: ProjectReview,
-  companyDb: Company,
-  projectModel: Project,
-});
-
 const listProjectReviewByStudent = makeListProjectReviewByStudent({
   projectReviewDb: ProjectReview,
   studentDb: Student,
   projectModel: Project,
 });
 
-const addProject = makeAddProject({
-  projectDb: Project,
-  skillProjectDb: SkillProject,
-});
-
-const addProjectReview = makeAddProjectReview({
-  projectDb: Project,
+//By Company-----------------
+const listProjectReviewByCompany = makeListProjectReviewByCompany({
   projectReviewDb: ProjectReview,
+  companyDb: Company,
+  projectModel: Project,
 });
-
-const updateProject = makeUpdateProject({ projectDb: Project });
 
 const listActiveProjectsByCompany = makeListActiveProjectsByCompany({
   companyModel: Company,
@@ -99,10 +112,29 @@ const listActiveProjectsByCompany = makeListActiveProjectsByCompany({
   studentModel: Student,
 });
 
+const listInProgressProjectsByCompany = makeListInProgressProjectsByCompany({
+  projectModel: Project,
+  companyModel: Company,
+  skillModel: Skill,
+  stateModel: State,
+  studentModel: Student,
+});
+
+const listFinishedProjectsByCompany = makeListFinishedProjectsByCompany({
+  projectModel: Project,
+  companyModel: Company,
+  skillModel: Skill,
+  stateModel: State,
+  studentModel: Student,
+});
+
 export default {
   listActiveProjectsByStudent,
   listInProgressProjectsByStudent,
   listFinishedProjectsByStudent,
+  listActiveProjectsByCompany,
+  listInProgressProjectsByCompany,
+  listFinishedProjectsByCompany,
   listAllProjects,
   listProject,
   listProjectsByStudent,
@@ -112,5 +144,4 @@ export default {
   addProject,
   addProjectReview,
   updateProject,
-  listActiveProjectsByCompany,
 };

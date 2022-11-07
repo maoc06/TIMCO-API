@@ -1,21 +1,24 @@
 import logger from '../../utils/logger';
 
-export default function makePutProject({ updateProject }) {
-  return async function putProject(httpRequest) {
+export default function makeGetFinishedProjectsByCompany({ listFinishedProjectsByCompany }) {
+  return async function getFinishedProjectsByCompany(httpRequest) {
     const headers = {
       'Content-Type': 'application/json',
     };
-    const projectData = httpRequest.body;
     try {
-      await updateProject({ projectData });
+      const { companyId } = httpRequest.params;
+
+      const projects = await listFinishedProjectsByCompany({companyId});
       return {
         headers,
         statusCode: 200,
         body: {
-          message: 'project successfully update',
+          message: 'retrieve all finished projects by company',
+          data: projects,
         },
       };
     } catch (e) {
+      console.log(e);
       logger.error(e.message);
       return {
         headers,

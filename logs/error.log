@@ -326,3 +326,258 @@
 2022-10-14 20:16:15:1615 [31merror[39m: [31mservice with id=1 does not exist[39m
 2022-10-14 20:19:36:1936 [31merror[39m: [31mstudent with uuid=1b7a5283-da71-4e9a-b955-ef6c5076082e does not exist.[39m
 2022-10-14 20:22:10:2210 [31merror[39m: [31mstudent with uuid=bf9ad24f-5c03-47d9-9f4e-ac6512c3500c does not exist.[39m
+2022-10-16 12:03:52:352 [31merror[39m: [31mWHERE parameter "state_id" has invalid "undefined" value[39m
+2022-10-16 12:14:37:1437 [31merror[39m: [31mWHERE parameter "state_id" has invalid "undefined" value[39m
+2022-10-16 12:16:12:1612 [31merror[39m: [31mWHERE parameter "state_id" has invalid "undefined" value[39m
+2022-10-16 20:22:55:2255 [31merror[39m: [31mstudent must have a phone[39m
+2022-10-16 20:27:23:2723 [31merror[39m: [31mstudent must have an associated university id[39m
+2022-10-16 20:34:19:3419 [31merror[39m: [31mstudent with uuid=bf9ad24f-5c03-47d9-9f4e-ac6512c3500c does not exist.[39m
+2022-10-16 20:34:52:3452 [31merror[39m: [31minvalid input syntax for type uuid: ""60e32c54-3771-4189-936b-c92f28be2ebe""[39m
+2022-10-16 20:38:19:3819 [31merror[39m: [31mValidation error: Validation isEmail on email failed,[39m
+[31mValidation error: Validation notEmpty on password failed[39m
+2022-10-16 20:39:23:3923 [31merror[39m: [31mValidation error: Validation isEmail on email failed,[39m
+[31mValidation error: Validation notEmpty on password failed[39m
+2022-10-16 20:48:35:4835 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:38:4838 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:41:4841 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:41:4841 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:42:4842 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:42:4842 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:42:4842 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:42:4842 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:42:4842 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:42:4842 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:43:4843 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:43:4843 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:43:4843 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:48:43:4843 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:49:46:4946 [31merror[39m: [31m{"status":"error","message":"create/phone-student-exists"}[39m
+2022-10-16 20:51:25:5125 [31merror[39m: [31mValidation error[39m
+2022-10-16 20:52:56:5256 [31merror[39m: [31mValidation error[39m
+2022-10-16 20:54:59:5459 [31merror[39m: [31mValidation error[39m
+2022-10-16 20:57:00:570 [31merror[39m: [31mValidation error[39m
+2022-10-16 21:05:24:524 [31merror[39m: [31mValidation error[39m
+2022-10-16 21:06:42:642 [31merror[39m: [31mValidation error[39m
+2022-10-16 21:08:42:842 [31merror[39m: [31mstudent must have a phone[39m
+2022-10-16 21:12:15:1215 [31merror[39m: [31mstudent must have a phone[39m
+2022-10-16 21:13:38:1338 [31merror[39m: [31mnotNull Violation: students.phone cannot be null[39m
+2022-10-17 12:52:56:5256 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-17 13:13:56:1356 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-17 13:14:51:1451 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-17 15:21:31:2131 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-17 15:22:31:2231 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-17 15:28:29:2829 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-17 15:33:48:3348 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-17 15:37:36:3736 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-17 15:40:26:4026 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:41:57:4157 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:42:04:424 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:42:25:4225 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:43:32:4332 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:44:59:4459 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:49:17:4917 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:50:43:5043 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:51:50:5150 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:53:43:5343 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:53:51:5351 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:53:53:5353 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:56:23:5623 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:57:27:5727 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:58:12:5812 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 15:58:28:5828 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 16:00:32:032 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 16:04:04:44 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-17 16:08:08:88 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-17 16:08:18:818 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-17 20:56:54:5654 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-17 20:56:59:5659 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-17 21:02:08:28 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-17 21:29:11:2911 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-19 05:46:33:4633 [31merror[39m: [31mValidation error: Validation isEmail on email failed,[39m
+[31mValidation error: Validation notEmpty on password failed[39m
+2022-10-19 05:48:28:4828 [31merror[39m: [31mValidation error: Validation isEmail on email failed,[39m
+[31mValidation error: Validation notEmpty on password failed[39m
+2022-10-19 05:49:31:4931 [31merror[39m: [31mValidation error: Validation isEmail on email failed,[39m
+[31mValidation error: Validation notEmpty on password failed[39m
+2022-10-19 05:49:40:4940 [31merror[39m: [31mValidation error: Validation isEmail on email failed,[39m
+[31mValidation error: Validation notEmpty on password failed[39m
+2022-10-19 06:02:34:234 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-19 06:03:43:343 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-19 06:04:10:410 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-19 06:11:01:111 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-19 06:50:52:5052 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-19 06:52:42:5242 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-19 06:53:36:5336 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-19 06:53:57:5357 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-19 07:02:55:255 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-20 01:59:39:5939 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-20 02:21:51:2151 [31merror[39m: [31mstudent must have a email[39m
+2022-10-20 02:23:34:2334 [31merror[39m: [31minsert or update on table "students" violates foreign key constraint "students_university_id_fkey"[39m
+2022-10-20 02:24:36:2436 [31merror[39m: [31minsert or update on table "students" violates foreign key constraint "students_university_id_fkey"[39m
+2022-10-20 05:02:49:249 [31merror[39m: [31mstudent must have a email[39m
+2022-10-20 05:04:27:427 [31merror[39m: [31mValidation error[39m
+2022-10-20 11:48:49:4849 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-20 11:49:31:4931 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-20 12:28:07:287 [31merror[39m: [31minvalid input syntax for integer: "() => {    return localStorage.getItem(loggedRecruiterKey);  }"[39m
+2022-10-20 14:25:36:2536 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:38:2538 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:38:2538 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:39:2539 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:39:2539 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:39:2539 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:39:2539 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:39:2539 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:39:2539 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:40:2540 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:25:46:2546 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:26:33:2633 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:27:58:2758 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:29:21:2921 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:33:34:3334 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:34:40:3440 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:35:33:3533 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:36:27:3627 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:39:00:390 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:39:54:3954 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:41:41:4141 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:45:21:4521 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:46:29:4629 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:48:19:4819 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:49:55:4955 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:50:51:5051 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:51:31:5131 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:53:09:539 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:55:54:5554 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:56:22:5622 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:56:42:5642 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:57:09:579 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:58:21:5821 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:58:38:5838 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-20 14:59:28:5928 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-20 15:00:40:040 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-20 15:01:12:112 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-20 15:01:25:125 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-22 11:26:34:2634 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-22 11:26:44:2644 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-22 11:27:12:2712 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-22 11:27:20:2720 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-22 11:27:22:2722 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-22 12:11:12:1112 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-22 12:38:31:3831 [31merror[39m: [31mstudent with id=bf9ad24f-5c03-47d9-9f4e-ac6512c3500c does not exist[39m
+2022-10-22 13:16:21:1621 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-22 13:16:56:1656 [31merror[39m: [31m{"status":"error","message":"auth/company-not-found"}[39m
+2022-10-22 14:04:16:416 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-22 14:04:17:417 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-22 14:21:33:2133 [31merror[39m: [31mproject with id=30 does not exist[39m
+2022-10-22 14:51:09:519 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+2022-10-22 14:51:45:5145 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+2022-10-22 14:52:20:5220 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+2022-10-22 16:51:38:5138 [31merror[39m: [31mproject with id=30 does not exist[39m
+2022-10-22 16:53:25:5325 [31merror[39m: [31mservices is not associated to projects![39m
+2022-10-22 16:59:53:5953 [31merror[39m: [31mproject with id=30 does not exist[39m
+2022-10-22 17:10:38:1038 [31merror[39m: [31mcolumn skillServices.skillId does not exist[39m
+2022-10-22 17:11:21:1121 [31merror[39m: [31mcolumn skillServices.skillId does not exist[39m
+2022-10-22 17:12:11:1211 [31merror[39m: [31mcolumn skillServices.skillId does not exist[39m
+2022-10-22 17:14:01:141 [31merror[39m: [31mcolumn "state_id" does not exist[39m
+2022-10-22 17:14:25:1425 [31merror[39m: [31mcolumn skillServices.skillId does not exist[39m
+2022-10-22 17:14:26:1426 [31merror[39m: [31mcolumn skillServices.skillId does not exist[39m
+2022-10-22 17:15:08:158 [31merror[39m: [31mcolumn skillServices.skillId does not exist[39m
+2022-10-22 17:15:10:1510 [31merror[39m: [31mcolumn skillServices.skillId does not exist[39m
+2022-10-22 17:15:11:1511 [31merror[39m: [31mcolumn skillServices.skillId does not exist[39m
+2022-10-22 17:17:55:1755 [31merror[39m: [31mskillServices is not associated to projects![39m
+2022-10-22 17:17:58:1758 [31merror[39m: [31mskillServices is not associated to projects![39m
+2022-10-22 17:28:01:281 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-22 17:28:25:2825 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-22 17:29:25:2925 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-22 17:29:31:2931 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-22 17:30:02:302 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-22 17:30:22:3022 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-22 17:31:17:3117 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-22 17:31:29:3129 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-22 17:31:57:3157 [31merror[39m: [31mskills is not associated to projects![39m
+2022-10-28 12:30:03:303 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-28 17:19:24:1924 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-10-28 17:24:10:2410 [31merror[39m: [31mnotNull Violation: projects.deliverables cannot be null[39m
+2022-10-31 06:30:05:305 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 06:30:09:309 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 06:30:12:3012 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 06:30:12:3012 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 06:31:46:3146 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 06:42:02:422 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 07:07:21:721 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 07:07:32:732 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 07:09:53:953 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 07:18:04:184 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-31 07:27:05:275 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-31 07:29:15:2915 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-31 07:35:16:3516 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-10-31 07:49:32:4932 [31merror[39m: [31mCannot destructure property 'areaModel' of 'undefined' as it is undefined.[39m
+2022-10-31 07:56:51:5651 [31merror[39m: [31mareaModel is not defined[39m
+2022-10-31 11:11:42:1142 [31merror[39m: [31mInclude unexpected. Element has to be either a Model, an Association or an object.[39m
+2022-10-31 11:16:39:1639 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-31 11:17:25:1725 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-31 11:18:24:1824 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-31 11:19:40:1940 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-31 11:21:37:2137 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-10-31 16:30:56:3056 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-31 16:34:32:3432 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-31 16:34:40:3440 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-10-31 17:12:58:1258 [31merror[39m: [31m{"status":"error","message":"create/email-student-exists"}[39m
+2022-11-01 23:08:04:84 [31merror[39m: [31mValidation error[39m
+2022-11-01 23:08:59:859 [31merror[39m: [31mValidation error[39m
+2022-11-01 23:09:16:916 [31merror[39m: [31mValidation error: Validation notEmpty on phone failed[39m
+2022-11-01 23:10:00:100 [31merror[39m: [31mStudent with id=1b1f0d40-6933-4116-a1d0-a9e9746c0725 not found[39m
+2022-11-01 23:11:40:1140 [31merror[39m: [31mstudent must have an associated university id[39m
+2022-11-02 12:27:06:276 [31merror[39m: [31mproject must have an associated student id[39m
+2022-11-02 12:28:10:2810 [31merror[39m: [31mnotNull Violation: projects.name cannot be null,[39m
+[31mnotNull Violation: projects.deliverables cannot be null[39m
+2022-11-02 12:29:37:2937 [31merror[39m: [31mnotNull Violation: projects.name cannot be null[39m
+2022-11-02 13:01:13:113 [31merror[39m: [31mproject must have a set of skills[39m
+2022-11-02 13:02:47:247 [31merror[39m: [31mnotNull Violation: projects.areaId cannot be null[39m
+2022-11-02 13:03:16:316 [31merror[39m: [31mCannot read properties of undefined (reading 'forEach')[39m
+2022-11-02 13:04:04:44 [31merror[39m: [31mCannot read properties of undefined (reading 'forEach')[39m
+2022-11-02 13:05:13:513 [31merror[39m: [31mCannot read properties of undefined (reading 'forEach')[39m
+2022-11-02 13:11:43:1143 [31merror[39m: [31maddSkillsToProject is not defined[39m
+2022-11-02 13:57:31:5731 [31merror[39m: [31mproject must have an associated company id[39m
+2022-11-02 14:05:16:516 [31merror[39m: [31mproject must have an associated status id[39m
+2022-11-02 14:05:57:557 [31merror[39m: [31mproject must have an associated status id[39m
+2022-11-02 14:06:56:656 [31merror[39m: [31mproject must have an associated status id[39m
+2022-11-02 14:08:10:810 [31merror[39m: [31mnotNull Violation: projects.stateId cannot be null[39m
+2022-11-02 14:45:23:4523 [31merror[39m: [31minvalid input syntax for type uuid: "0"[39m
+2022-11-02 17:10:36:1036 [31merror[39m: [31mproject id null[39m
+2022-11-02 17:11:18:1118 [31merror[39m: [31mcandidate id null[39m
+2022-11-02 17:12:13:1213 [31merror[39m: [31mcolumn candidates.candidateId does not exist[39m
+2022-11-02 17:14:14:1414 [31merror[39m: [31mCandidate with id=1 not found[39m
+2022-11-03 09:50:49:5049 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-11-03 09:51:07:517 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-11-03 09:51:08:518 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-11-03 09:51:10:5110 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-11-03 13:53:27:5327 [31merror[39m: [31minvalid input syntax for type uuid: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InN0dWRlbnRJZCI6IjYwZTMyYzU0LTM3NzEtNDE4OS05MzZiLWM5MmYyOGJlMmViZSIsIm5hbWUiOiJBbGVqYW5kcm8gVmFsdmVyZGUiLCJlbWFpbCI6ImFsZWphbmRyby5kQGNvcnJlby5jbyIsInBob25lIjoiKzU3MzExMjkyMTg1NiIsInVuaXZlcnNpdHlJZCI6MSwiY2FyZWVyIjoiRGVzaW5nIiwiY3VycmVudFNlbWVzdGVyIjoxLCJsaW5rZWRpblVybCI6bnVsbCwicG9ydGZvbGlvVXJsIjpudWxsLCJqb2JNb2RhbGl0eSI6dHJ1ZSwiYWJvdXRNZSI6IlRoaXMgaXMgQW1lcmljYSIsInByb2ZpbGVJbWFnZSI6Imh0dHBzOi8vZmlyZWJhc2VzdG9yYWdlLmdvb2dsZWFwaXMuY29tL3YwL2IvdGltY28tYXBpLmFwcHNwb3QuY29tL28vZGVhZnVsdC5wbmc_YWx0PW1lZGlhJnRva2VuPWYwOGExNTUzLTJmY2YtNDNmNy04OTI4LWJlNTIyNDFjNDI2YSIsImFyZWFJZCI6MSwiY3JlYXRlZCI6bnVsbCwidW5pdmVyc2l0eSI6eyJ1bml2ZXJzaXR5SWQiOjEsIm5hbWUiOiJVbml2ZXJzaWRhZCBKYXZlcmlhbmFcbiJ9LCJhcmVhIjp7ImFyZWFJZCI6MSwibmFtZSI6IkRpc2XDsW8ifX0sImlhdCI6MTY2NzUwMTU0NCwiZXhwIjoxNjY4MzY1NTQ0fQ.hTGlr1Hf_EmHioJ7d9w4KB6bGl34Sra0OSfes6c7ccc"[39m
+2022-11-03 15:00:56:056 [31merror[39m: [31mcandidate must have a student id associate[39m
+2022-11-03 15:02:56:256 [31merror[39m: [31mcandidate must have a student id associate[39m
+2022-11-03 15:05:16:516 [31merror[39m: [31mcandidate must have a student id associate[39m
+2022-11-03 15:06:41:641 [31merror[39m: [31mcandidate must have a student id associate[39m
+2022-11-03 15:07:11:711 [31merror[39m: [31mcandidate must have a student id associate[39m
+2022-11-03 15:39:45:3945 [31merror[39m: [31minvalid input syntax for type uuid: "1"[39m
+2022-11-03 15:40:32:4032 [31merror[39m: [31minvalid input syntax for integer: "60e32c54-3771-4189-936b-c92f28be2ebe"[39m
+2022-11-03 15:42:29:4229 [31merror[39m: [31minvalid input syntax for integer: "60e32c54-3771-4189-936b-c92f28be2ebe"[39m
+2022-11-03 15:48:55:4855 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+2022-11-03 15:49:16:4916 [31merror[39m: [31minvalid input syntax for type uuid: "undefined"[39m
+2022-11-03 16:09:42:942 [31merror[39m: [31mprojects is not associated to candidates![39m
+2022-11-03 17:41:50:4150 [31merror[39m: [31mproject must have an associated status id[39m
+2022-11-03 17:42:14:4214 [31merror[39m: [31mproject must have an associated status id[39m
+2022-11-03 17:43:19:4319 [31merror[39m: [31mproject must have a description[39m
+2022-11-03 18:49:17:4917 [31merror[39m: [31mcandidate must have a student id associate[39m
+2022-11-03 18:49:39:4939 [31merror[39m: [31mcandidate must have a student id associate[39m
+2022-11-03 18:49:48:4948 [31merror[39m: [31mcandidate must have a student id associate[39m
+2022-11-03 18:51:13:5113 [31merror[39m: [31mCandidate with id=1 not found[39m
+2022-11-03 18:58:03:583 [31merror[39m: [31mcandidate id null[39m
+2022-11-03 18:58:03:583 [31merror[39m: [31minvalid input syntax for integer: "[object Object]"[39m
+2022-11-03 18:58:23:5823 [31merror[39m: [31mcandidate id null[39m
+2022-11-03 18:58:23:5823 [31merror[39m: [31minvalid input syntax for integer: "[object Object]"[39m
+2022-11-03 18:58:55:5855 [31merror[39m: [31minvalid input syntax for integer: "[object Object]"[39m
+2022-11-03 18:58:55:5855 [31merror[39m: [31minvalid input syntax for integer: "[object Object]"[39m
+2022-11-03 18:59:17:5917 [31merror[39m: [31mCannot access 'candidate' before initialization[39m
+2022-11-03 18:59:17:5917 [31merror[39m: [31mCannot access 'candidate' before initialization[39m
+2022-11-03 18:59:52:5952 [31merror[39m: [31minvalid input syntax for integer: "[object Object]"[39m
+2022-11-03 18:59:52:5952 [31merror[39m: [31minvalid input syntax for integer: "[object Object]"[39m

@@ -1,18 +1,18 @@
 import logger from '../../utils/logger';
 
-export default function makePutProject({ updateProject }) {
-  return async function putProject(httpRequest) {
+export default function makePutCandidate({ updateCandidate }) {
+  return async function putCandidate(httpRequest) {
     const headers = {
       'Content-Type': 'application/json',
     };
-    const projectData = httpRequest.body;
+    const candidateData = httpRequest.body;
     try {
-      await updateProject({ projectData });
+      await updateCandidate({ candidateData });
       return {
         headers,
         statusCode: 200,
         body: {
-          message: 'project successfully update',
+          message: 'candidate successfully update',
         },
       };
     } catch (e) {

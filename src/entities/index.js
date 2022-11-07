@@ -1,3 +1,4 @@
+import buildMakeCandidate from './candidate';
 import buildMakeCompany from './company';
 import buildMakeCredentials from './credentials';
 import buildMakeProject from './project';
@@ -8,6 +9,7 @@ import buildMakeService from './service';
 import buildMakeUniversity from './university';
 import buildMakeSKill from './skill';
 
+const makeCandidate = buildMakeCandidate();
 const makeCompany = buildMakeCompany();
 const makeCredentials = buildMakeCredentials();
 const makeProject = buildMakeProject();
@@ -19,6 +21,7 @@ const makeUniversity = buildMakeUniversity();
 const makeSkill = buildMakeSKill();
 
 export {
+  makeCandidate,
   makeCompany,
   makeCredentials,
   makeProject,

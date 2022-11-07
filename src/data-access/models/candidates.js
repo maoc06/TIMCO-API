@@ -1,5 +1,15 @@
-const getCandidatesModel = (sequelize, { DataTypes }) => {
+import constants from '../../utils/constants';
+
+const getCandidatesModel = (sequelize, { DataTypes, NOW }) => {
   const Candidates = sequelize.define('candidates', {
+    candidateId: {
+      primaryKey: true,
+      autoIncrement: true,
+      type: DataTypes.INTEGER,
+      unique: true,
+      allowNull: true,
+      field: 'id',
+    },
     studentId: {
       type: DataTypes.UUID,
       allowNull: false,
@@ -11,10 +21,12 @@ const getCandidatesModel = (sequelize, { DataTypes }) => {
     stateId: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      defaultValue: 4,
     },
     created: {
       type: DataTypes.DATE,
       allowNull: true,
+      defaultValue: NOW,
     },
   });
 
@@ -22,6 +34,7 @@ const getCandidatesModel = (sequelize, { DataTypes }) => {
     Candidates.belongsTo(models.Company, { foreignKey: 'companyId' });
     Candidates.belongsTo(models.Student, { foreignKey: 'studentId' });
     Candidates.belongsTo(models.State, { foreignKey: 'stateId' });
+    Candidates.belongsTo(models.Project, { foreignKey: 'projectId' });
   };
 
   Candidates.add = async (candidateData) => {
@@ -29,13 +42,42 @@ const getCandidatesModel = (sequelize, { DataTypes }) => {
     return candidate;
   };
 
-  Candidates.updateById = async (candidateData) => {
-    const { studentId, projectId } = candidateData;
-    await Candidates.update({ ...candidateData }, { where: { projectId, studentId } });
+  Candidates.findById = async (candidateId) => {
+    return await Candidates.findOne({ where: { candidateId } });
   };
 
-  Candidates.findByProject = async (projectId, {studentModel}) => {
-    const projects = await Candidates.findAll({ where: { projectId }, include: [{model: studentModel}] });
+  Candidates.updateById = async (candidateData) => {
+    const { candidateId, stateId  } = candidateData;
+    await Candidates.update(
+      { stateId },
+      { where: { candidateId } }
+    );
+  };
+
+  Candidates.findByProject = async (projectId, { studentModel }) => {
+    const projects = await Candidates.findAll({
+      where: { projectId },
+      include: [{ model: studentModel }],
+    });
+    return projects;
+  };
+
+  Candidates.findByProjectWaiting = async (projectId, { studentModel }) => {
+    const projects = await Candidates.findAll({
+      where: { projectId, stateId: constants.WAITING_PROJECT_ID },
+      include: [{ model: studentModel }],
+    });
+    return projects;
+  };
+
+  Candidates.findProjectWaitingByStudent = async (
+    studentId,
+    { projectModel, stateModel }
+  ) => {
+    const projects = await Candidates.findAll({
+      where: { studentId, stateId: constants.WAITING_PROJECT_ID },
+      include: [{ model: projectModel }, { model: stateModel }],
+    });
     return projects;
   };
 

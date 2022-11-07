@@ -9,7 +9,7 @@ export default function makeListCandidatesByProject({
       throw new RangeError(`project with id=${projectId} does not exist.`);
     }
 
-    let candidates = await candidatesDb.findByProject(projectId, {  studentModel });
+    let candidates = await candidatesDb.findByProjectWaiting(projectId, { studentModel });
     return candidates;
   };
 

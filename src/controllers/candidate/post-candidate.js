@@ -1,29 +1,28 @@
 import logger from '../../utils/logger';
 
-export default function makePostCompany({ addCompany }) {
-  return async function postCompany(httpRequest) {
+export default function makePostCandidate({ addCandidate }) {
+  return async function postCandidate(httpRequest) {
     const headers = {
       'Content-Type': 'application/json',
     };
     try {
-      const { ...companyInfo } = httpRequest.body;
-      const company = await addCompany({ ...companyInfo });
+      const { ...candidateInfo } = httpRequest.body;
+      const candidate = await addCandidate({ ...candidateInfo });
       return {
         headers,
         statusCode: 201,
         body: {
-          message: 'company successfully added',
-          data: company,
+          message: 'candidate successfully added',
+          data: candidate,
         },
       };
     } catch (e) {
-      console.log(e);
       logger.error(e.message);
       return {
         headers,
         statusCode: 400,
         body: {
-          error: JSON.parse(e.message)
+          error: e.message,
         },
       };
     }

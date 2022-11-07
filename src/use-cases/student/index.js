@@ -25,6 +25,8 @@ const addStudent = makeAddStudent({
   studentDb: Student,
   filesDb: storageClient,
   handleToken: handleToken,
+  areaModel: Area,
+  universityModel: University,
 });
 
 const updateStudent = makeUpdateStudent({ studentDb: Student });

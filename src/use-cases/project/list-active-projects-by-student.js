@@ -12,6 +12,9 @@ export default function makeListActiveProjectsByStudent({
     }
 
     let projects = await projectModel.findActiveByStudent(studentId, { companyModel, studentModel, stateModel, skillModel });
+    
+    console.log('====== PROJECTS =====');
+    console.log(projects);
     return projects;
   };
 
