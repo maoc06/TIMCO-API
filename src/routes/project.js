@@ -15,6 +15,11 @@ function getProjectRoutes({ verifyToken }) {
     makeCallback(projectController.getProjectReviewByProject)
   );
 
+  router.get(
+    '/vancancy-available/:areaId',
+    makeCallback(projectController.getProjectsVacancyAvailableByArea)
+  );
+
   router.post('/', verifyToken, makeCallback(projectController.postProject));
 
   router.post(

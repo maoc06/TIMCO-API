@@ -3,7 +3,6 @@ import { makeProject } from '../../entities';
 export default function makeUpdateProject({ projectDb }) {
   return async function updateProject({ projectData } = {}) {
     let project = await validate(projectData);
-    console.log('PROJECT:', project);
     return projectDb.updateById(project);
   };
 
