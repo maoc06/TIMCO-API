@@ -8,11 +8,12 @@ const {
   Skill,
   SkillProject,
   Service,
-  SkillService
+  SkillService,
 } = models;
 
 import makeListAllProjects from './list-all-projects';
 import makeListProject from './list-project';
+import makeListProjectsAvailableByArea from './list-projects-vacancy-available-by-area';
 import makeListProjectReviewByProject from './list-project-review-by-project';
 import makeListProjectReviewByCompany from './list-project-review-by-company';
 import makeListProjectReviewByStudent from './list-project-review-by-student';
@@ -43,6 +44,11 @@ const listProject = makeListProject({
   skillInServiceModel: SkillService,
   skillProjectDb: SkillProject,
   serviceModel: Service,
+});
+
+const listProjectsAvailableByArea = makeListProjectsAvailableByArea({
+  projectDb: Project,
+  companyModel: Company,
 });
 
 const listProjectReviewByProject = makeListProjectReviewByProject({
@@ -137,6 +143,7 @@ export default {
   listFinishedProjectsByCompany,
   listAllProjects,
   listProject,
+  listProjectsAvailableByArea,
   listProjectsByStudent,
   listProjectReviewByProject,
   listProjectReviewByCompany,

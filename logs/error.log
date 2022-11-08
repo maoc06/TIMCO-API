@@ -581,3 +581,7 @@
 2022-11-03 18:59:17:5917 [31merror[39m: [31mCannot access 'candidate' before initialization[39m
 2022-11-03 18:59:52:5952 [31merror[39m: [31minvalid input syntax for integer: "[object Object]"[39m
 2022-11-03 18:59:52:5952 [31merror[39m: [31minvalid input syntax for integer: "[object Object]"[39m
+2022-11-08 14:37:38:3738 [31merror[39m: [31mno existe la columna «company_name»[39m
+2022-11-08 14:45:57:4557 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-11-08 14:49:47:4947 [31merror[39m: [31minserción o actualización en la tabla «projects» viola la llave foránea «projects_service_id_fkey»[39m
+2022-11-08 15:09:48:948 [31merror[39m: [31minserción o actualización en la tabla «projects» viola la llave foránea «projects_state_id_fkey»[39m

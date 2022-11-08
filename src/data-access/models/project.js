@@ -1,3 +1,4 @@
+import constants from '../../utils/constants';
 import CONSTANTS from '../../utils/constants';
 
 const getProjectModel = (sequelize, { DataTypes }) => {
@@ -72,7 +73,7 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     Project.belongsTo(models.Company, { foreignKey: 'companyId' });
     Project.belongsTo(models.Student, { foreignKey: 'studentId' });
     Project.belongsTo(models.State, { foreignKey: 'stateId' });
-    Project.belongsTo(models.Area,{foreignKey: 'areaId'})
+    Project.belongsTo(models.Area, { foreignKey: 'areaId' });
     Project.belongsTo(models.Service, { foreignKey: 'serviceId' });
     Project.belongsToMany(models.Skill, {
       through: models.SkillProject,
@@ -128,6 +129,26 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     });
     return projects;
   };
+
+  Project.findUnassignedByArea = async (areaId, { companyModel }) => {
+    let projects = await Project.findAll({
+      attributes: {
+        exclude: ['stateId', 'studentId', 'companyId', 'serviceId'],
+      },
+      where: {
+        areaId,
+        stateId: constants.UNASSIGNED_PROJECT_ID,
+      },
+      include: [
+        {
+          model: companyModel,
+          attributes: { exclude: ['created', 'password', 'employeeNumber'] },
+        },
+      ],
+    });
+    return projects;
+  };
+
   /// Lista todos los proyectos de un student
   Project.findActiveByStudent = async (
     studentId,
@@ -229,7 +250,7 @@ const getProjectModel = (sequelize, { DataTypes }) => {
   ) => {
     let projects = await Project.findAll({
       attributes: { exclude: ['stateId'] },
-      where: {companyId },
+      where: { companyId },
       include: [
         {
           model: companyModel,
@@ -328,7 +349,7 @@ const getProjectModel = (sequelize, { DataTypes }) => {
     let project = await Project.findOne({
       attributes: { exclude: ['stateId'] },
       where: { projectId },
-      include: { all: true, nested: true }
+      include: { all: true, nested: true },
       // include: [
       //   {
       //     model: companyModel,
@@ -353,16 +374,10 @@ const getProjectModel = (sequelize, { DataTypes }) => {
       // ],
     });
 
-    // const serviceId = project.service.serviceId;
-    // console.log('serviceId', serviceId);
-    // const skills = await skillInServiceModel.findAll({where: serviceId});
-    // console.log('skills:', skills);
-
     return project;
   };
 
   Project.updateById = async (projectData) => {
-    console.log('MODEL DATA', projectData)
     const { projectId } = projectData;
     await Project.update({ ...projectData }, { where: { projectId } });
   };

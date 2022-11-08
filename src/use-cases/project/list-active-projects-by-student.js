@@ -11,10 +11,12 @@ export default function makeListActiveProjectsByStudent({
       throw new RangeError(`student with uuid=${studentId} does not exist.`);
     }
 
-    let projects = await projectModel.findActiveByStudent(studentId, { companyModel, studentModel, stateModel, skillModel });
-    
-    console.log('====== PROJECTS =====');
-    console.log(projects);
+    let projects = await projectModel.findActiveByStudent(studentId, {
+      companyModel,
+      studentModel,
+      stateModel,
+      skillModel,
+    });
     return projects;
   };
 

@@ -134,7 +134,7 @@ const getStudentModel = (sequelize, { DataTypes }) => {
     return student;
   };
 
-  Student.findByEmail = async (email, {areaModel, universityModel}) => {
+  Student.findByEmail = async (email, { areaModel, universityModel }) => {
     let student = await Student.findOne({
       where: { email },
       include: [
@@ -145,9 +145,9 @@ const getStudentModel = (sequelize, { DataTypes }) => {
         {
           model: areaModel,
           attributes: { exclude: ['created'] },
-        },]
+        },
+      ],
     });
-    console.log(student);
     return student;
   };
 
