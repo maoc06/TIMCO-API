@@ -12159,3 +12159,151 @@
 2022-11-08 15:24:16:2416 [32minfo[39m: [32mServer running on http://localhost:3000[39m
 2022-11-08 15:24:47:2447 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/1 200 697 - 156.776 ms[39m
 [35m[39m
+2022-11-08 18:51:31:5131 [32minfo[39m: [32mRunning in: development[39m
+2022-11-08 18:51:31:5131 [32minfo[39m: [32mServer Time: Tue Nov 08 2022 18:51:31 GMT-0500 (Colombia Standard Time)[39m
+2022-11-08 18:51:31:5131 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-08 18:51:31:5131 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-08 18:52:25:5225 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/company 204 0 - 2.559 ms[39m
+[35m[39m
+2022-11-08 18:52:25:5225 [35mhttp[39m: [35m::1 POST /api/v1/auth/company 200 601 - 235.329 ms[39m
+[35m[39m
+2022-11-08 18:52:26:5226 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 54.008 ms[39m
+[35m[39m
+2022-11-08 18:59:16:5916 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 185.394 ms[39m
+[35m[39m
+2022-11-08 19:12:18:1218 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.863 ms[39m
+[35m[39m
+2022-11-08 19:12:18:1218 [31merror[39m: [31mproject id null[39m
+2022-11-08 19:12:18:1218 [35mhttp[39m: [35m::1 PUT /api/v1/project 400 27 - 6.684 ms[39m
+[35m[39m
+2022-11-08 19:12:19:1219 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 89.918 ms[39m
+[35m[39m
+2022-11-08 19:12:46:1246 [35mhttp[39m: [35m::1 OPTIONS /api/v1/student 204 0 - 0.307 ms[39m
+[35m[39m
+2022-11-08 19:12:47:1247 [35mhttp[39m: [35m::1 POST /api/v1/student 201 760 - 322.619 ms[39m
+[35m[39m
+2022-11-08 19:18:12:1812 [35mhttp[39m: [35m::1 POST /api/v1 404 146 - 4.028 ms[39m
+[35m[39m
+2022-11-08 23:01:12:112 [35mhttp[39m: [35m::1 POST /api/v1 404 146 - 10.106 ms[39m
+[35m[39m
+2022-11-08 23:04:51:451 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/company 204 0 - 2.385 ms[39m
+[35m[39m
+2022-11-08 23:04:51:451 [35mhttp[39m: [35m::1 POST /api/v1/auth/company 200 601 - 291.149 ms[39m
+[35m[39m
+2022-11-08 23:04:52:452 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 85.581 ms[39m
+[35m[39m
+2022-11-12 09:37:25:3725 [32minfo[39m: [32mRunning in: development[39m
+2022-11-12 09:37:25:3725 [32minfo[39m: [32mServer Time: Sat Nov 12 2022 09:37:25 GMT-0500 (Colombia Standard Time)[39m
+2022-11-12 09:37:25:3725 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-12 09:37:25:3725 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-12 09:38:49:3849 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 194.650 ms[39m
+[35m[39m
+2022-11-12 11:08:26:826 [32minfo[39m: [32mRunning in: development[39m
+2022-11-12 11:08:26:826 [32minfo[39m: [32mServer Time: Sat Nov 12 2022 11:08:26 GMT-0500 (Colombia Standard Time)[39m
+2022-11-12 11:08:26:826 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-12 11:08:26:826 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-12 12:39:55:3955 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 8.570 ms[39m
+[35m[39m
+2022-11-12 12:39:55:3955 [31merror[39m: [31mproject id null[39m
+2022-11-12 12:39:55:3955 [35mhttp[39m: [35m::1 PUT /api/v1/project 400 27 - 82.219 ms[39m
+[35m[39m
+2022-11-12 12:39:56:3956 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 283.500 ms[39m
+[35m[39m
+2022-11-12 12:40:54:4054 [35mhttp[39m: [35m::1 POST /api/v1/project 201 297 - 113.021 ms[39m
+[35m[39m
+2022-11-12 13:00:36:036 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 144.808 ms[39m
+[35m[39m
+2022-11-12 13:05:57:557 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 131.518 ms[39m
+[35m[39m
+2022-11-12 13:16:42:1642 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 190.085 ms[39m
+[35m[39m
+2022-11-12 13:23:28:2328 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.557 ms[39m
+[35m[39m
+2022-11-12 13:23:28:2328 [35mhttp[39m: [35m::1 POST /api/v1/project 201 261 - 86.153 ms[39m
+[35m[39m
+2022-11-12 13:23:29:2329 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 3279 - 22.846 ms[39m
+[35m[39m
+2022-11-12 13:25:14:2514 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 93.380 ms[39m
+[35m[39m
+2022-11-12 13:28:13:2813 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.285 ms[39m
+[35m[39m
+2022-11-12 13:28:13:2813 [35mhttp[39m: [35m::1 POST /api/v1/project 201 266 - 74.764 ms[39m
+[35m[39m
+2022-11-12 13:28:14:2814 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 3852 - 15.903 ms[39m
+[35m[39m
+2022-11-13 07:23:48:2348 [32minfo[39m: [32mRunning in: development[39m
+2022-11-13 07:23:48:2348 [32minfo[39m: [32mServer Time: Sun Nov 13 2022 07:23:48 GMT-0500 (Colombia Standard Time)[39m
+2022-11-13 07:23:48:2348 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-13 07:23:48:2348 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-13 07:45:06:456 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 2.834 ms[39m
+[35m[39m
+2022-11-13 07:45:06:456 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-11-13 07:45:06:456 [35mhttp[39m: [35m::1 POST /api/v1/company 400 68 - 120.239 ms[39m
+[35m[39m
+2022-11-13 08:13:26:1326 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.511 ms[39m
+[35m[39m
+2022-11-13 08:13:26:1326 [35mhttp[39m: [35m::1 POST /api/v1/company 201 396 - 271.817 ms[39m
+[35m[39m
+2022-11-13 08:14:19:1419 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.430 ms[39m
+[35m[39m
+2022-11-13 08:14:19:1419 [35mhttp[39m: [35m::1 POST /api/v1/company 201 373 - 272.899 ms[39m
+[35m[39m
+2022-11-13 08:15:39:1539 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.292 ms[39m
+[35m[39m
+2022-11-13 08:15:39:1539 [35mhttp[39m: [35m::1 POST /api/v1/company 201 373 - 180.115 ms[39m
+[35m[39m
+2022-11-13 08:16:43:1643 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.446 ms[39m
+[35m[39m
+2022-11-13 08:16:43:1643 [35mhttp[39m: [35m::1 POST /api/v1/company 201 363 - 180.255 ms[39m
+[35m[39m
+2022-11-13 08:18:30:1830 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.301 ms[39m
+[35m[39m
+2022-11-13 08:18:30:1830 [35mhttp[39m: [35m::1 POST /api/v1/company 201 372 - 171.274 ms[39m
+[35m[39m
+2022-11-13 08:20:16:2016 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.448 ms[39m
+[35m[39m
+2022-11-13 08:20:16:2016 [35mhttp[39m: [35m::1 POST /api/v1/company 201 365 - 169.265 ms[39m
+[35m[39m
+2022-11-13 11:12:51:1251 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.563 ms[39m
+[35m[39m
+2022-11-13 11:12:51:1251 [35mhttp[39m: [35m::1 POST /api/v1/project 403 9 - 2.466 ms[39m
+[35m[39m
+2022-11-13 11:12:51:1251 [31merror[39m: [31mcompany must have a name[39m
+2022-11-13 11:12:51:1251 [35mhttp[39m: [35m::1 POST /api/v1/company 500 37 - 21.290 ms[39m
+[35m[39m
+2022-11-13 11:13:15:1315 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.337 ms[39m
+[35m[39m
+2022-11-13 11:13:15:1315 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-11-13 11:13:15:1315 [35mhttp[39m: [35m::1 POST /api/v1/company 400 68 - 74.185 ms[39m
+[35m[39m
+2022-11-13 11:13:31:1331 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.366 ms[39m
+[35m[39m
+2022-11-13 11:13:31:1331 [35mhttp[39m: [35m::1 POST /api/v1/company 201 378 - 171.564 ms[39m
+[35m[39m
+2022-11-13 12:05:35:535 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 1.969 ms[39m
+[35m[39m
+2022-11-13 12:05:36:536 [35mhttp[39m: [35m::1 PUT /api/v1/company 401 12 - 3.010 ms[39m
+[35m[39m
+2022-11-13 12:17:25:1725 [35mhttp[39m: [35m::1 PUT /api/v1/company 401 12 - 3.304 ms[39m
+[35m[39m
+2022-11-13 12:18:25:1825 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 1.426 ms[39m
+[35m[39m
+2022-11-13 12:18:25:1825 [35mhttp[39m: [35m::1 POST /api/v1/company 201 359 - 255.581 ms[39m
+[35m[39m
+2022-11-13 12:19:10:1910 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.446 ms[39m
+[35m[39m
+2022-11-13 12:19:10:1910 [35mhttp[39m: [35m::1 PUT /api/v1/company 401 12 - 1.232 ms[39m
+[35m[39m
+2022-11-13 12:19:50:1950 [35mhttp[39m: [35m::1 OPTIONS /api/v1/company 204 0 - 0.282 ms[39m
+[35m[39m
+2022-11-13 12:19:50:1950 [35mhttp[39m: [35m::1 POST /api/v1/company 201 361 - 181.482 ms[39m
+[35m[39m
+2022-11-13 12:26:08:268 [32minfo[39m: [32mRunning in: development[39m
+2022-11-13 12:26:08:268 [32minfo[39m: [32mServer Time: Sun Nov 13 2022 12:26:08 GMT-0500 (Colombia Standard Time)[39m
+2022-11-13 12:26:08:268 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-13 12:26:08:268 [32minfo[39m: [32mServer running on http://localhost:3000[39m
