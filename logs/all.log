@@ -12428,3 +12428,58 @@
 [35m[39m
 2022-11-13 18:02:27:227 [35mhttp[39m: [35m::1 PUT /api/v1/student 200 41 - 85.504 ms[39m
 [35m[39m
+2022-11-15 09:36:54:3654 [32minfo[39m: [32mRunning in: development[39m
+2022-11-15 09:36:54:3654 [32minfo[39m: [32mServer Time: Tue Nov 15 2022 09:36:54 GMT-0500 (Colombia Standard Time)[39m
+2022-11-15 09:36:54:3654 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-15 09:36:54:3654 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-15 09:36:57:3657 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 2.314 ms[39m
+[35m[39m
+2022-11-15 09:36:58:3658 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 200 892 - 178.018 ms[39m
+[35m[39m
+2022-11-15 09:36:58:3658 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 31.773 ms[39m
+[35m[39m
+2022-11-15 09:36:58:3658 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 2319 - 41.136 ms[39m
+[35m[39m
+2022-11-15 09:36:58:3658 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 23.849 ms[39m
+[35m[39m
+2022-11-15 09:37:06:376 [35mhttp[39m: [35m::1 GET /api/v1/project/2 200 4483 - 150.788 ms[39m
+[35m[39m
+2022-11-15 09:37:06:376 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 304 - - 8.703 ms[39m
+[35m[39m
+2022-11-15 09:37:14:3714 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 21.953 ms[39m
+[35m[39m
+2022-11-15 09:37:14:3714 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 25.876 ms[39m
+[35m[39m
+2022-11-15 09:37:14:3714 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 15.475 ms[39m
+[35m[39m
+2022-11-15 09:40:56:4056 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 89.329 ms[39m
+[35m[39m
+2022-11-15 09:40:56:4056 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 95.087 ms[39m
+[35m[39m
+2022-11-15 09:40:56:4056 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 28.982 ms[39m
+[35m[39m
+2022-11-15 09:40:59:4059 [35mhttp[39m: [35m::1 GET /api/v1/project/2 304 - - 128.039 ms[39m
+[35m[39m
+2022-11-15 09:40:59:4059 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 304 - - 7.576 ms[39m
+[35m[39m
+2022-11-15 09:41:44:4144 [35mhttp[39m: [35m::1 GET /api/v1/project/2 304 - - 188.677 ms[39m
+[35m[39m
+2022-11-15 09:41:44:4144 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 304 - - 8.988 ms[39m
+[35m[39m
+2022-11-15 09:44:33:4433 [35mhttp[39m: [35m::1 GET /api/v1/project/2 304 - - 168.844 ms[39m
+[35m[39m
+2022-11-15 09:44:33:4433 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 304 - - 7.597 ms[39m
+[35m[39m
+2022-11-15 09:48:11:4811 [35mhttp[39m: [35m::1 GET /api/v1/project/2 304 - - 182.562 ms[39m
+[35m[39m
+2022-11-15 09:48:11:4811 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 304 - - 5.701 ms[39m
+[35m[39m
+2022-11-15 09:49:02:492 [35mhttp[39m: [35m::1 GET /api/v1/project/2 304 - - 188.514 ms[39m
+[35m[39m
+2022-11-15 09:49:02:492 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 304 - - 6.302 ms[39m
+[35m[39m
+2022-11-15 09:49:48:4948 [35mhttp[39m: [35m::1 GET /api/v1/project/2 304 - - 274.622 ms[39m
+[35m[39m
+2022-11-15 09:49:48:4948 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 304 - - 7.550 ms[39m
+[35m[39m
