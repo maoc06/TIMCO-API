@@ -16,6 +16,7 @@ export default function makePutStudent({ updateStudent }) {
         },
       };
     } catch (e) {
+      console.log(e);
       logger.error(e.message);
       return {
         headers,
