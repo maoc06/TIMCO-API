@@ -12307,3 +12307,60 @@
 2022-11-13 12:26:08:268 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
 [32m[39m
 2022-11-13 12:26:08:268 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-15 08:26:50:2650 [32minfo[39m: [32mRunning in: development[39m
+2022-11-15 08:26:50:2650 [32minfo[39m: [32mServer Time: Tue Nov 15 2022 08:26:50 GMT-0500 (hora estándar de Colombia)[39m
+2022-11-15 08:26:50:2650 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-15 08:26:50:2650 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-15 08:28:14:2814 [35mhttp[39m: [35m::1 POST /api/v1/company 201 589 - 1372.689 ms[39m
+[35m[39m
+2022-11-15 08:28:53:2853 [35mhttp[39m: [35m::1 POST /api/v1/auth/company 200 797 - 750.266 ms[39m
+[35m[39m
+2022-11-15 08:29:29:2929 [35mhttp[39m: [35m::1 POST /api/v1/auth 201 797 - 819.656 ms[39m
+[35m[39m
+2022-11-15 08:30:13:3013 [31merror[39m: [31minserción o actualización en la tabla «students» viola la llave foránea «students_university_id_fkey»[39m
+2022-11-15 08:30:13:3013 [35mhttp[39m: [35m::1 POST /api/v1/student 500 37 - 1624.364 ms[39m
+[35m[39m
+2022-11-15 08:30:45:3045 [35mhttp[39m: [35m::1 POST /api/v1/university 403 9 - 9.160 ms[39m
+[35m[39m
+2022-11-15 08:31:08:318 [35mhttp[39m: [35m::1 POST /api/v1/university 201 103 - 615.352 ms[39m
+[35m[39m
+2022-11-15 08:31:33:3133 [35mhttp[39m: [35m::1 POST /api/v1/area 201 89 - 524.596 ms[39m
+[35m[39m
+2022-11-15 08:31:44:3144 [35mhttp[39m: [35m::1 POST /api/v1/student 201 930 - 900.253 ms[39m
+[35m[39m
+2022-11-15 08:41:34:4134 [32minfo[39m: [32mRunning in: development[39m
+2022-11-15 08:41:34:4134 [32minfo[39m: [32mServer Time: Tue Nov 15 2022 08:41:34 GMT-0500 (hora estándar de Colombia)[39m
+2022-11-15 08:41:34:4134 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-15 08:41:34:4134 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-15 08:42:41:4241 [32minfo[39m: [32mRunning in: development[39m
+2022-11-15 08:42:41:4241 [32minfo[39m: [32mServer Time: Tue Nov 15 2022 08:42:41 GMT-0500 (hora estándar de Colombia)[39m
+2022-11-15 08:42:41:4241 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-15 08:42:41:4241 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-15 08:43:24:4324 [32minfo[39m: [32mRunning in: development[39m
+2022-11-15 08:43:24:4324 [32minfo[39m: [32mServer Time: Tue Nov 15 2022 08:43:24 GMT-0500 (hora estándar de Colombia)[39m
+2022-11-15 08:43:24:4324 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-15 08:43:24:4324 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-15 08:46:33:4633 [31merror[39m: [31mconfig is not defined[39m
+2022-11-15 08:46:33:4633 [35mhttp[39m: [35m::1 POST /api/v1/company 500 37 - 1587.612 ms[39m
+[35m[39m
+2022-11-15 08:49:40:4940 [32minfo[39m: [32mRunning in: development[39m
+2022-11-15 08:49:40:4940 [32minfo[39m: [32mServer Time: Tue Nov 15 2022 08:49:40 GMT-0500 (hora estándar de Colombia)[39m
+2022-11-15 08:49:40:4940 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-15 08:49:40:4940 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-15 08:49:50:4950 [31merror[39m: [31m{"status":"error","message":"create/email-company-exists"}[39m
+2022-11-15 08:49:51:4951 [35mhttp[39m: [35m::1 POST /api/v1/company 400 68 - 203.244 ms[39m
+[35m[39m
+2022-11-15 08:50:45:5045 [35mhttp[39m: [35m::1 POST /api/v1/company 201 213 - 1726.272 ms[39m
+[35m[39m
+2022-11-15 08:51:46:5146 [32minfo[39m: [32mRunning in: development[39m
+2022-11-15 08:51:46:5146 [32minfo[39m: [32mServer Time: Tue Nov 15 2022 08:51:46 GMT-0500 (hora estándar de Colombia)[39m
+2022-11-15 08:51:46:5146 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-15 08:51:46:5146 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-15 08:52:02:522 [35mhttp[39m: [35m::1 POST /api/v1/company 201 741 - 1277.126 ms[39m
+[35m[39m
