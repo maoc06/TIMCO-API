@@ -1,17 +1,20 @@
 import bcrypt from 'bcryptjs';
 
 import { makeCompany } from '../../entities';
+import { config } from '../../../config';
 
-export default function makeAddCompany({ companyDb }) {
+export default function makeAddCompany({ companyDb, handleToken }) {
   return async function addCompany(companyData) {
     const companyTmp = await validate(companyData);
-    const company = { ...companyTmp };
+    let company = { ...companyTmp };
 
     if (company.password) {
       company.password = await cryptPassword(company.password);
     }
 
-    return companyDb.add(company);
+    company = await companyDb.add(company);
+
+    return generateAccesToken(company);
   };
 
   async function validate(companyData) {
@@ -32,5 +35,22 @@ export default function makeAddCompany({ companyDb }) {
   async function cryptPassword(password) {
     const salt = await bcrypt.genSalt(10);
     return await bcrypt.hash(password, salt);
+  }
+
+  function generateAccesToken(company) {
+    const data = {
+      employeeNumber: company.employeeNumber,
+      talentModality: company.talentModality,
+      companyId: company.companyId,
+      name: company.name,
+      email: company.name,
+      phone: company.phone,
+      aboutMe: company.aboutMe,
+      profileImage: company.profileImage,
+      companyName: company.companyName,
+      isCompany: true
+    }
+
+    return handleToken(data, config.privateKey);
   }
 }
