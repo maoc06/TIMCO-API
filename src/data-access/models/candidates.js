@@ -47,11 +47,8 @@ const getCandidatesModel = (sequelize, { DataTypes, NOW }) => {
   };
 
   Candidates.updateById = async (candidateData) => {
-    const { candidateId, stateId  } = candidateData;
-    await Candidates.update(
-      { stateId },
-      { where: { candidateId } }
-    );
+    const { candidateId, stateId } = candidateData;
+    await Candidates.update({ stateId }, { where: { candidateId } });
   };
 
   Candidates.findByProject = async (projectId, { studentModel }) => {
@@ -72,11 +69,19 @@ const getCandidatesModel = (sequelize, { DataTypes, NOW }) => {
 
   Candidates.findProjectWaitingByStudent = async (
     studentId,
-    { projectModel, stateModel }
+    { projectModel, stateModel, companyModel }
   ) => {
     const projects = await Candidates.findAll({
       where: { studentId, stateId: constants.WAITING_PROJECT_ID },
-      include: [{ model: projectModel }, { model: stateModel }],
+      include: [
+        {
+          model: projectModel,
+          include: [
+            { model: companyModel, attributes: { exclude: ['password'] } },
+          ],
+        },
+        { model: stateModel },
+      ],
     });
     return projects;
   };

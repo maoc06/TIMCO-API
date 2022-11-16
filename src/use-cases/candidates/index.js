@@ -1,5 +1,5 @@
 import models from '../../data-access';
-const { Candidate, Project, Student, State } = models;
+const { Candidate, Company, Project, Student, State } = models;
 
 import makeListCandidatesByProject from './list-candidates-by-project';
 import makeUpdateCandidate from './update-candidate';
@@ -17,6 +17,7 @@ const listCandidatesByProject = makeListCandidatesByProject({
 
 const listCandidatesByStudent = makeListCandidatesByStudent({
   candidatesDb: Candidate,
+  companyModel: Company,
   projectModel: Project,
   studentModel: Student,
   stateModel: State,
