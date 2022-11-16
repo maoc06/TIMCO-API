@@ -612,3 +612,14 @@
 2022-11-15 22:27:44:2744 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
 2022-11-15 22:27:45:2745 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
 2022-11-15 22:44:14:4414 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-11-16 09:16:16:1616 [31merror[39m: [31mllave duplicada viola restricción de unicidad «students_phone_key»[39m
+2022-11-16 09:17:38:1738 [31merror[39m: [31mllave duplicada viola restricción de unicidad «students_phone_key»[39m
+2022-11-16 09:18:39:1839 [31merror[39m: [31mllave duplicada viola restricción de unicidad «students_phone_key»[39m
+2022-11-16 09:19:49:1949 [31merror[39m: [31mllave duplicada viola restricción de unicidad «students_phone_key»[39m
+2022-11-16 09:20:14:2014 [31merror[39m: [31mllave duplicada viola restricción de unicidad «students_phone_key»[39m
+2022-11-16 09:24:03:243 [31merror[39m: [31mla sintaxis de entrada no es válida para tipo uuid: «0»[39m
+2022-11-16 09:24:03:243 [31merror[39m: [31mla sintaxis de entrada no es válida para tipo uuid: «undefined»[39m
+2022-11-16 09:24:10:2410 [31merror[39m: [31mla sintaxis de entrada no es válida para tipo uuid: «undefined»[39m
+2022-11-16 09:24:11:2411 [31merror[39m: [31mla sintaxis de entrada no es válida para tipo uuid: «0»[39m
+2022-11-16 10:16:59:1659 [31merror[39m: [31m{"status":"error","message":"auth/invalid-password"}[39m
+2022-11-16 10:46:25:4625 [31merror[39m: [31mstudent with uuid=60e32c54-3771-4189-936b-c92f28be2ebe does not exist.[39m

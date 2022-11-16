@@ -86,6 +86,26 @@ const getCandidatesModel = (sequelize, { DataTypes, NOW }) => {
     return projects;
   };
 
+  Candidates.findProjectRejectByStudent = async (
+    studentId,
+    { projectModel, stateModel, companyModel }
+  ) => {
+    const projects = await Candidates.findAll({
+      attributes: { exclude: ['candidateId'] },
+      where: { studentId, stateId: constants.REJECT_PROJECT_ID },
+      include: [
+        {
+          model: projectModel,
+          include: [
+            { model: companyModel, attributes: { exclude: ['password'] } },
+          ],
+        },
+        { model: stateModel },
+      ],
+    });
+    return projects;
+  };
+
   return Candidates;
 };
 

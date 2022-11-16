@@ -1,5 +1,6 @@
 export default function makeListActiveProjectsByStudent({
   projectModel,
+  candidateModel,
   companyModel,
   studentModel,
   stateModel,
@@ -17,6 +18,13 @@ export default function makeListActiveProjectsByStudent({
       stateModel,
       skillModel,
     });
+
+    let rejectedProjects = await candidateModel.findProjectRejectByStudent(
+      studentId,
+      { projectModel, stateModel, companyModel }
+    );
+
+    projects = projects.concat(rejectedProjects);
     return projects;
   };
 

@@ -2,6 +2,7 @@ import models from '../../data-access';
 const {
   Project,
   ProjectReview,
+  Candidate,
   Company,
   Student,
   State,
@@ -77,6 +78,7 @@ const listProjectsByStudent = makeListProjectsByStudent({
 const listActiveProjectsByStudent = makeListActiveProjectsByStudent({
   projectModel: Project,
   companyModel: Company,
+  candidateModel: Candidate,
   skillModel: Skill,
   stateModel: State,
   studentModel: Student,
