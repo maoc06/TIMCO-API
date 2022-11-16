@@ -1,5 +1,6 @@
 export default function makeListCandidatesByStudent({
     candidatesDb,
+    companyModel,
     studentModel,
     projectModel,
     stateModel,
@@ -10,7 +11,7 @@ export default function makeListCandidatesByStudent({
         throw new RangeError(`student with id=${studentId} does not exist.`);
       }
   
-      let candidates = await candidatesDb.findProjectWaitingByStudent(studentId, {projectModel, stateModel});
+      let candidates = await candidatesDb.findProjectWaitingByStudent(studentId, {projectModel, stateModel, companyModel});
       return candidates;
     };
   

@@ -133,7 +133,7 @@ const getProjectModel = (sequelize, { DataTypes }) => {
   Project.findUnassignedByArea = async (areaId, { companyModel }) => {
     let projects = await Project.findAll({
       attributes: {
-        exclude: ['stateId', 'studentId', 'companyId', 'serviceId'],
+        exclude: ['studentId', 'companyId', 'serviceId'],
       },
       where: {
         areaId,
