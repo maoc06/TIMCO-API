@@ -15469,3 +15469,1679 @@
 [35m[39m
 2022-11-15 22:51:32:5132 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/6 304 - - 18.734 ms[39m
 [35m[39m
+2022-11-16 05:35:16:3516 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 05:35:16:3516 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 05:35:16 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 05:35:16:3516 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 05:35:16:3516 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 05:35:38:3538 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/company 204 0 - 4.808 ms[39m
+[35m[39m
+2022-11-16 05:35:38:3538 [35mhttp[39m: [35m::1 POST /api/v1/auth/company 200 601 - 236.048 ms[39m
+[35m[39m
+2022-11-16 05:35:39:3539 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 3852 - 54.256 ms[39m
+[35m[39m
+2022-11-16 05:35:49:3549 [35mhttp[39m: [35m::1 GET /api/v1/project/3 200 4380 - 144.205 ms[39m
+[35m[39m
+2022-11-16 05:35:49:3549 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/3 304 - - 14.751 ms[39m
+[35m[39m
+2022-11-16 05:36:10:3610 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 113.547 ms[39m
+[35m[39m
+2022-11-16 05:36:14:3614 [35mhttp[39m: [35m::1 GET /api/v1/project/2 304 - - 102.392 ms[39m
+[35m[39m
+2022-11-16 05:36:14:3614 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 304 - - 10.222 ms[39m
+[35m[39m
+2022-11-16 05:36:31:3631 [35mhttp[39m: [35m::1 GET /api/v1/project/17 200 2676 - 166.248 ms[39m
+[35m[39m
+2022-11-16 05:36:31:3631 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/17 200 58 - 6.003 ms[39m
+[35m[39m
+2022-11-16 05:36:37:3637 [35mhttp[39m: [35m::1 GET /api/v1/project/18 200 2487 - 82.691 ms[39m
+[35m[39m
+2022-11-16 05:36:37:3637 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 200 58 - 7.473 ms[39m
+[35m[39m
+2022-11-16 05:36:45:3645 [35mhttp[39m: [35m::1 GET /api/v1/project/14 200 2585 - 95.773 ms[39m
+[35m[39m
+2022-11-16 05:36:45:3645 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/14 200 58 - 7.009 ms[39m
+[35m[39m
+2022-11-16 05:37:01:371 [35mhttp[39m: [35m::1 GET /api/v1/project/14 304 - - 161.825 ms[39m
+[35m[39m
+2022-11-16 05:37:01:371 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/14 304 - - 5.673 ms[39m
+[35m[39m
+2022-11-16 05:37:08:378 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 96.643 ms[39m
+[35m[39m
+2022-11-16 05:37:08:378 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 6.742 ms[39m
+[35m[39m
+2022-11-16 05:37:16:3716 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 120.681 ms[39m
+[35m[39m
+2022-11-16 05:37:16:3716 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.240 ms[39m
+[35m[39m
+2022-11-16 05:38:40:3840 [31merror[39m: [31minsert or update on table "candidates" violates foreign key constraint "candidates_student_id_fkey"[39m
+2022-11-16 05:38:40:3840 [35mhttp[39m: [35m::1 POST /api/v1/candidate 400 115 - 172.934 ms[39m
+[35m[39m
+2022-11-16 05:39:12:3912 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 197 - 216.450 ms[39m
+[35m[39m
+2022-11-16 05:39:22:3922 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 109.554 ms[39m
+[35m[39m
+2022-11-16 05:39:22:3922 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 200 743 - 10.082 ms[39m
+[35m[39m
+2022-11-16 05:43:53:4353 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 165.803 ms[39m
+[35m[39m
+2022-11-16 05:43:53:4353 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.760 ms[39m
+[35m[39m
+2022-11-16 05:44:22:4422 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 159.816 ms[39m
+[35m[39m
+2022-11-16 05:44:23:4423 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.980 ms[39m
+[35m[39m
+2022-11-16 05:44:39:4439 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 238.290 ms[39m
+[35m[39m
+2022-11-16 05:44:39:4439 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.552 ms[39m
+[35m[39m
+2022-11-16 05:44:51:4451 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 210.450 ms[39m
+[35m[39m
+2022-11-16 05:44:51:4451 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.668 ms[39m
+[35m[39m
+2022-11-16 05:45:14:4514 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 203.214 ms[39m
+[35m[39m
+2022-11-16 05:45:14:4514 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 10.175 ms[39m
+[35m[39m
+2022-11-16 05:45:32:4532 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 195.599 ms[39m
+[35m[39m
+2022-11-16 05:45:32:4532 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.871 ms[39m
+[35m[39m
+2022-11-16 05:52:56:5256 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 277.120 ms[39m
+[35m[39m
+2022-11-16 05:52:56:5256 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.467 ms[39m
+[35m[39m
+2022-11-16 05:53:06:536 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 70.891 ms[39m
+[35m[39m
+2022-11-16 05:53:06:536 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 6.307 ms[39m
+[35m[39m
+2022-11-16 05:53:10:5310 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 69.091 ms[39m
+[35m[39m
+2022-11-16 05:53:10:5310 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.121 ms[39m
+[35m[39m
+2022-11-16 05:54:23:5423 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 242.152 ms[39m
+[35m[39m
+2022-11-16 05:54:23:5423 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.593 ms[39m
+[35m[39m
+2022-11-16 05:55:11:5511 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 164.008 ms[39m
+[35m[39m
+2022-11-16 05:55:11:5511 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.416 ms[39m
+[35m[39m
+2022-11-16 05:59:34:5934 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 240.575 ms[39m
+[35m[39m
+2022-11-16 05:59:34:5934 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.410 ms[39m
+[35m[39m
+2022-11-16 06:03:44:344 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 193.161 ms[39m
+[35m[39m
+2022-11-16 06:03:44:344 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.844 ms[39m
+[35m[39m
+2022-11-16 06:04:07:47 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 161.576 ms[39m
+[35m[39m
+2022-11-16 06:04:07:47 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.973 ms[39m
+[35m[39m
+2022-11-16 06:06:07:67 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 173.447 ms[39m
+[35m[39m
+2022-11-16 06:06:07:67 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 11.049 ms[39m
+[35m[39m
+2022-11-16 06:06:55:655 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 89.651 ms[39m
+[35m[39m
+2022-11-16 06:08:23:823 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 97.903 ms[39m
+[35m[39m
+2022-11-16 06:08:30:830 [35mhttp[39m: [35m::1 GET /api/v1/project/14 304 - - 108.363 ms[39m
+[35m[39m
+2022-11-16 06:08:30:830 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/14 304 - - 5.611 ms[39m
+[35m[39m
+2022-11-16 06:08:36:836 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 79.251 ms[39m
+[35m[39m
+2022-11-16 06:08:36:836 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 13.377 ms[39m
+[35m[39m
+2022-11-16 06:09:41:941 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 162.947 ms[39m
+[35m[39m
+2022-11-16 06:09:41:941 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.736 ms[39m
+[35m[39m
+2022-11-16 06:12:30:1230 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 201.382 ms[39m
+[35m[39m
+2022-11-16 06:12:30:1230 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 10.204 ms[39m
+[35m[39m
+2022-11-16 06:12:56:1256 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 144.115 ms[39m
+[35m[39m
+2022-11-16 06:12:57:1257 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.165 ms[39m
+[35m[39m
+2022-11-16 06:14:26:1426 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 177.577 ms[39m
+[35m[39m
+2022-11-16 06:14:27:1427 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.356 ms[39m
+[35m[39m
+2022-11-16 06:15:38:1538 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 189.980 ms[39m
+[35m[39m
+2022-11-16 06:15:39:1539 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.361 ms[39m
+[35m[39m
+2022-11-16 06:15:51:1551 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 185.984 ms[39m
+[35m[39m
+2022-11-16 06:15:51:1551 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.887 ms[39m
+[35m[39m
+2022-11-16 06:22:15:2215 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 103.705 ms[39m
+[35m[39m
+2022-11-16 06:22:51:2251 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 100.706 ms[39m
+[35m[39m
+2022-11-16 06:23:47:2347 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 103.636 ms[39m
+[35m[39m
+2022-11-16 06:24:02:242 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 96.982 ms[39m
+[35m[39m
+2022-11-16 06:25:15:2515 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 94.286 ms[39m
+[35m[39m
+2022-11-16 06:25:51:2551 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 193.044 ms[39m
+[35m[39m
+2022-11-16 06:25:56:2556 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 8.292 ms[39m
+[35m[39m
+2022-11-16 06:28:22:2822 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 99.922 ms[39m
+[35m[39m
+2022-11-16 06:38:58:3858 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 101.685 ms[39m
+[35m[39m
+2022-11-16 06:39:25:3925 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 173.535 ms[39m
+[35m[39m
+2022-11-16 06:44:29:4429 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 93.760 ms[39m
+[35m[39m
+2022-11-16 06:56:22:5622 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 96.690 ms[39m
+[35m[39m
+2022-11-16 06:56:34:5634 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 112.207 ms[39m
+[35m[39m
+2022-11-16 06:58:14:5814 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 200 550 - 90.893 ms[39m
+[35m[39m
+2022-11-16 06:59:39:5939 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 194.015 ms[39m
+[35m[39m
+2022-11-16 07:04:12:412 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 94.088 ms[39m
+[35m[39m
+2022-11-16 07:05:00:50 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 90.243 ms[39m
+[35m[39m
+2022-11-16 07:09:09:99 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 91.277 ms[39m
+[35m[39m
+2022-11-16 07:10:22:1022 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 95.087 ms[39m
+[35m[39m
+2022-11-16 07:12:30:1230 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 88.726 ms[39m
+[35m[39m
+2022-11-16 07:14:39:1439 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 112.026 ms[39m
+[35m[39m
+2022-11-16 07:15:29:1529 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 97.924 ms[39m
+[35m[39m
+2022-11-16 07:15:51:1551 [35mhttp[39m: [35m::1 GET /api/v1/project/14 304 - - 293.678 ms[39m
+[35m[39m
+2022-11-16 07:15:51:1551 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/14 304 - - 10.898 ms[39m
+[35m[39m
+2022-11-16 07:15:58:1558 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 91.034 ms[39m
+[35m[39m
+2022-11-16 07:15:58:1558 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.222 ms[39m
+[35m[39m
+2022-11-16 07:16:28:1628 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 176.501 ms[39m
+[35m[39m
+2022-11-16 07:16:28:1628 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.748 ms[39m
+[35m[39m
+2022-11-16 07:16:57:1657 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 147.680 ms[39m
+[35m[39m
+2022-11-16 07:16:57:1657 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.295 ms[39m
+[35m[39m
+2022-11-16 07:17:20:1720 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 186.674 ms[39m
+[35m[39m
+2022-11-16 07:17:20:1720 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.466 ms[39m
+[35m[39m
+2022-11-16 07:17:29:1729 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 80.620 ms[39m
+[35m[39m
+2022-11-16 07:17:29:1729 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 5.927 ms[39m
+[35m[39m
+2022-11-16 07:17:44:1744 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 153.527 ms[39m
+[35m[39m
+2022-11-16 07:17:44:1744 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.233 ms[39m
+[35m[39m
+2022-11-16 07:17:52:1752 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 87.340 ms[39m
+[35m[39m
+2022-11-16 07:17:52:1752 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 6.769 ms[39m
+[35m[39m
+2022-11-16 07:19:04:194 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 178.793 ms[39m
+[35m[39m
+2022-11-16 07:19:04:194 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.786 ms[39m
+[35m[39m
+2022-11-16 07:19:14:1914 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 113.659 ms[39m
+[35m[39m
+2022-11-16 07:19:14:1914 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.492 ms[39m
+[35m[39m
+2022-11-16 07:20:02:202 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 177.313 ms[39m
+[35m[39m
+2022-11-16 07:20:02:202 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.936 ms[39m
+[35m[39m
+2022-11-16 07:20:36:2036 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 170.411 ms[39m
+[35m[39m
+2022-11-16 07:20:37:2037 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.391 ms[39m
+[35m[39m
+2022-11-16 07:21:32:2132 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 159.230 ms[39m
+[35m[39m
+2022-11-16 07:21:33:2133 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 10.946 ms[39m
+[35m[39m
+2022-11-16 07:21:39:2139 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 77.808 ms[39m
+[35m[39m
+2022-11-16 07:21:39:2139 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 12.032 ms[39m
+[35m[39m
+2022-11-16 07:21:43:2143 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 84.230 ms[39m
+[35m[39m
+2022-11-16 07:21:43:2143 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 6.855 ms[39m
+[35m[39m
+2022-11-16 07:24:33:2433 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 210.350 ms[39m
+[35m[39m
+2022-11-16 07:24:33:2433 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 10.337 ms[39m
+[35m[39m
+2022-11-16 07:24:51:2451 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 148.053 ms[39m
+[35m[39m
+2022-11-16 07:24:52:2452 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.859 ms[39m
+[35m[39m
+2022-11-16 07:25:57:2557 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 261.304 ms[39m
+[35m[39m
+2022-11-16 07:25:57:2557 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.206 ms[39m
+[35m[39m
+2022-11-16 09:13:20:1320 [31merror[39m: [31minvalid input syntax for type uuid: "760"[39m
+2022-11-16 09:13:20:1320 [35mhttp[39m: [35m::1 GET /api/v1/student/760 400 55 - 544.569 ms[39m
+[35m[39m
+2022-11-16 09:14:44:1444 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 200 550 - 122.640 ms[39m
+[35m[39m
+2022-11-16 09:15:18:1518 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 185.302 ms[39m
+[35m[39m
+2022-11-16 09:18:01:181 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 75.869 ms[39m
+[35m[39m
+2022-11-16 09:18:50:1850 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 88.959 ms[39m
+[35m[39m
+2022-11-16 09:19:27:1927 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 185.763 ms[39m
+[35m[39m
+2022-11-16 09:19:32:1932 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 3.559 ms[39m
+[35m[39m
+2022-11-16 09:19:43:1943 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 67.789 ms[39m
+[35m[39m
+2022-11-16 09:19:59:1959 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 78.953 ms[39m
+[35m[39m
+2022-11-16 09:20:09:209 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 74.428 ms[39m
+[35m[39m
+2022-11-16 09:20:17:2017 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 14.473 ms[39m
+[35m[39m
+2022-11-16 09:20:39:2039 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 73.316 ms[39m
+[35m[39m
+2022-11-16 09:21:00:210 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 73.818 ms[39m
+[35m[39m
+2022-11-16 09:21:05:215 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 8.518 ms[39m
+[35m[39m
+2022-11-16 09:22:34:2234 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 79.738 ms[39m
+[35m[39m
+2022-11-16 09:23:06:236 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 76.366 ms[39m
+[35m[39m
+2022-11-16 09:23:39:2339 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 174.989 ms[39m
+[35m[39m
+2022-11-16 09:24:39:2439 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 72.509 ms[39m
+[35m[39m
+2022-11-16 09:55:45:5545 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 09:55:45:5545 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 09:55:45 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 09:55:45:5545 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 09:55:45:5545 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 10:08:51:851 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 10:08:51:851 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 10:08:51 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 10:08:51:851 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 10:08:51:851 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 10:08:57:857 [35mhttp[39m: [35m::1 GET /api/v1/skill 200 2213 - 18.639 ms[39m
+[35m[39m
+2022-11-16 10:09:36:936 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 111.196 ms[39m
+[35m[39m
+2022-11-16 10:12:05:125 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 99.832 ms[39m
+[35m[39m
+2022-11-16 10:12:21:1221 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 72.671 ms[39m
+[35m[39m
+2022-11-16 10:13:44:1344 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 74.354 ms[39m
+[35m[39m
+2022-11-16 10:15:39:1539 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 86.184 ms[39m
+[35m[39m
+2022-11-16 10:15:58:1558 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 61.887 ms[39m
+[35m[39m
+2022-11-16 10:16:12:1612 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 192.712 ms[39m
+[35m[39m
+2022-11-16 10:16:29:1629 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 89.400 ms[39m
+[35m[39m
+2022-11-16 10:16:36:1636 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 6.505 ms[39m
+[35m[39m
+2022-11-16 10:17:08:178 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 68.764 ms[39m
+[35m[39m
+2022-11-16 10:17:28:1728 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 106.450 ms[39m
+[35m[39m
+2022-11-16 10:18:11:1811 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 90.913 ms[39m
+[35m[39m
+2022-11-16 10:18:57:1857 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 90.006 ms[39m
+[35m[39m
+2022-11-16 10:21:04:214 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 78.876 ms[39m
+[35m[39m
+2022-11-16 10:26:58:2658 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 79.752 ms[39m
+[35m[39m
+2022-11-16 10:27:09:279 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 64.603 ms[39m
+[35m[39m
+2022-11-16 10:28:28:2828 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 115.700 ms[39m
+[35m[39m
+2022-11-16 10:30:33:3033 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 193.046 ms[39m
+[35m[39m
+2022-11-16 10:30:54:3054 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 90.681 ms[39m
+[35m[39m
+2022-11-16 10:31:15:3115 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 82.139 ms[39m
+[35m[39m
+2022-11-16 10:31:18:3118 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 4.297 ms[39m
+[35m[39m
+2022-11-16 10:38:39:3839 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 92.714 ms[39m
+[35m[39m
+2022-11-16 10:39:51:3951 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 108.219 ms[39m
+[35m[39m
+2022-11-16 10:39:56:3956 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 6.051 ms[39m
+[35m[39m
+2022-11-16 10:40:03:403 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 5.988 ms[39m
+[35m[39m
+2022-11-16 10:47:35:4735 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 103.794 ms[39m
+[35m[39m
+2022-11-16 10:47:56:4756 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 109.512 ms[39m
+[35m[39m
+2022-11-16 10:48:52:4852 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 78.084 ms[39m
+[35m[39m
+2022-11-16 10:49:38:4938 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 853.161 ms[39m
+[35m[39m
+2022-11-16 10:51:19:5119 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 99.087 ms[39m
+[35m[39m
+2022-11-16 10:52:09:529 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 86.388 ms[39m
+[35m[39m
+2022-11-16 10:52:21:5221 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 111.009 ms[39m
+[35m[39m
+2022-11-16 10:55:15:5515 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 87.807 ms[39m
+[35m[39m
+2022-11-16 10:56:23:5623 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 141.678 ms[39m
+[35m[39m
+2022-11-16 10:56:29:5629 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 5.376 ms[39m
+[35m[39m
+2022-11-16 10:56:34:5634 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 6.058 ms[39m
+[35m[39m
+2022-11-16 10:56:41:5641 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 6.242 ms[39m
+[35m[39m
+2022-11-16 10:56:47:5647 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 5.358 ms[39m
+[35m[39m
+2022-11-16 10:56:54:5654 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 5.245 ms[39m
+[35m[39m
+2022-11-16 10:58:24:5824 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 88.705 ms[39m
+[35m[39m
+2022-11-16 10:59:17:5917 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 85.588 ms[39m
+[35m[39m
+2022-11-16 10:59:32:5932 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 114.128 ms[39m
+[35m[39m
+2022-11-16 10:59:45:5945 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 71.045 ms[39m
+[35m[39m
+2022-11-16 11:00:43:043 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 69.528 ms[39m
+[35m[39m
+2022-11-16 11:00:53:053 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 4.812 ms[39m
+[35m[39m
+2022-11-16 11:27:29:2729 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 85.438 ms[39m
+[35m[39m
+2022-11-16 11:28:07:287 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 80.844 ms[39m
+[35m[39m
+2022-11-16 11:28:21:2821 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 75.081 ms[39m
+[35m[39m
+2022-11-16 11:28:29:2829 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 5.544 ms[39m
+[35m[39m
+2022-11-16 11:30:40:3040 [35mhttp[39m: [35m::1 GET /api/v1/student/1b14bcb9-1c05-44e6-8bcb-c0136b333d9c 304 - - 83.616 ms[39m
+[35m[39m
+2022-11-16 11:31:11:3111 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 191.124 ms[39m
+[35m[39m
+2022-11-16 11:31:16:3116 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 129.453 ms[39m
+[35m[39m
+2022-11-16 11:31:17:3117 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 22.657 ms[39m
+[35m[39m
+2022-11-16 11:31:21:3121 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 16.154 ms[39m
+[35m[39m
+2022-11-16 11:31:24:3124 [35mhttp[39m: [35m::1 GET /api/v1/project/17 200 2676 - 92.483 ms[39m
+[35m[39m
+2022-11-16 11:31:24:3124 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/17 200 58 - 6.196 ms[39m
+[35m[39m
+2022-11-16 11:31:27:3127 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 18.482 ms[39m
+[35m[39m
+2022-11-16 11:31:30:3130 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 90.795 ms[39m
+[35m[39m
+2022-11-16 11:31:30:3130 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.054 ms[39m
+[35m[39m
+2022-11-16 11:33:06:336 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 171.730 ms[39m
+[35m[39m
+2022-11-16 11:33:06:336 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.784 ms[39m
+[35m[39m
+2022-11-16 11:34:15:3415 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 208.328 ms[39m
+[35m[39m
+2022-11-16 11:34:16:3416 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.632 ms[39m
+[35m[39m
+2022-11-16 11:35:06:356 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 209.949 ms[39m
+[35m[39m
+2022-11-16 11:35:06:356 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.540 ms[39m
+[35m[39m
+2022-11-16 11:36:11:3611 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 226.243 ms[39m
+[35m[39m
+2022-11-16 11:36:11:3611 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.905 ms[39m
+[35m[39m
+2022-11-16 11:36:48:3648 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 176.909 ms[39m
+[35m[39m
+2022-11-16 11:36:49:3649 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 12.849 ms[39m
+[35m[39m
+2022-11-16 11:38:06:386 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 4801.008 ms[39m
+[35m[39m
+2022-11-16 11:38:06:386 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 215.292 ms[39m
+[35m[39m
+2022-11-16 11:39:54:3954 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 197.700 ms[39m
+[35m[39m
+2022-11-16 11:39:54:3954 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.375 ms[39m
+[35m[39m
+2022-11-16 11:41:33:4133 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 164.243 ms[39m
+[35m[39m
+2022-11-16 11:41:33:4133 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.606 ms[39m
+[35m[39m
+2022-11-16 11:42:17:4217 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 152.101 ms[39m
+[35m[39m
+2022-11-16 11:42:17:4217 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.290 ms[39m
+[35m[39m
+2022-11-16 11:42:48:4248 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 168.424 ms[39m
+[35m[39m
+2022-11-16 11:42:49:4249 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 8.015 ms[39m
+[35m[39m
+2022-11-16 11:44:36:4436 [35mhttp[39m: [35m::1 GET /api/v1/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 565 - 95.837 ms[39m
+[35m[39m
+2022-11-16 14:13:39:1339 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/company 204 0 - 567.153 ms[39m
+[35m[39m
+2022-11-16 14:13:42:1342 [35mhttp[39m: [35m::1 POST /api/v1/auth/company 200 601 - 1867.329 ms[39m
+[35m[39m
+2022-11-16 14:13:42:1342 [35mhttp[39m: [35m::1 POST /api/v1/auth/company 200 601 - 322.522 ms[39m
+[35m[39m
+2022-11-16 14:13:42:1342 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 43.956 ms[39m
+[35m[39m
+2022-11-16 14:14:00:140 [35mhttp[39m: [35m::1 GET /api/v1/project/17 304 - - 168.892 ms[39m
+[35m[39m
+2022-11-16 14:14:01:141 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/17 304 - - 15.129 ms[39m
+[35m[39m
+2022-11-16 14:14:07:147 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 87.016 ms[39m
+[35m[39m
+2022-11-16 14:14:07:147 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 9.572 ms[39m
+[35m[39m
+2022-11-16 14:14:17:1417 [35mhttp[39m: [35m::1 GET /api/v1/project/14 304 - - 157.019 ms[39m
+[35m[39m
+2022-11-16 14:14:17:1417 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/14 304 - - 7.248 ms[39m
+[35m[39m
+2022-11-16 14:14:53:1453 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 118.241 ms[39m
+[35m[39m
+2022-11-16 14:15:22:1522 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/company 204 0 - 0.514 ms[39m
+[35m[39m
+2022-11-16 14:15:22:1522 [35mhttp[39m: [35m::1 POST /api/v1/auth/company 200 601 - 160.893 ms[39m
+[35m[39m
+2022-11-16 14:15:22:1522 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 24.566 ms[39m
+[35m[39m
+2022-11-16 14:17:21:1721 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.384 ms[39m
+[35m[39m
+2022-11-16 14:17:22:1722 [35mhttp[39m: [35m::1 POST /api/v1/project 201 470 - 294.422 ms[39m
+[35m[39m
+2022-11-16 14:17:43:1743 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 4629 - 141.187 ms[39m
+[35m[39m
+2022-11-16 14:17:48:1748 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 10.924 ms[39m
+[35m[39m
+2022-11-16 14:24:12:2412 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 14:24:12:2412 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 14:24:12 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 14:24:12:2412 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 14:24:12:2412 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 14:24:16:2416 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 2.899 ms[39m
+[35m[39m
+2022-11-16 14:24:16:2416 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-11-16 14:24:16:2416 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 400 60 - 69.829 ms[39m
+[35m[39m
+2022-11-16 14:24:23:2423 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.570 ms[39m
+[35m[39m
+2022-11-16 14:24:23:2423 [31merror[39m: [31m{"status":"error","message":"auth/user-not-found"}[39m
+2022-11-16 14:24:23:2423 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 400 60 - 8.534 ms[39m
+[35m[39m
+2022-11-16 14:25:07:257 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.485 ms[39m
+[35m[39m
+2022-11-16 14:25:07:257 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 200 892 - 215.030 ms[39m
+[35m[39m
+2022-11-16 14:25:08:258 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 804 - 40.506 ms[39m
+[35m[39m
+2022-11-16 14:25:08:258 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 49.981 ms[39m
+[35m[39m
+2022-11-16 14:25:08:258 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/1 204 0 - 0.381 ms[39m
+[35m[39m
+2022-11-16 14:25:08:258 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/1 200 514 - 14.369 ms[39m
+[35m[39m
+2022-11-16 14:26:14:2614 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 126.851 ms[39m
+[35m[39m
+2022-11-16 14:26:14:2614 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 2319 - 137.562 ms[39m
+[35m[39m
+2022-11-16 14:26:14:2614 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/1 204 0 - 0.368 ms[39m
+[35m[39m
+2022-11-16 14:26:14:2614 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/1 304 - - 8.523 ms[39m
+[35m[39m
+2022-11-16 14:26:28:2628 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.317 ms[39m
+[35m[39m
+2022-11-16 14:26:28:2628 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 200 894 - 174.076 ms[39m
+[35m[39m
+2022-11-16 14:26:28:2628 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 26.585 ms[39m
+[35m[39m
+2022-11-16 14:26:28:2628 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 31.933 ms[39m
+[35m[39m
+2022-11-16 14:26:29:2629 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.388 ms[39m
+[35m[39m
+2022-11-16 14:26:29:2629 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 1217 - 8.085 ms[39m
+[35m[39m
+2022-11-16 14:26:34:2634 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 2691 - 110.710 ms[39m
+[35m[39m
+2022-11-16 14:26:45:2645 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.226 ms[39m
+[35m[39m
+2022-11-16 14:26:46:2646 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 198 - 85.012 ms[39m
+[35m[39m
+2022-11-16 14:26:46:2646 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 95.207 ms[39m
+[35m[39m
+2022-11-16 14:28:46:2846 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 1756 - 106.710 ms[39m
+[35m[39m
+2022-11-16 14:28:46:2846 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 113.331 ms[39m
+[35m[39m
+2022-11-16 14:28:47:2847 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.347 ms[39m
+[35m[39m
+2022-11-16 14:28:47:2847 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 6.440 ms[39m
+[35m[39m
+2022-11-16 14:29:01:291 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 277.029 ms[39m
+[35m[39m
+2022-11-16 14:32:13:3213 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 100.773 ms[39m
+[35m[39m
+2022-11-16 14:32:13:3213 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 103.834 ms[39m
+[35m[39m
+2022-11-16 14:32:13:3213 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.422 ms[39m
+[35m[39m
+2022-11-16 14:32:13:3213 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 12.226 ms[39m
+[35m[39m
+2022-11-16 14:33:52:3352 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/student 204 0 - 0.607 ms[39m
+[35m[39m
+2022-11-16 14:33:52:3352 [35mhttp[39m: [35m::1 POST /api/v1/auth/student 200 894 - 169.150 ms[39m
+[35m[39m
+2022-11-16 14:33:53:3353 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 1756 - 20.357 ms[39m
+[35m[39m
+2022-11-16 14:33:53:3353 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 2319 - 25.318 ms[39m
+[35m[39m
+2022-11-16 14:33:53:3353 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 1.099 ms[39m
+[35m[39m
+2022-11-16 14:33:53:3353 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 1217 - 8.093 ms[39m
+[35m[39m
+2022-11-16 14:34:22:3422 [35mhttp[39m: [35m::1 OPTIONS /api/v1/auth/company 204 0 - 0.472 ms[39m
+[35m[39m
+2022-11-16 14:34:23:3423 [35mhttp[39m: [35m::1 POST /api/v1/auth/company 200 601 - 168.198 ms[39m
+[35m[39m
+2022-11-16 14:34:23:3423 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 4629 - 23.505 ms[39m
+[35m[39m
+2022-11-16 14:34:36:3436 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 210.377 ms[39m
+[35m[39m
+2022-11-16 14:34:37:3437 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 200 744 - 10.517 ms[39m
+[35m[39m
+2022-11-16 14:34:45:3445 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 1.371 ms[39m
+[35m[39m
+2022-11-16 14:34:45:3445 [35mhttp[39m: [35m::1 PUT /api/v1/candidate 200 43 - 9.146 ms[39m
+[35m[39m
+2022-11-16 14:34:45:3445 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.346 ms[39m
+[35m[39m
+2022-11-16 14:34:45:3445 [35mhttp[39m: [35m::1 PUT /api/v1/project 200 41 - 19.736 ms[39m
+[35m[39m
+2022-11-16 14:34:46:3446 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4714 - 166.898 ms[39m
+[35m[39m
+2022-11-16 14:34:46:3446 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 200 58 - 6.274 ms[39m
+[35m[39m
+2022-11-16 14:35:11:3511 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 5093 - 120.036 ms[39m
+[35m[39m
+2022-11-16 14:35:14:3514 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 804 - 19.804 ms[39m
+[35m[39m
+2022-11-16 14:35:14:3514 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 3560 - 22.579 ms[39m
+[35m[39m
+2022-11-16 14:35:14:3514 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.446 ms[39m
+[35m[39m
+2022-11-16 14:35:14:3514 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 544 - 5.711 ms[39m
+[35m[39m
+2022-11-16 14:35:19:3519 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4714 - 100.236 ms[39m
+[35m[39m
+2022-11-16 14:43:41:4341 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 14:43:41:4341 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 14:43:41 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 14:43:41:4341 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 14:43:41:4341 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 14:44:52:4452 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 14:44:52:4452 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 14:44:52 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 14:44:52:4452 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 14:44:52:4452 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 14:49:50:4950 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 14:49:50:4950 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 14:49:50 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 14:49:50:4950 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 14:49:50:4950 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 14:49:52:4952 [35mhttp[39m: [35m::1 PUT /api/v1/project 400 1253 - 29.476 ms[39m
+[35m[39m
+2022-11-16 14:50:02:502 [35mhttp[39m: [35m::1 PUT /api/v1/project 403 9 - 9.799 ms[39m
+[35m[39m
+2022-11-16 14:50:09:509 [35mhttp[39m: [35m::1 PUT /api/v1/project 403 9 - 2.900 ms[39m
+[35m[39m
+2022-11-16 14:50:31:5031 [35mhttp[39m: [35m::1 PUT /api/v1/project 200 41 - 84.152 ms[39m
+[35m[39m
+2022-11-16 14:50:37:5037 [35mhttp[39m: [35m::1 PUT /api/v1/project 400 1253 - 2.440 ms[39m
+[35m[39m
+2022-11-16 14:52:41:5241 [31merror[39m: [31mvalue too long for type character varying(150)[39m
+2022-11-16 14:52:41:5241 [35mhttp[39m: [35m::1 PUT /api/v1/project 400 58 - 149.135 ms[39m
+[35m[39m
+2022-11-16 14:53:41:5341 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 14:53:41:5341 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 14:53:41 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 14:53:41:5341 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 14:53:41:5341 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 14:53:54:5354 [31merror[39m: [31mvalue too long for type character varying(250)[39m
+2022-11-16 14:53:54:5354 [35mhttp[39m: [35m::1 PUT /api/v1/project 400 58 - 201.987 ms[39m
+[35m[39m
+2022-11-16 14:54:01:541 [35mhttp[39m: [35m::1 PUT /api/v1/project 200 41 - 19.893 ms[39m
+[35m[39m
+2022-11-16 15:00:01:01 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4753 - 236.381 ms[39m
+[35m[39m
+2022-11-16 15:00:01:01 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 5327 - 18.355 ms[39m
+[35m[39m
+2022-11-16 15:00:05:05 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 87.470 ms[39m
+[35m[39m
+2022-11-16 15:00:05:05 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 15.110 ms[39m
+[35m[39m
+2022-11-16 15:00:49:049 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 164.863 ms[39m
+[35m[39m
+2022-11-16 15:00:49:049 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 15.371 ms[39m
+[35m[39m
+2022-11-16 15:01:43:143 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 187.937 ms[39m
+[35m[39m
+2022-11-16 15:01:44:144 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 15.889 ms[39m
+[35m[39m
+2022-11-16 15:02:32:232 [35mhttp[39m: [35m::1 GET /api/v1/project/18 200 2526 - 87.655 ms[39m
+[35m[39m
+2022-11-16 15:02:42:242 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 17.032 ms[39m
+[35m[39m
+2022-11-16 15:02:43:243 [35mhttp[39m: [35m::1 POST /api/v1 404 146 - 3.996 ms[39m
+[35m[39m
+2022-11-16 15:02:47:247 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 62.220 ms[39m
+[35m[39m
+2022-11-16 15:04:04:44 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 266.664 ms[39m
+[35m[39m
+2022-11-16 15:04:04:44 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 11.899 ms[39m
+[35m[39m
+2022-11-16 15:04:53:453 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 1.252 ms[39m
+[35m[39m
+2022-11-16 15:04:53:453 [35mhttp[39m: [35m::1 PUT /api/v1/project 200 41 - 80.073 ms[39m
+[35m[39m
+2022-11-16 15:05:28:528 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4569 - 127.630 ms[39m
+[35m[39m
+2022-11-16 15:06:07:67 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 314.147 ms[39m
+[35m[39m
+2022-11-16 15:06:08:68 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 5143 - 16.050 ms[39m
+[35m[39m
+2022-11-16 15:07:06:76 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 160.437 ms[39m
+[35m[39m
+2022-11-16 15:07:06:76 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 14.175 ms[39m
+[35m[39m
+2022-11-16 15:10:46:1046 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 197.600 ms[39m
+[35m[39m
+2022-11-16 15:10:46:1046 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 12.930 ms[39m
+[35m[39m
+2022-11-16 15:11:04:114 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 95.239 ms[39m
+[35m[39m
+2022-11-16 15:18:11:1811 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 141.054 ms[39m
+[35m[39m
+2022-11-16 15:18:11:1811 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 101.824 ms[39m
+[35m[39m
+2022-11-16 15:20:21:2021 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 159.263 ms[39m
+[35m[39m
+2022-11-16 15:20:21:2021 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 217.007 ms[39m
+[35m[39m
+2022-11-16 15:23:29:2329 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 110.991 ms[39m
+[35m[39m
+2022-11-16 15:23:29:2329 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 94.523 ms[39m
+[35m[39m
+2022-11-16 15:25:31:2531 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 112.092 ms[39m
+[35m[39m
+2022-11-16 15:25:31:2531 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 100.409 ms[39m
+[35m[39m
+2022-11-16 15:26:24:2624 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 117.565 ms[39m
+[35m[39m
+2022-11-16 15:26:24:2624 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 84.213 ms[39m
+[35m[39m
+2022-11-16 15:27:02:272 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 101.675 ms[39m
+[35m[39m
+2022-11-16 15:27:02:272 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 183.807 ms[39m
+[35m[39m
+2022-11-16 15:27:20:2720 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 104.085 ms[39m
+[35m[39m
+2022-11-16 15:27:20:2720 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 175.243 ms[39m
+[35m[39m
+2022-11-16 15:27:38:2738 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 134.245 ms[39m
+[35m[39m
+2022-11-16 15:27:38:2738 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 86.851 ms[39m
+[35m[39m
+2022-11-16 15:27:48:2748 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 15.673 ms[39m
+[35m[39m
+2022-11-16 15:27:48:2748 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 93.718 ms[39m
+[35m[39m
+2022-11-16 15:28:11:2811 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 129.798 ms[39m
+[35m[39m
+2022-11-16 15:28:11:2811 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 201.898 ms[39m
+[35m[39m
+2022-11-16 15:28:24:2824 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 188.315 ms[39m
+[35m[39m
+2022-11-16 15:28:24:2824 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 98.180 ms[39m
+[35m[39m
+2022-11-16 15:28:50:2850 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 96.616 ms[39m
+[35m[39m
+2022-11-16 15:28:50:2850 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 61.776 ms[39m
+[35m[39m
+2022-11-16 15:31:09:319 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 129.910 ms[39m
+[35m[39m
+2022-11-16 15:31:09:319 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 162.201 ms[39m
+[35m[39m
+2022-11-16 15:31:37:3137 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 147.523 ms[39m
+[35m[39m
+2022-11-16 15:31:37:3137 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 158.356 ms[39m
+[35m[39m
+2022-11-16 15:31:52:3152 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4569 - 121.876 ms[39m
+[35m[39m
+2022-11-16 15:31:52:3152 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 8.807 ms[39m
+[35m[39m
+2022-11-16 15:35:32:3532 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 178.142 ms[39m
+[35m[39m
+2022-11-16 15:35:32:3532 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 232.139 ms[39m
+[35m[39m
+2022-11-16 15:35:32:3532 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 8.654 ms[39m
+[35m[39m
+2022-11-16 15:38:15:3815 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 174.208 ms[39m
+[35m[39m
+2022-11-16 15:38:15:3815 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 75.978 ms[39m
+[35m[39m
+2022-11-16 15:38:15:3815 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.240 ms[39m
+[35m[39m
+2022-11-16 15:46:12:4612 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 174.644 ms[39m
+[35m[39m
+2022-11-16 15:46:12:4612 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 86.063 ms[39m
+[35m[39m
+2022-11-16 15:46:13:4613 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 10.009 ms[39m
+[35m[39m
+2022-11-16 15:47:35:4735 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 168.226 ms[39m
+[35m[39m
+2022-11-16 15:47:35:4735 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 9.674 ms[39m
+[35m[39m
+2022-11-16 15:47:35:4735 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 70.064 ms[39m
+[35m[39m
+2022-11-16 15:53:41:5341 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 182.642 ms[39m
+[35m[39m
+2022-11-16 15:53:41:5341 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 240.034 ms[39m
+[35m[39m
+2022-11-16 15:53:41:5341 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.295 ms[39m
+[35m[39m
+2022-11-16 15:54:37:5437 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 236.758 ms[39m
+[35m[39m
+2022-11-16 15:54:37:5437 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 245.092 ms[39m
+[35m[39m
+2022-11-16 15:54:37:5437 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 17.407 ms[39m
+[35m[39m
+2022-11-16 15:55:37:5537 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 273.787 ms[39m
+[35m[39m
+2022-11-16 15:55:37:5537 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 186.840 ms[39m
+[35m[39m
+2022-11-16 15:55:38:5538 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.958 ms[39m
+[35m[39m
+2022-11-16 15:55:45:5545 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 13.782 ms[39m
+[35m[39m
+2022-11-16 15:55:47:5547 [35mhttp[39m: [35m::1 GET /api/v1/project/3 200 4419 - 48.566 ms[39m
+[35m[39m
+2022-11-16 15:55:48:5548 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/3 200 736 - 10.800 ms[39m
+[35m[39m
+2022-11-16 15:56:06:566 [35mhttp[39m: [35m::1 GET /api/v1/project/3 304 - - 165.168 ms[39m
+[35m[39m
+2022-11-16 15:56:06:566 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 81.963 ms[39m
+[35m[39m
+2022-11-16 15:56:06:566 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/3 304 - - 9.694 ms[39m
+[35m[39m
+2022-11-16 15:57:14:5714 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 99.465 ms[39m
+[35m[39m
+2022-11-16 15:57:16:5716 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 67.789 ms[39m
+[35m[39m
+2022-11-16 15:57:17:5717 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 8.102 ms[39m
+[35m[39m
+2022-11-16 16:00:50:050 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 110.158 ms[39m
+[35m[39m
+2022-11-16 16:06:08:68 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 142.169 ms[39m
+[35m[39m
+2022-11-16 16:07:09:79 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 2.221 ms[39m
+[35m[39m
+2022-11-16 16:07:09:79 [35mhttp[39m: [35m::1 POST /api/v1/project 201 351 - 108.562 ms[39m
+[35m[39m
+2022-11-16 16:07:44:744 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 157.589 ms[39m
+[35m[39m
+2022-11-16 16:07:52:752 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 75.920 ms[39m
+[35m[39m
+2022-11-16 16:08:09:89 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.281 ms[39m
+[35m[39m
+2022-11-16 16:08:10:810 [35mhttp[39m: [35m::1 POST /api/v1/project 201 316 - 76.991 ms[39m
+[35m[39m
+2022-11-16 16:08:10:810 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 6424 - 18.535 ms[39m
+[35m[39m
+2022-11-16 16:08:54:854 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 149.196 ms[39m
+[35m[39m
+2022-11-16 16:08:54:854 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.614 ms[39m
+[35m[39m
+2022-11-16 16:11:16:1116 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 187.790 ms[39m
+[35m[39m
+2022-11-16 16:11:16:1116 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 74.040 ms[39m
+[35m[39m
+2022-11-16 16:11:16:1116 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 9.151 ms[39m
+[35m[39m
+2022-11-16 16:12:02:122 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 255.268 ms[39m
+[35m[39m
+2022-11-16 16:12:03:123 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 226.628 ms[39m
+[35m[39m
+2022-11-16 16:12:03:123 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 8.223 ms[39m
+[35m[39m
+2022-11-16 16:13:35:1335 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 157.321 ms[39m
+[35m[39m
+2022-11-16 16:13:35:1335 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 190.968 ms[39m
+[35m[39m
+2022-11-16 16:13:35:1335 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.810 ms[39m
+[35m[39m
+2022-11-16 16:14:57:1457 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4674 - 138.046 ms[39m
+[35m[39m
+2022-11-16 16:14:58:1458 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 6.924 ms[39m
+[35m[39m
+2022-11-16 16:15:52:1552 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 180.179 ms[39m
+[35m[39m
+2022-11-16 16:15:52:1552 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4674 - 78.168 ms[39m
+[35m[39m
+2022-11-16 16:15:53:1553 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 9.623 ms[39m
+[35m[39m
+2022-11-16 16:16:03:163 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 76.570 ms[39m
+[35m[39m
+2022-11-16 16:16:04:164 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 58.086 ms[39m
+[35m[39m
+2022-11-16 16:16:04:164 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 6.380 ms[39m
+[35m[39m
+2022-11-16 16:19:08:198 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 121.084 ms[39m
+[35m[39m
+2022-11-16 16:19:08:198 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.157 ms[39m
+[35m[39m
+2022-11-16 16:20:52:2052 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 246.141 ms[39m
+[35m[39m
+2022-11-16 16:20:52:2052 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.216 ms[39m
+[35m[39m
+2022-11-16 16:22:20:2220 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 153.995 ms[39m
+[35m[39m
+2022-11-16 16:22:20:2220 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 182.777 ms[39m
+[35m[39m
+2022-11-16 16:22:21:2221 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 6.891 ms[39m
+[35m[39m
+2022-11-16 16:22:39:2239 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 6529 - 92.062 ms[39m
+[35m[39m
+2022-11-16 16:22:43:2243 [35mhttp[39m: [35m::1 GET /api/v1/project/21 200 2766 - 40.986 ms[39m
+[35m[39m
+2022-11-16 16:22:43:2243 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/21 200 58 - 7.408 ms[39m
+[35m[39m
+2022-11-16 16:22:52:2252 [35mhttp[39m: [35m::1 GET /api/v1/project/22 200 2731 - 33.239 ms[39m
+[35m[39m
+2022-11-16 16:22:52:2252 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/22 200 58 - 5.362 ms[39m
+[35m[39m
+2022-11-16 16:22:57:2257 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 13.225 ms[39m
+[35m[39m
+2022-11-16 16:23:02:232 [35mhttp[39m: [35m::1 GET /api/v1/project/18 200 2526 - 22.677 ms[39m
+[35m[39m
+2022-11-16 16:23:02:232 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 200 743 - 8.878 ms[39m
+[35m[39m
+2022-11-16 16:23:12:2312 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 843 - 19.528 ms[39m
+[35m[39m
+2022-11-16 16:23:12:2312 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 3598 - 23.878 ms[39m
+[35m[39m
+2022-11-16 16:23:12:2312 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.488 ms[39m
+[35m[39m
+2022-11-16 16:23:12:2312 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 583 - 6.182 ms[39m
+[35m[39m
+2022-11-16 16:23:16:2316 [35mhttp[39m: [35m::1 GET /api/v1/project/18 200 2526 - 37.668 ms[39m
+[35m[39m
+2022-11-16 16:23:25:2325 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 12.876 ms[39m
+[35m[39m
+2022-11-16 16:23:29:2329 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 35.050 ms[39m
+[35m[39m
+2022-11-16 16:23:30:2330 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/18 304 - - 7.861 ms[39m
+[35m[39m
+2022-11-16 16:23:34:2334 [35mhttp[39m: [35m::1 GET /api/v1/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 567 - 7.859 ms[39m
+[35m[39m
+2022-11-16 16:26:03:263 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 97.034 ms[39m
+[35m[39m
+2022-11-16 16:26:05:265 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 64.795 ms[39m
+[35m[39m
+2022-11-16 16:26:06:266 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 6.329 ms[39m
+[35m[39m
+2022-11-16 16:30:19:3019 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 190.292 ms[39m
+[35m[39m
+2022-11-16 16:30:19:3019 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 6.785 ms[39m
+[35m[39m
+2022-11-16 16:30:19:3019 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 32.063 ms[39m
+[35m[39m
+2022-11-16 16:31:00:310 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 182.700 ms[39m
+[35m[39m
+2022-11-16 16:31:00:310 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 106.751 ms[39m
+[35m[39m
+2022-11-16 16:31:00:310 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 8.630 ms[39m
+[35m[39m
+2022-11-16 16:32:51:3251 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 273.189 ms[39m
+[35m[39m
+2022-11-16 16:32:51:3251 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 190.629 ms[39m
+[35m[39m
+2022-11-16 16:32:51:3251 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.021 ms[39m
+[35m[39m
+2022-11-16 16:34:00:340 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 232.779 ms[39m
+[35m[39m
+2022-11-16 16:34:00:340 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 31.306 ms[39m
+[35m[39m
+2022-11-16 16:34:00:340 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 10.134 ms[39m
+[35m[39m
+2022-11-16 16:36:01:361 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 220.144 ms[39m
+[35m[39m
+2022-11-16 16:36:01:361 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 170.576 ms[39m
+[35m[39m
+2022-11-16 16:36:01:361 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 13.477 ms[39m
+[35m[39m
+2022-11-16 16:36:19:3619 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 183.939 ms[39m
+[35m[39m
+2022-11-16 16:36:19:3619 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 184.453 ms[39m
+[35m[39m
+2022-11-16 16:36:20:3620 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 6.802 ms[39m
+[35m[39m
+2022-11-16 16:40:17:4017 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 163.284 ms[39m
+[35m[39m
+2022-11-16 16:40:17:4017 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 638.125 ms[39m
+[35m[39m
+2022-11-16 16:40:18:4018 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 26.390 ms[39m
+[35m[39m
+2022-11-16 16:40:43:4043 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 232.448 ms[39m
+[35m[39m
+2022-11-16 16:40:43:4043 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 194.519 ms[39m
+[35m[39m
+2022-11-16 16:40:44:4044 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 8.036 ms[39m
+[35m[39m
+2022-11-16 16:41:51:4151 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 188.565 ms[39m
+[35m[39m
+2022-11-16 16:41:51:4151 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 83.191 ms[39m
+[35m[39m
+2022-11-16 16:41:51:4151 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 12.869 ms[39m
+[35m[39m
+2022-11-16 16:44:28:4428 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 258.623 ms[39m
+[35m[39m
+2022-11-16 16:44:28:4428 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 76.735 ms[39m
+[35m[39m
+2022-11-16 16:44:29:4429 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 9.588 ms[39m
+[35m[39m
+2022-11-16 16:46:31:4631 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 172.606 ms[39m
+[35m[39m
+2022-11-16 16:46:32:4632 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 30.689 ms[39m
+[35m[39m
+2022-11-16 16:46:32:4632 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.731 ms[39m
+[35m[39m
+2022-11-16 16:50:34:5034 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 153.096 ms[39m
+[35m[39m
+2022-11-16 16:50:34:5034 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 26.427 ms[39m
+[35m[39m
+2022-11-16 16:50:34:5034 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.525 ms[39m
+[35m[39m
+2022-11-16 16:52:22:5222 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 109.255 ms[39m
+[35m[39m
+2022-11-16 16:52:25:5225 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.375 ms[39m
+[35m[39m
+2022-11-16 16:52:25:5225 [35mhttp[39m: [35m::1 PUT /api/v1/project 200 41 - 45.303 ms[39m
+[35m[39m
+2022-11-16 16:52:25:5225 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 78.663 ms[39m
+[35m[39m
+2022-11-16 16:52:25:5225 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 5.337 ms[39m
+[35m[39m
+2022-11-16 16:52:59:5259 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.306 ms[39m
+[35m[39m
+2022-11-16 16:52:59:5259 [35mhttp[39m: [35m::1 PUT /api/v1/project 200 41 - 64.980 ms[39m
+[35m[39m
+2022-11-16 16:53:08:538 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4674 - 60.454 ms[39m
+[35m[39m
+2022-11-16 16:53:08:538 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 5.649 ms[39m
+[35m[39m
+2022-11-16 16:54:16:5416 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 134.523 ms[39m
+[35m[39m
+2022-11-16 16:54:16:5416 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 170.132 ms[39m
+[35m[39m
+2022-11-16 16:54:16:5416 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.964 ms[39m
+[35m[39m
+2022-11-16 16:59:29:5929 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 194.019 ms[39m
+[35m[39m
+2022-11-16 16:59:30:5930 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 36.550 ms[39m
+[35m[39m
+2022-11-16 16:59:30:5930 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 9.646 ms[39m
+[35m[39m
+2022-11-16 16:59:56:5956 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 212.613 ms[39m
+[35m[39m
+2022-11-16 16:59:56:5956 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 188.353 ms[39m
+[35m[39m
+2022-11-16 16:59:56:5956 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/20 304 - - 7.357 ms[39m
+[35m[39m
+2022-11-16 17:00:06:06 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 6529 - 13.644 ms[39m
+[35m[39m
+2022-11-16 17:01:29:129 [35mhttp[39m: [35m::1 GET /api/v1/project/18 304 - - 94.163 ms[39m
+[35m[39m
+2022-11-16 17:01:34:134 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 10.808 ms[39m
+[35m[39m
+2022-11-16 17:01:34:134 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 3598 - 14.204 ms[39m
+[35m[39m
+2022-11-16 17:01:34:134 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.340 ms[39m
+[35m[39m
+2022-11-16 17:01:34:134 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 3.612 ms[39m
+[35m[39m
+2022-11-16 17:01:39:139 [35mhttp[39m: [35m::1 GET /api/v1/project/20 200 4674 - 72.359 ms[39m
+[35m[39m
+2022-11-16 17:04:56:456 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 286.777 ms[39m
+[35m[39m
+2022-11-16 17:04:56:456 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 183.769 ms[39m
+[35m[39m
+2022-11-16 17:05:33:533 [35mhttp[39m: [35m::1 GET /api/v1/project/20 304 - - 203.685 ms[39m
+[35m[39m
+2022-11-16 17:05:34:534 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 12.626 ms[39m
+[35m[39m
+2022-11-16 17:05:41:541 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 14.448 ms[39m
+[35m[39m
+2022-11-16 17:05:41:541 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 19.567 ms[39m
+[35m[39m
+2022-11-16 17:05:41:541 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.397 ms[39m
+[35m[39m
+2022-11-16 17:05:41:541 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 5.127 ms[39m
+[35m[39m
+2022-11-16 17:06:24:624 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.366 ms[39m
+[35m[39m
+2022-11-16 17:06:24:624 [35mhttp[39m: [35m::1 POST /api/v1/project 201 325 - 98.741 ms[39m
+[35m[39m
+2022-11-16 17:06:24:624 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 7161 - 17.454 ms[39m
+[35m[39m
+2022-11-16 17:06:32:632 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 12.546 ms[39m
+[35m[39m
+2022-11-16 17:06:32:632 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 15.577 ms[39m
+[35m[39m
+2022-11-16 17:06:32:632 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.457 ms[39m
+[35m[39m
+2022-11-16 17:06:32:632 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 1111 - 6.893 ms[39m
+[35m[39m
+2022-11-16 17:06:37:637 [35mhttp[39m: [35m::1 GET /api/v1/project/23 200 2546 - 28.984 ms[39m
+[35m[39m
+2022-11-16 17:07:30:730 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 122.398 ms[39m
+[35m[39m
+2022-11-16 17:07:30:730 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 12.558 ms[39m
+[35m[39m
+2022-11-16 17:07:38:738 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.567 ms[39m
+[35m[39m
+2022-11-16 17:07:38:738 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 198 - 15.755 ms[39m
+[35m[39m
+2022-11-16 17:07:42:742 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 20.947 ms[39m
+[35m[39m
+2022-11-16 17:09:11:911 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/2 200 58 - 66.597 ms[39m
+[35m[39m
+2022-11-16 17:09:15:915 [31merror[39m: [31mstudent with id=65d4ad47-63ee-402e-8dc8-54359d8c3d9a does not exist.[39m
+2022-11-16 17:09:15:915 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/65d4ad47-63ee-402e-8dc8-54359d8c3d9a 400 80 - 26.354 ms[39m
+[35m[39m
+2022-11-16 17:13:12:1312 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 106.340 ms[39m
+[35m[39m
+2022-11-16 17:13:49:1349 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 169.569 ms[39m
+[35m[39m
+2022-11-16 17:13:49:1349 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 15.648 ms[39m
+[35m[39m
+2022-11-16 17:14:02:142 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.397 ms[39m
+[35m[39m
+2022-11-16 17:14:02:142 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 198 - 76.155 ms[39m
+[35m[39m
+2022-11-16 17:14:05:145 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 28.037 ms[39m
+[35m[39m
+2022-11-16 17:15:00:150 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 172.803 ms[39m
+[35m[39m
+2022-11-16 17:15:01:151 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 12.926 ms[39m
+[35m[39m
+2022-11-16 17:15:06:156 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.314 ms[39m
+[35m[39m
+2022-11-16 17:15:06:156 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 198 - 13.704 ms[39m
+[35m[39m
+2022-11-16 17:15:08:158 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 21.549 ms[39m
+[35m[39m
+2022-11-16 17:15:17:1517 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 32.442 ms[39m
+[35m[39m
+2022-11-16 17:15:17:1517 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 12.727 ms[39m
+[35m[39m
+2022-11-16 17:15:26:1526 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.454 ms[39m
+[35m[39m
+2022-11-16 17:15:26:1526 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 198 - 10.095 ms[39m
+[35m[39m
+2022-11-16 17:16:19:1619 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 127.037 ms[39m
+[35m[39m
+2022-11-16 17:16:19:1619 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 14.385 ms[39m
+[35m[39m
+2022-11-16 17:16:25:1625 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.434 ms[39m
+[35m[39m
+2022-11-16 17:16:25:1625 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 198 - 10.769 ms[39m
+[35m[39m
+2022-11-16 17:16:30:1630 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 4878 - 9.239 ms[39m
+[35m[39m
+2022-11-16 17:16:30:1630 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 12.915 ms[39m
+[35m[39m
+2022-11-16 17:16:30:1630 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.419 ms[39m
+[35m[39m
+2022-11-16 17:16:30:1630 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 4.309 ms[39m
+[35m[39m
+2022-11-16 17:16:39:1639 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 22.521 ms[39m
+[35m[39m
+2022-11-16 17:19:04:194 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 122.207 ms[39m
+[35m[39m
+2022-11-16 17:19:04:194 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 16.844 ms[39m
+[35m[39m
+2022-11-16 17:19:10:1910 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 14.619 ms[39m
+[35m[39m
+2022-11-16 17:19:10:1910 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 18.413 ms[39m
+[35m[39m
+2022-11-16 17:19:10:1910 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.417 ms[39m
+[35m[39m
+2022-11-16 17:19:10:1910 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 6.657 ms[39m
+[35m[39m
+2022-11-16 17:19:13:1913 [35mhttp[39m: [35m::1 GET /api/v1/project/2 200 3480 - 37.342 ms[39m
+[35m[39m
+2022-11-16 17:19:20:1920 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 13.261 ms[39m
+[35m[39m
+2022-11-16 17:19:20:1920 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 17.130 ms[39m
+[35m[39m
+2022-11-16 17:19:20:1920 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.214 ms[39m
+[35m[39m
+2022-11-16 17:19:20:1920 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 3.305 ms[39m
+[35m[39m
+2022-11-16 17:19:22:1922 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 34.013 ms[39m
+[35m[39m
+2022-11-16 17:19:25:1925 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 11.759 ms[39m
+[35m[39m
+2022-11-16 17:19:25:1925 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 15.195 ms[39m
+[35m[39m
+2022-11-16 17:19:25:1925 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.425 ms[39m
+[35m[39m
+2022-11-16 17:19:25:1925 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 4.300 ms[39m
+[35m[39m
+2022-11-16 17:19:34:1934 [35mhttp[39m: [35m::1 GET /api/v1/project/23 200 2546 - 30.736 ms[39m
+[35m[39m
+2022-11-16 17:19:34:1934 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/23 200 3492 - 7.456 ms[39m
+[35m[39m
+2022-11-16 17:19:44:1944 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.285 ms[39m
+[35m[39m
+2022-11-16 17:19:44:1944 [35mhttp[39m: [35m::1 PUT /api/v1/candidate 200 43 - 12.123 ms[39m
+[35m[39m
+2022-11-16 17:19:44:1944 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 28.648 ms[39m
+[35m[39m
+2022-11-16 17:19:44:1944 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/23 200 2805 - 5.726 ms[39m
+[35m[39m
+2022-11-16 17:19:51:1951 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.402 ms[39m
+[35m[39m
+2022-11-16 17:19:51:1951 [35mhttp[39m: [35m::1 PUT /api/v1/candidate 200 43 - 7.188 ms[39m
+[35m[39m
+2022-11-16 17:19:52:1952 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 19.141 ms[39m
+[35m[39m
+2022-11-16 17:19:52:1952 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/23 200 2118 - 6.281 ms[39m
+[35m[39m
+2022-11-16 17:19:56:1956 [35mhttp[39m: [35m::1 PUT /api/v1/candidate 200 43 - 9.665 ms[39m
+[35m[39m
+2022-11-16 17:19:56:1956 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 17.886 ms[39m
+[35m[39m
+2022-11-16 17:19:56:1956 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/23 200 1431 - 4.838 ms[39m
+[35m[39m
+2022-11-16 17:19:59:1959 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.381 ms[39m
+[35m[39m
+2022-11-16 17:19:59:1959 [35mhttp[39m: [35m::1 PUT /api/v1/candidate 200 43 - 5.692 ms[39m
+[35m[39m
+2022-11-16 17:19:59:1959 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 21.332 ms[39m
+[35m[39m
+2022-11-16 17:19:59:1959 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/23 200 744 - 3.951 ms[39m
+[35m[39m
+2022-11-16 17:20:05:205 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.228 ms[39m
+[35m[39m
+2022-11-16 17:20:05:205 [35mhttp[39m: [35m::1 PUT /api/v1/candidate 200 43 - 9.343 ms[39m
+[35m[39m
+2022-11-16 17:20:05:205 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.302 ms[39m
+[35m[39m
+2022-11-16 17:20:05:205 [35mhttp[39m: [35m::1 PUT /api/v1/project 200 41 - 7.699 ms[39m
+[35m[39m
+2022-11-16 17:20:05:205 [35mhttp[39m: [35m::1 GET /api/v1/project/23 200 4569 - 71.407 ms[39m
+[35m[39m
+2022-11-16 17:20:06:206 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/23 200 58 - 5.086 ms[39m
+[35m[39m
+2022-11-16 17:20:14:2014 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 843 - 10.595 ms[39m
+[35m[39m
+2022-11-16 17:20:14:2014 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 4694 - 15.160 ms[39m
+[35m[39m
+2022-11-16 17:20:14:2014 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.336 ms[39m
+[35m[39m
+2022-11-16 17:20:14:2014 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 583 - 5.148 ms[39m
+[35m[39m
+2022-11-16 17:20:17:2017 [35mhttp[39m: [35m::1 GET /api/v1/project/23 200 4569 - 345.820 ms[39m
+[35m[39m
+2022-11-16 17:20:24:2024 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 11.603 ms[39m
+[35m[39m
+2022-11-16 17:20:24:2024 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 17.434 ms[39m
+[35m[39m
+2022-11-16 17:20:24:2024 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.300 ms[39m
+[35m[39m
+2022-11-16 17:20:24:2024 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 6.167 ms[39m
+[35m[39m
+2022-11-16 17:20:35:2035 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 7625 - 137.029 ms[39m
+[35m[39m
+2022-11-16 17:20:38:2038 [35mhttp[39m: [35m::1 GET /api/v1/project/21 304 - - 37.458 ms[39m
+[35m[39m
+2022-11-16 17:20:39:2039 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/21 304 - - 9.238 ms[39m
+[35m[39m
+2022-11-16 17:20:46:2046 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 12.089 ms[39m
+[35m[39m
+2022-11-16 17:21:47:2147 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.452 ms[39m
+[35m[39m
+2022-11-16 17:21:47:2147 [35mhttp[39m: [35m::1 POST /api/v1/project 201 317 - 68.850 ms[39m
+[35m[39m
+2022-11-16 17:21:47:2147 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 8249 - 17.373 ms[39m
+[35m[39m
+2022-11-16 17:21:58:2158 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 14.354 ms[39m
+[35m[39m
+2022-11-16 17:21:58:2158 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 19.444 ms[39m
+[35m[39m
+2022-11-16 17:21:58:2158 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.462 ms[39m
+[35m[39m
+2022-11-16 17:21:58:2158 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 1103 - 5.071 ms[39m
+[35m[39m
+2022-11-16 17:22:00:220 [35mhttp[39m: [35m::1 GET /api/v1/project/24 200 2538 - 31.099 ms[39m
+[35m[39m
+2022-11-16 17:22:08:228 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.299 ms[39m
+[35m[39m
+2022-11-16 17:22:08:228 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 198 - 12.542 ms[39m
+[35m[39m
+2022-11-16 17:22:20:2220 [35mhttp[39m: [35m::1 GET /api/v1/project/24 200 2538 - 117.151 ms[39m
+[35m[39m
+2022-11-16 17:22:21:2221 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/24 200 744 - 7.754 ms[39m
+[35m[39m
+2022-11-16 17:23:52:2352 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 142.003 ms[39m
+[35m[39m
+2022-11-16 17:23:52:2352 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 30.245 ms[39m
+[35m[39m
+2022-11-16 17:23:53:2353 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/24 304 - - 8.252 ms[39m
+[35m[39m
+2022-11-16 17:26:37:2637 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 17:26:37:2637 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 17:26:37 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 17:26:37:2637 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 17:26:37:2637 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 17:27:25:2725 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 17:27:25:2725 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 17:27:25 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 17:27:25:2725 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 17:27:25:2725 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 17:28:11:2811 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 17:28:11:2811 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 17:28:11 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 17:28:11:2811 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 17:28:11:2811 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 17:28:32:2832 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 17:28:32:2832 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 17:28:32 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 17:28:32:2832 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 17:28:32:2832 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 17:30:56:3056 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 17:30:56:3056 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 17:30:56 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 17:30:56:3056 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 17:30:56:3056 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 17:31:08:318 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/15 200 58 - 92.941 ms[39m
+[35m[39m
+2022-11-16 17:31:33:3133 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/24 200 744 - 70.405 ms[39m
+[35m[39m
+2022-11-16 17:32:46:3246 [32minfo[39m: [32mRunning in: development[39m
+2022-11-16 17:32:46:3246 [32minfo[39m: [32mServer Time: Wed Nov 16 2022 17:32:46 GMT-0500 (Colombia Standard Time)[39m
+2022-11-16 17:32:46:3246 [32minfo[39m: [32mv1.0.0 Copyright (C) Timco 2022[39m
+[32m[39m
+2022-11-16 17:32:46:3246 [32minfo[39m: [32mServer running on http://localhost:3000[39m
+2022-11-16 17:32:53:3253 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/24 200 878 - 31.980 ms[39m
+[35m[39m
+2022-11-16 17:39:17:3917 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 197.262 ms[39m
+[35m[39m
+2022-11-16 17:39:17:3917 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 188.936 ms[39m
+[35m[39m
+2022-11-16 17:39:18:3918 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/24 200 878 - 17.002 ms[39m
+[35m[39m
+2022-11-16 17:42:38:4238 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 139.161 ms[39m
+[35m[39m
+2022-11-16 17:42:38:4238 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 64.740 ms[39m
+[35m[39m
+2022-11-16 17:42:38:4238 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/24 304 - - 13.454 ms[39m
+[35m[39m
+2022-11-16 17:44:03:443 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 135.505 ms[39m
+[35m[39m
+2022-11-16 17:44:03:443 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/24 304 - - 13.396 ms[39m
+[35m[39m
+2022-11-16 17:44:03:443 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 30.405 ms[39m
+[35m[39m
+2022-11-16 17:44:46:4446 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 148.573 ms[39m
+[35m[39m
+2022-11-16 17:44:46:4446 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 48.771 ms[39m
+[35m[39m
+2022-11-16 17:44:46:4446 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/24 304 - - 18.926 ms[39m
+[35m[39m
+2022-11-16 17:47:43:4743 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 94.689 ms[39m
+[35m[39m
+2022-11-16 17:51:35:5135 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 116.934 ms[39m
+[35m[39m
+2022-11-16 17:51:36:5136 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 44.768 ms[39m
+[35m[39m
+2022-11-16 17:52:15:5215 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 122.324 ms[39m
+[35m[39m
+2022-11-16 17:52:15:5215 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 14.471 ms[39m
+[35m[39m
+2022-11-16 17:52:24:5224 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 9.713 ms[39m
+[35m[39m
+2022-11-16 17:52:38:5238 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 84.473 ms[39m
+[35m[39m
+2022-11-16 17:53:44:5344 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 110.359 ms[39m
+[35m[39m
+2022-11-16 17:53:44:5344 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 36.948 ms[39m
+[35m[39m
+2022-11-16 17:54:38:5438 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 110.231 ms[39m
+[35m[39m
+2022-11-16 17:54:38:5438 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 134.564 ms[39m
+[35m[39m
+2022-11-16 18:05:27:527 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 226.325 ms[39m
+[35m[39m
+2022-11-16 18:05:27:527 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 13.181 ms[39m
+[35m[39m
+2022-11-16 18:07:26:726 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 120.441 ms[39m
+[35m[39m
+2022-11-16 18:07:27:727 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 15.079 ms[39m
+[35m[39m
+2022-11-16 18:07:49:749 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 226.790 ms[39m
+[35m[39m
+2022-11-16 18:07:49:749 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 43.785 ms[39m
+[35m[39m
+2022-11-16 18:08:15:815 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 110.730 ms[39m
+[35m[39m
+2022-11-16 18:08:15:815 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 39.733 ms[39m
+[35m[39m
+2022-11-16 18:13:22:1322 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 119.245 ms[39m
+[35m[39m
+2022-11-16 18:13:22:1322 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 137.587 ms[39m
+[35m[39m
+2022-11-16 18:13:44:1344 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 114.307 ms[39m
+[35m[39m
+2022-11-16 18:13:44:1344 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 130.175 ms[39m
+[35m[39m
+2022-11-16 18:14:43:1443 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 53.794 ms[39m
+[35m[39m
+2022-11-16 18:14:43:1443 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 133.125 ms[39m
+[35m[39m
+2022-11-16 18:15:19:1519 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 117.273 ms[39m
+[35m[39m
+2022-11-16 18:15:19:1519 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 120.942 ms[39m
+[35m[39m
+2022-11-16 18:16:15:1615 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 127.233 ms[39m
+[35m[39m
+2022-11-16 18:16:15:1615 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 40.250 ms[39m
+[35m[39m
+2022-11-16 18:17:18:1718 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 60.408 ms[39m
+[35m[39m
+2022-11-16 18:17:18:1718 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 147.710 ms[39m
+[35m[39m
+2022-11-16 18:18:37:1837 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 107.260 ms[39m
+[35m[39m
+2022-11-16 18:18:37:1837 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 35.475 ms[39m
+[35m[39m
+2022-11-16 18:19:57:1957 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 115.826 ms[39m
+[35m[39m
+2022-11-16 18:20:18:2018 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 127.861 ms[39m
+[35m[39m
+2022-11-16 18:20:18:2018 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 33.343 ms[39m
+[35m[39m
+2022-11-16 18:20:43:2043 [31merror[39m: [31minvalid input syntax for integer: "undefined"[39m
+2022-11-16 18:20:43:2043 [35mhttp[39m: [35m::1 GET /api/v1/project/undefined 400 59 - 262.997 ms[39m
+[35m[39m
+2022-11-16 18:21:03:213 [31merror[39m: [31minvalid input syntax for integer: "undefined"[39m
+2022-11-16 18:21:03:213 [35mhttp[39m: [35m::1 GET /api/v1/project/undefined 400 59 - 86.026 ms[39m
+[35m[39m
+2022-11-16 18:23:37:2337 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 139.663 ms[39m
+[35m[39m
+2022-11-16 18:23:37:2337 [35mhttp[39m: [35m::1 GET /api/v1/project/24 304 - - 143.484 ms[39m
+[35m[39m
+2022-11-16 18:24:00:240 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 1642 - 99.737 ms[39m
+[35m[39m
+2022-11-16 18:24:00:240 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 102.612 ms[39m
+[35m[39m
+2022-11-16 18:24:00:240 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 1.214 ms[39m
+[35m[39m
+2022-11-16 18:24:00:240 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 5.505 ms[39m
+[35m[39m
+2022-11-16 18:30:01:301 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 131.894 ms[39m
+[35m[39m
+2022-11-16 18:30:01:301 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 33.053 ms[39m
+[35m[39m
+2022-11-16 18:30:01:301 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 86.785 ms[39m
+[35m[39m
+2022-11-16 18:30:01:301 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.773 ms[39m
+[35m[39m
+2022-11-16 18:30:01:301 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 7.311 ms[39m
+[35m[39m
+2022-11-16 18:32:19:3219 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.309 ms[39m
+[35m[39m
+2022-11-16 18:32:19:3219 [35mhttp[39m: [35m::1 POST /api/v1/project 201 351 - 131.988 ms[39m
+[35m[39m
+2022-11-16 18:32:19:3219 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 8907 - 21.080 ms[39m
+[35m[39m
+2022-11-16 18:32:23:3223 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 11.971 ms[39m
+[35m[39m
+2022-11-16 18:32:57:3257 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 96.938 ms[39m
+[35m[39m
+2022-11-16 18:33:04:334 [35mhttp[39m: [35m::1 GET /api/v1/project/25 200 2572 - 39.188 ms[39m
+[35m[39m
+2022-11-16 18:33:04:334 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/25 200 58 - 8.844 ms[39m
+[35m[39m
+2022-11-16 18:33:16:3316 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 81.987 ms[39m
+[35m[39m
+2022-11-16 18:33:16:3316 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 87.693 ms[39m
+[35m[39m
+2022-11-16 18:33:16:3316 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.384 ms[39m
+[35m[39m
+2022-11-16 18:33:16:3316 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 1657 - 4.766 ms[39m
+[35m[39m
+2022-11-16 18:33:18:3318 [35mhttp[39m: [35m::1 GET /api/v1/project/25 200 2572 - 33.755 ms[39m
+[35m[39m
+2022-11-16 18:33:23:3323 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.345 ms[39m
+[35m[39m
+2022-11-16 18:33:23:3323 [35mhttp[39m: [35m::1 POST /api/v1/candidate 201 198 - 10.923 ms[39m
+[35m[39m
+2022-11-16 18:33:29:3329 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 2475 - 18.001 ms[39m
+[35m[39m
+2022-11-16 18:33:29:3329 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 24.694 ms[39m
+[35m[39m
+2022-11-16 18:33:29:3329 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.472 ms[39m
+[35m[39m
+2022-11-16 18:33:29:3329 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 6.491 ms[39m
+[35m[39m
+2022-11-16 18:33:35:3335 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 21.587 ms[39m
+[35m[39m
+2022-11-16 18:33:41:3341 [35mhttp[39m: [35m::1 GET /api/v1/project/25 304 - - 29.550 ms[39m
+[35m[39m
+2022-11-16 18:33:41:3341 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/25 200 878 - 7.776 ms[39m
+[35m[39m
+2022-11-16 18:33:43:3343 [35mhttp[39m: [35m::1 OPTIONS /api/v1/candidate 204 0 - 0.267 ms[39m
+[35m[39m
+2022-11-16 18:33:43:3343 [35mhttp[39m: [35m::1 PUT /api/v1/candidate 200 43 - 12.245 ms[39m
+[35m[39m
+2022-11-16 18:33:43:3343 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project 204 0 - 0.274 ms[39m
+[35m[39m
+2022-11-16 18:33:43:3343 [35mhttp[39m: [35m::1 PUT /api/v1/project 200 41 - 8.599 ms[39m
+[35m[39m
+2022-11-16 18:33:44:3344 [35mhttp[39m: [35m::1 GET /api/v1/project/25 200 4595 - 68.673 ms[39m
+[35m[39m
+2022-11-16 18:33:44:3344 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/25 200 58 - 6.176 ms[39m
+[35m[39m
+2022-11-16 18:33:46:3346 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 200 9371 - 13.914 ms[39m
+[35m[39m
+2022-11-16 18:47:32:4732 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 200 5816 - 135.386 ms[39m
+[35m[39m
+2022-11-16 18:47:32:4732 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 200 1642 - 147.779 ms[39m
+[35m[39m
+2022-11-16 18:47:32:4732 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 148.330 ms[39m
+[35m[39m
+2022-11-16 18:47:32:4732 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.259 ms[39m
+[35m[39m
+2022-11-16 18:47:32:4732 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 200 1103 - 8.507 ms[39m
+[35m[39m
+2022-11-16 18:48:04:484 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 115.042 ms[39m
+[35m[39m
+2022-11-16 18:48:04:484 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 19.905 ms[39m
+[35m[39m
+2022-11-16 18:48:04:484 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 25.105 ms[39m
+[35m[39m
+2022-11-16 18:48:04:484 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 1.057 ms[39m
+[35m[39m
+2022-11-16 18:48:04:484 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 8.513 ms[39m
+[35m[39m
+2022-11-16 18:48:59:4859 [31merror[39m: [31minvalid input syntax for integer: "undefined"[39m
+2022-11-16 18:48:59:4859 [35mhttp[39m: [35m::1 GET /api/v1/project/undefined 400 59 - 111.976 ms[39m
+[35m[39m
+2022-11-16 18:50:03:503 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 109.664 ms[39m
+[35m[39m
+2022-11-16 18:50:03:503 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 115.411 ms[39m
+[35m[39m
+2022-11-16 18:50:03:503 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.558 ms[39m
+[35m[39m
+2022-11-16 18:50:03:503 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 8.562 ms[39m
+[35m[39m
+2022-11-16 18:50:12:5012 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 12.135 ms[39m
+[35m[39m
+2022-11-16 18:50:12:5012 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 17.768 ms[39m
+[35m[39m
+2022-11-16 18:50:12:5012 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 14.203 ms[39m
+[35m[39m
+2022-11-16 18:50:12:5012 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.388 ms[39m
+[35m[39m
+2022-11-16 18:50:12:5012 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 6.127 ms[39m
+[35m[39m
+2022-11-16 18:51:28:5128 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 115.620 ms[39m
+[35m[39m
+2022-11-16 18:51:28:5128 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 119.874 ms[39m
+[35m[39m
+2022-11-16 18:51:28:5128 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.549 ms[39m
+[35m[39m
+2022-11-16 18:51:28:5128 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 4.855 ms[39m
+[35m[39m
+2022-11-16 18:51:28:5128 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 15.633 ms[39m
+[35m[39m
+2022-11-16 18:51:30:5130 [31merror[39m: [31minvalid input syntax for integer: "undefined"[39m
+2022-11-16 18:51:30:5130 [35mhttp[39m: [35m::1 GET /api/v1/project/undefined 400 59 - 13.104 ms[39m
+[35m[39m
+2022-11-16 18:51:53:5153 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 143.071 ms[39m
+[35m[39m
+2022-11-16 18:51:53:5153 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 75.464 ms[39m
+[35m[39m
+2022-11-16 18:51:53:5153 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 77.770 ms[39m
+[35m[39m
+2022-11-16 18:51:53:5153 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.366 ms[39m
+[35m[39m
+2022-11-16 18:51:53:5153 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 10.753 ms[39m
+[35m[39m
+2022-11-16 18:52:34:5234 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 148.389 ms[39m
+[35m[39m
+2022-11-16 18:52:34:5234 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 145.907 ms[39m
+[35m[39m
+2022-11-16 18:52:34:5234 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 23.815 ms[39m
+[35m[39m
+2022-11-16 18:52:34:5234 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.355 ms[39m
+[35m[39m
+2022-11-16 18:52:34:5234 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 8.579 ms[39m
+[35m[39m
+2022-11-16 18:56:22:5622 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 89.100 ms[39m
+[35m[39m
+2022-11-16 18:56:23:5623 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 99.954 ms[39m
+[35m[39m
+2022-11-16 18:56:23:5623 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.366 ms[39m
+[35m[39m
+2022-11-16 18:56:23:5623 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 5.857 ms[39m
+[35m[39m
+2022-11-16 18:56:46:5646 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 90.532 ms[39m
+[35m[39m
+2022-11-16 18:56:46:5646 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 97.464 ms[39m
+[35m[39m
+2022-11-16 18:56:46:5646 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.444 ms[39m
+[35m[39m
+2022-11-16 18:56:46:5646 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 5.242 ms[39m
+[35m[39m
+2022-11-16 18:56:55:5655 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 25.280 ms[39m
+[35m[39m
+2022-11-16 18:57:02:572 [31merror[39m: [31minvalid input syntax for integer: "undefined"[39m
+2022-11-16 18:57:02:572 [35mhttp[39m: [35m::1 GET /api/v1/project/undefined 400 59 - 18.261 ms[39m
+[35m[39m
+2022-11-16 18:58:08:588 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 555.524 ms[39m
+[35m[39m
+2022-11-16 18:58:08:588 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.332 ms[39m
+[35m[39m
+2022-11-16 18:58:08:588 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 694.030 ms[39m
+[35m[39m
+2022-11-16 18:58:08:588 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 541.354 ms[39m
+[35m[39m
+2022-11-16 18:58:08:588 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 139.532 ms[39m
+[35m[39m
+2022-11-16 18:58:45:5845 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 241.344 ms[39m
+[35m[39m
+2022-11-16 18:58:46:5846 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 14.495 ms[39m
+[35m[39m
+2022-11-16 18:58:46:5846 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 13.942 ms[39m
+[35m[39m
+2022-11-16 18:58:46:5846 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.296 ms[39m
+[35m[39m
+2022-11-16 18:58:46:5846 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 20.895 ms[39m
+[35m[39m
+2022-11-16 18:59:15:5915 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 113.291 ms[39m
+[35m[39m
+2022-11-16 18:59:15:5915 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 118.834 ms[39m
+[35m[39m
+2022-11-16 18:59:15:5915 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.364 ms[39m
+[35m[39m
+2022-11-16 18:59:15:5915 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 4.375 ms[39m
+[35m[39m
+2022-11-16 18:59:23:5923 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 20.580 ms[39m
+[35m[39m
+2022-11-16 18:59:23:5923 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 23.973 ms[39m
+[35m[39m
+2022-11-16 18:59:23:5923 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.293 ms[39m
+[35m[39m
+2022-11-16 18:59:23:5923 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 4.574 ms[39m
+[35m[39m
+2022-11-16 18:59:23:5923 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 14.277 ms[39m
+[35m[39m
+2022-11-16 18:59:27:5927 [35mhttp[39m: [35m::1 GET /api/v1/project/23 304 - - 86.322 ms[39m
+[35m[39m
+2022-11-16 18:59:27:5927 [35mhttp[39m: [35m::1 GET /api/v1/candidate/project/23 304 - - 8.177 ms[39m
+[35m[39m
+2022-11-16 18:59:32:5932 [35mhttp[39m: [35m::1 GET /api/v1/project/company/active/13 304 - - 12.430 ms[39m
+[35m[39m
+2022-11-16 19:01:57:157 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 106.379 ms[39m
+[35m[39m
+2022-11-16 19:01:57:157 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 109.309 ms[39m
+[35m[39m
+2022-11-16 19:01:57:157 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.333 ms[39m
+[35m[39m
+2022-11-16 19:01:57:157 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 5.254 ms[39m
+[35m[39m
+2022-11-16 19:03:27:327 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 98.453 ms[39m
+[35m[39m
+2022-11-16 19:03:27:327 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 101.920 ms[39m
+[35m[39m
+2022-11-16 19:03:27:327 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.479 ms[39m
+[35m[39m
+2022-11-16 19:03:27:327 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 4.673 ms[39m
+[35m[39m
+2022-11-16 19:03:46:346 [35mhttp[39m: [35m::1 GET /api/v1/candidate/student/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 112.205 ms[39m
+[35m[39m
+2022-11-16 19:03:46:346 [35mhttp[39m: [35m::1 GET /api/v1/project/student/active/60e32c54-3771-4189-936b-c92f28be2ebe 304 - - 117.684 ms[39m
+[35m[39m
+2022-11-16 19:03:46:346 [35mhttp[39m: [35m::1 OPTIONS /api/v1/project/vancancy-available/3 204 0 - 0.339 ms[39m
+[35m[39m
+2022-11-16 19:03:46:346 [35mhttp[39m: [35m::1 GET /api/v1/project/vancancy-available/3 304 - - 4.544 ms[39m
+[35m[39m

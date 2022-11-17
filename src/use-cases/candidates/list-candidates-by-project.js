@@ -1,7 +1,9 @@
 export default function makeListCandidatesByProject({
   candidatesDb,
   projectModel,
-  studentModel
+  studentModel,
+  areaModel,
+  universityModel,
 }) {
   return async function listCandidatesByProject({ projectId } = {}) {
     const project = await validateProject(projectId);
@@ -9,7 +11,7 @@ export default function makeListCandidatesByProject({
       throw new RangeError(`project with id=${projectId} does not exist.`);
     }
 
-    let candidates = await candidatesDb.findByProjectWaiting(projectId, { studentModel });
+    let candidates = await candidatesDb.findByProjectWaiting(projectId, { studentModel , areaModel, universityModel});
     return candidates;
   };
 

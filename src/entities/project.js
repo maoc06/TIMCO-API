@@ -9,6 +9,8 @@ export default function buildMakeProject() {
       priceTotal,
       timelineDate,
       skills,
+      urlDelivery,
+      urlResources,
     } = {
       ...entity,
     };

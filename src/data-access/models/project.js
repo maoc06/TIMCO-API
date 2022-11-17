@@ -47,6 +47,20 @@ const getProjectModel = (sequelize, { DataTypes }) => {
         notEmpty: true,
       },
     },
+    urlDelivery: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      validate: {
+        notEmpty: true,
+      },
+    },
+    urlResources: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      validate: {
+        notEmpty: true,
+      },
+    },
     stateId: {
       type: DataTypes.INTEGER,
       allowNull: false,
